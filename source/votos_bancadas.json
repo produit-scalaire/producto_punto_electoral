@@ -538,5 +538,91 @@
    0,
    0
   ]
+ },
+ "ministerio-igualdad": {
+  "_fuente": "Gaceta 244 de 2023, plenaria del Senado del 12 dic 2022 (listas nominales de la Gaceta cruzadas con el padrón de Congreso Visible); [sí, no, 0]",
+  "AV": [
+   7,
+   0,
+   0
+  ],
+  "COM": [
+   4,
+   0,
+   0
+  ],
+  "CR": [
+   5,
+   1,
+   0
+  ],
+  "LIB": [
+   8,
+   0,
+   0
+  ],
+  "PC": [
+   11,
+   1,
+   0
+  ],
+  "PH": [
+   16,
+   0,
+   0
+  ],
+  "U": [
+   8,
+   0,
+   0
+  ],
+  "CD": [
+   0,
+   9,
+   0
+  ]
+ },
+ "singapur-alianza-pacifico": {
+  "_fuente": "Gaceta 16 de 2023, plenaria del Senado del 1 nov 2022 (listas nominales de la Gaceta cruzadas con el padrón de Congreso Visible); [sí, no, 0]",
+  "AV": [
+   5,
+   0,
+   0
+  ],
+  "CD": [
+   11,
+   0,
+   0
+  ],
+  "COM": [
+   0,
+   3,
+   0
+  ],
+  "CR": [
+   5,
+   0,
+   0
+  ],
+  "LIB": [
+   9,
+   1,
+   0
+  ],
+  "PC": [
+   11,
+   0,
+   0
+  ],
+  "PH": [
+   9,
+   7,
+   0
+  ],
+  "U": [
+   9,
+   0,
+   0
+  ]
  }
 }

@@ -976,6 +976,156 @@
      0
     ]
    }
+  },
+  {
+   "id": "ministerio-igualdad",
+   "theme": "sociedad",
+   "date": "12 de diciembre de 2022",
+   "situation": "El Gobierno propone crear el Ministerio de Igualdad y Equidad, a cargo de la vicepresidenta Francia Márquez, para coordinar las políticas para mujeres, jóvenes, población LGBTIQ+, pueblos étnicos, personas con discapacidad y habitantes de los territorios más pobres. Sus críticos dicen que agranda el Estado y duplica funciones que ya existen.",
+   "question": "Crear el Ministerio de Igualdad y Equidad:",
+   "options": [
+    "Sí, crearlo",
+    "No, rechazarlo"
+   ],
+   "positions": {
+    "PH": 0,
+    "COM": 0,
+    "AV": 0,
+    "LIB": 0,
+    "U": 0,
+    "CR": 0,
+    "PC": 0,
+    "CD": 1
+   },
+   "actor": "Plenaria del Senado, votación de la proposición con que termina el informe de ponencia (66 votos a favor y 11 en contra).",
+   "nuance": "Solo el Centro Democrático votó en contra, en bloque (9 votos). Todas las demás bancadas votaron a favor, con apenas un voto en contra en Cambio Radical y otro entre los conservadores.",
+   "reliability": 3,
+   "sources": [
+    {
+     "name": "Gaceta del Congreso 244 de 2023 (acta de la plenaria del Senado del 12 de diciembre de 2022, con la votación nominal)",
+     "url": "https://sidn.ramajudicial.gov.co/SIDN/PUBLICACIONES%20PERIODICAS/TEXTO%20COMPLETO%20Y%20TABLAS%20DE%20CONTENIDO/GACETA%20DEL%20CONGRESO/GACETA%20DEL%20CONGRESO%202023/GC%200244%20DE%202023.PDF"
+    },
+    {
+     "name": "Corte Constitucional, Sentencia C-161 de 2024",
+     "url": "https://www.corteconstitucional.gov.co/relatoria/2024/C-161-24.htm"
+    }
+   ],
+   "contexte": "La ley se aprobó, pero en 2024 la Corte Constitucional la declaró inexequible por un vicio en su trámite en el Senado y le dio al Congreso hasta junio de 2026 para volver a crearlo.",
+   "split": {
+    "PH": [
+     16,
+     0,
+     0
+    ],
+    "COM": [
+     4,
+     0,
+     0
+    ],
+    "AV": [
+     7,
+     0,
+     0
+    ],
+    "LIB": [
+     8,
+     0,
+     0
+    ],
+    "U": [
+     8,
+     0,
+     0
+    ],
+    "CR": [
+     5,
+     1,
+     0
+    ],
+    "PC": [
+     11,
+     1,
+     0
+    ],
+    "CD": [
+     9,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "singapur-alianza-pacifico",
+   "theme": "trabajo",
+   "date": "1 de noviembre de 2022",
+   "situation": "Colombia, Chile, México y Perú forman la Alianza del Pacífico, un bloque de libre comercio. Un acuerdo incorpora a Singapur como Estado asociado: baja aranceles y abre el comercio y la inversión entre las partes. Sus defensores ven una puerta a Asia; sus críticos temen por la producción nacional.",
+   "question": "El acuerdo de libre comercio con Singapur:",
+   "options": [
+    "Lo apruebo",
+    "Lo rechazo"
+   ],
+   "positions": {
+    "PH": 0,
+    "AV": 0,
+    "LIB": 0,
+    "U": 0,
+    "CR": 0,
+    "PC": 0,
+    "CD": 0,
+    "COM": 1
+   },
+   "actor": "Plenaria del Senado, votación de la proposición con que termina el informe de ponencia del proyecto de ley que aprueba el acuerdo (71 votos a favor y 12 en contra).",
+   "nuance": "Casi todo el Senado votó a favor. Comunes votó en contra en bloque. El Pacto Histórico se dividió: 9 a favor y 7 en contra.",
+   "reliability": 3,
+   "sources": [
+    {
+     "name": "Gaceta del Congreso 16 de 2023 (acta de la plenaria del Senado del 1 de noviembre de 2022, con la votación nominal)",
+     "url": "https://sidn.ramajudicial.gov.co/SIDN/PUBLICACIONES%20PERIODICAS/TEXTO%20COMPLETO%20Y%20TABLAS%20DE%20CONTENIDO/GACETA%20DEL%20CONGRESO/GACETA%20DEL%20CONGRESO%202023/GC%200016%20DE%202023.PDF"
+    }
+   ],
+   "contexte": "Es uno de los pocos votos de libre comercio de este Congreso. Los conteos por bancada salen de las listas de votantes publicadas en la Gaceta.",
+   "split": {
+    "PH": [
+     9,
+     7,
+     0
+    ],
+    "AV": [
+     5,
+     0,
+     0
+    ],
+    "LIB": [
+     9,
+     1,
+     0
+    ],
+    "U": [
+     9,
+     0,
+     0
+    ],
+    "CR": [
+     5,
+     0,
+     0
+    ],
+    "PC": [
+     11,
+     0,
+     0
+    ],
+    "CD": [
+     11,
+     0,
+     0
+    ],
+    "COM": [
+     3,
+     0,
+     0
+    ]
+   }
   }
  ]
 }
