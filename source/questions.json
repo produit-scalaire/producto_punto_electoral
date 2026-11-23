@@ -477,6 +477,83 @@
      5
     ]
    }
+  },
+  {
+   "id": "presupuesto-2023",
+   "theme": "impuestos",
+   "date": "18 de octubre de 2022",
+   "situation": "El primer presupuesto del gobierno Petro para 2023 suma 405,6 billones de pesos, unos 14 billones más que el proyecto original. Sube con fuerza la inversión en agricultura y educación, que llega a cerca de 55 billones. La oposición pide más recursos para la salud, la defensa y los subsidios de vivienda Mi Casa Ya.",
+   "question": "Este presupuesto general para 2023:",
+   "options": [
+    "Lo apruebo",
+    "Lo rechazo"
+   ],
+   "positions": {
+    "PH": 0,
+    "COM": 0,
+    "AV": 0,
+    "LIB": 0,
+    "U": 0,
+    "CR": 0,
+    "PC": 0,
+    "CD": 1
+   },
+   "actor": "Plenaria del Senado, votación de la proposición con que termina el informe de ponencia (66 votos a favor y 12 en contra).",
+   "nuance": "Todos los partidos votaron a favor salvo el Centro Democrático (12 en contra y 1 a favor). Su vocero, Ciro Ramírez, reconoció los aumentos, pero dijo que votaban en contra por la falta de recursos para salud, defensa y vivienda de interés social.",
+   "reliability": 3,
+   "sources": [
+    {
+     "name": "Congreso Visible, votación nominal en la plenaria del Senado",
+     "url": "https://congresovisible.uniandes.edu.co/proyectos-de-ley/x/12490/"
+    },
+    {
+     "name": "Gaceta del Congreso 01 de 2023 (acta 16 del Senado, con la votación nominal)",
+     "url": "https://apicongresovisible.uniandes.edu.co/uploads/votacion/14408/Votaciones%20plenaria%20senado%20pto.pdf"
+    }
+   ],
+   "contexte": "El presupuesto se aprobó antes de la reforma tributaria. Lo que esta recaudara se agregaría en 2023 con una ley de adición presupuestal.",
+   "split": {
+    "PH": [
+     14,
+     0,
+     7
+    ],
+    "COM": [
+     4,
+     0,
+     1
+    ],
+    "AV": [
+     5,
+     0,
+     3
+    ],
+    "LIB": [
+     10,
+     0,
+     3
+    ],
+    "U": [
+     8,
+     0,
+     3
+    ],
+    "CR": [
+     7,
+     0,
+     3
+    ],
+    "PC": [
+     11,
+     0,
+     4
+    ],
+    "CD": [
+     12,
+     1,
+     0
+    ]
+   }
   }
  ]
 }
