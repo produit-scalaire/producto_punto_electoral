@@ -651,8 +651,8 @@
     "CD": 1
    },
    "actor": "Plenaria del Senado, votación de las propuestas para eliminar el artículo 45 de la reforma tributaria (31 votos por eliminarlo y 42 en contra).",
-   "nuance": "El Centro Democrático votó en bloque por eliminarlo y el Pacto Histórico y Comunes en bloque por mantenerlo. Las demás bancadas se dividieron: Alianza Verde (4 contra 3) y los liberales (6 contra 3) se inclinaron por mantenerlo, La U por eliminarlo (3 contra 1). Los conservadores se partieron en dos (7 y 7), y casi todo Cambio Radical no votó: quedan sin posición.",
-   "reliability": 2,
+   "nuance": "El Centro Democrático votó en bloque por eliminarlo, y el Pacto Histórico y Comunes en bloque por mantenerlo. Las demás bancadas se dividieron: Alianza Verde (4 contra 3) y los liberales (6 contra 3) se inclinaron por mantenerlo, y La U por eliminarlo (3 contra 0). Los conservadores se partieron casi en dos (7 por eliminarlo y 6 por mantenerlo) y casi todo Cambio Radical no votó: quedan sin posición.",
+   "reliability": 3,
    "sources": [
     {
      "name": "Gaceta del Congreso 121 de 2023 (acta de la plenaria del Senado del 2 de noviembre de 2022, con la votación nominal)",
@@ -662,7 +662,7 @@
    "contexte": "La eliminación se negó. El artículo se aprobó luego por 54 votos contra 19, con cambios pedidos por conservadores y liberales (excluir algunos alimentos y aplazar el cobro). El impuesto empezó a cobrarse en noviembre de 2023.",
    "split": {
     "PH": [
-     19,
+     18,
      0,
      0
     ],
@@ -683,7 +683,7 @@
     ],
     "U": [
      3,
-     1,
+     0,
      0
     ],
     "CD": [
