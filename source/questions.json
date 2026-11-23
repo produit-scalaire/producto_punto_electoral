@@ -554,6 +554,144 @@
      0
     ]
    }
+  },
+  {
+   "id": "impuesto-iglesias",
+   "theme": "sociedad",
+   "date": "2 de noviembre de 2022",
+   "situation": "Las iglesias y confesiones religiosas no pagan impuesto de renta. La reforma tributaria del Gobierno incluía un artículo para que pagaran impuestos por sus actividades comerciales, las que no son del culto. El Centro Democrático propuso eliminarlo, en nombre de la libertad religiosa.",
+   "question": "Cobrarles impuestos a las iglesias por sus actividades comerciales:",
+   "options": [
+    "Sí, que paguen por esas actividades",
+    "No, eliminar ese artículo"
+   ],
+   "positions": {
+    "PH": 0,
+    "COM": 0,
+    "AV": 0,
+    "LIB": 1,
+    "U": 1,
+    "CR": 1,
+    "PC": 1,
+    "CD": 1
+   },
+   "actor": "Plenaria del Senado, votación de la propuesta de eliminar el artículo 15 de la reforma tributaria (60 votos por eliminarlo y 28 en contra).",
+   "nuance": "Liberales, La U, conservadores, Cambio Radical y Centro Democrático votaron en bloque por eliminar el artículo. El Pacto Histórico votó en su mayoría por mantenerlo (15 contra 4), aunque su coordinadora ponente, Clara López, invitó a eliminarlo.",
+   "reliability": 3,
+   "sources": [
+    {
+     "name": "Gaceta del Congreso 121 de 2023 (acta de la plenaria del Senado del 2 de noviembre de 2022, con la votación nominal)",
+     "url": "https://apicongresovisible.uniandes.edu.co/uploads/votacion/14430/gaceta_121.pdf"
+    },
+    {
+     "name": "Congreso Visible, votaciones del proyecto 131/22 Senado",
+     "url": "https://congresovisible.uniandes.edu.co/proyectos-de-ley/x/12558/"
+    }
+   ],
+   "contexte": "El artículo se eliminó en el Senado. Los conteos por bancada salen de las listas de votantes publicadas en la Gaceta.",
+   "split": {
+    "PH": [
+     15,
+     4,
+     0
+    ],
+    "COM": [
+     4,
+     0,
+     0
+    ],
+    "AV": [
+     3,
+     1,
+     0
+    ],
+    "LIB": [
+     13,
+     0,
+     0
+    ],
+    "U": [
+     9,
+     0,
+     0
+    ],
+    "CR": [
+     6,
+     0,
+     0
+    ],
+    "PC": [
+     13,
+     0,
+     0
+    ],
+    "CD": [
+     9,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "impuesto-ultraprocesados",
+   "theme": "salud",
+   "date": "2 de noviembre de 2022",
+   "situation": "La reforma tributaria crea un impuesto a los alimentos ultraprocesados con exceso de azúcar, sal o grasas (la llamada comida chatarra), que sube de forma gradual hasta el 20 %. Sus defensores dicen que protege la salud; sus críticos, que encarece la canasta de las familias pobres.",
+   "question": "El impuesto a los alimentos ultraprocesados:",
+   "options": [
+    "Lo mantengo",
+    "Lo elimino"
+   ],
+   "positions": {
+    "PH": 0,
+    "COM": 0,
+    "AV": 0,
+    "LIB": 0,
+    "U": 1,
+    "CD": 1
+   },
+   "actor": "Plenaria del Senado, votación de las propuestas para eliminar el artículo 45 de la reforma tributaria (31 votos por eliminarlo y 42 en contra).",
+   "nuance": "El Centro Democrático votó en bloque por eliminarlo y el Pacto Histórico y Comunes en bloque por mantenerlo. Las demás bancadas se dividieron: Alianza Verde (4 contra 3) y los liberales (6 contra 3) se inclinaron por mantenerlo, La U por eliminarlo (3 contra 1). Los conservadores se partieron en dos (7 y 7), y casi todo Cambio Radical no votó: quedan sin posición.",
+   "reliability": 2,
+   "sources": [
+    {
+     "name": "Gaceta del Congreso 121 de 2023 (acta de la plenaria del Senado del 2 de noviembre de 2022, con la votación nominal)",
+     "url": "https://apicongresovisible.uniandes.edu.co/uploads/votacion/14430/gaceta_121.pdf"
+    }
+   ],
+   "contexte": "La eliminación se negó. El artículo se aprobó luego por 54 votos contra 19, con cambios pedidos por conservadores y liberales (excluir algunos alimentos y aplazar el cobro). El impuesto empezó a cobrarse en noviembre de 2023.",
+   "split": {
+    "PH": [
+     19,
+     0,
+     0
+    ],
+    "COM": [
+     4,
+     0,
+     0
+    ],
+    "AV": [
+     4,
+     3,
+     0
+    ],
+    "LIB": [
+     6,
+     3,
+     0
+    ],
+    "U": [
+     3,
+     1,
+     0
+    ],
+    "CD": [
+     10,
+     0,
+     0
+    ]
+   }
   }
  ]
 }

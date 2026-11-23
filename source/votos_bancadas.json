@@ -285,5 +285,86 @@
    12,
    0
   ]
+ },
+ "impuesto-iglesias": {
+  "_fuente": "Gaceta 121 de 2023, plenaria del Senado del 2 nov 2022 (listas nominales cruzadas con el padrón de partidos de Congreso Visible); [sí a eliminar, no, 0]",
+  "CD": [
+   9,
+   0,
+   0
+  ],
+  "CR": [
+   6,
+   0,
+   0
+  ],
+  "LIB": [
+   13,
+   0,
+   0
+  ],
+  "PC": [
+   13,
+   0,
+   0
+  ],
+  "U": [
+   9,
+   0,
+   0
+  ],
+  "PH": [
+   4,
+   15,
+   0
+  ],
+  "AV": [
+   1,
+   3,
+   0
+  ],
+  "COM": [
+   0,
+   4,
+   0
+  ]
+ },
+ "impuesto-ultraprocesados": {
+  "_fuente": "Gaceta 121 de 2023, plenaria del Senado del 2 nov 2022 (listas nominales cruzadas con el padrón de partidos de Congreso Visible); [sí a eliminar, no, 0]",
+  "CD": [
+   10,
+   0,
+   0
+  ],
+  "PH": [
+   0,
+   19,
+   0
+  ],
+  "COM": [
+   0,
+   4,
+   0
+  ],
+  "AV": [
+   3,
+   4,
+   0
+  ],
+  "LIB": [
+   3,
+   6,
+   0
+  ],
+  "PC": [
+   7,
+   7,
+   0
+  ],
+  "U": [
+   3,
+   1,
+   0
+  ]
  }
 }
