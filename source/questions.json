@@ -692,6 +692,79 @@
      0
     ]
    }
+  },
+  {
+   "id": "pension-semanas-mujeres",
+   "theme": "trabajo",
+   "date": "17 de abril de 2024",
+   "situation": "La reforma pensional reconoce el trabajo no remunerado de las madres: por cada hijo, una mujer puede descontar 50 semanas de las que le exige Colpensiones, hasta con tres hijos. El texto del Gobierno fijaba un mínimo de 1.150 semanas. El senador Honorio Henríquez (Centro Democrático) propuso bajar ese mínimo a 850 semanas.",
+   "question": "El mínimo de semanas para las madres que se acogen a ese descuento:",
+   "options": [
+    "Bajarlo a 850 semanas",
+    "Dejarlo en 1.150 semanas"
+   ],
+   "positions": {
+    "CD": 0,
+    "CR": 0,
+    "LIB": 0,
+    "PC": 0,
+    "AV": 0,
+    "PH": 1,
+    "COM": 1,
+    "U": 1
+   },
+   "actor": "Plenaria del Senado, votación del artículo 36 de la reforma pensional con la modificación propuesta (43 votos a favor y 40 en contra).",
+   "nuance": "La propuesta se aprobó contra la recomendación de la coordinadora ponente, Martha Peralta (Pacto Histórico). Votaron a favor el Centro Democrático y los conservadores en bloque, y en su mayoría Cambio Radical (5 contra 1), los liberales (6 contra 3) y Alianza Verde (4 contra 2). En contra votaron en bloque el Pacto Histórico y Comunes, y casi toda La U (8 contra 1).",
+   "reliability": 3,
+   "sources": [
+    {
+     "name": "Gaceta del Congreso 1813 de 2024 (acta 57 de la plenaria del Senado, con la votación nominal)",
+     "url": "https://sidn.ramajudicial.gov.co/SIDN/PUBLICACIONES%20PERIODICAS/TEXTO%20COMPLETO%20Y%20TABLAS%20DE%20CONTENIDO/GACETA%20DEL%20CONGRESO/GACETA%20DEL%20CONGRESO%202024/GC%201813%20DE%202024.PDF"
+    }
+   ],
+   "contexte": "Quienes defendían la propuesta citaron la Corte Constitucional, que había ordenado reducir las semanas exigidas a las mujeres hasta 1.000. Los conteos por bancada salen de las listas de votantes publicadas en la Gaceta.",
+   "split": {
+    "CD": [
+     9,
+     0,
+     0
+    ],
+    "CR": [
+     5,
+     1,
+     0
+    ],
+    "LIB": [
+     6,
+     3,
+     0
+    ],
+    "PC": [
+     11,
+     0,
+     0
+    ],
+    "AV": [
+     4,
+     2,
+     0
+    ],
+    "PH": [
+     15,
+     0,
+     0
+    ],
+    "COM": [
+     5,
+     0,
+     0
+    ],
+    "U": [
+     8,
+     1,
+     0
+    ]
+   }
   }
  ]
 }
