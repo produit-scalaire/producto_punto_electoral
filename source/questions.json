@@ -769,33 +769,37 @@
   {
    "id": "cannabis-uso-adulto",
    "theme": "sociedad",
-   "date": "15 de junio de 2023",
-   "situation": "Una reforma constitucional busca regularizar el cannabis de uso adulto: permitir que los mayores de edad lo consuman y que el Estado regule su producción y venta, en lugar de dejar ese mercado en manos de la ilegalidad. Tras siete debates aprobados, llega al último en el Senado, donde varios senadores piden archivarla.",
+   "date": "20 de junio de 2023",
+   "situation": "Una reforma constitucional busca regularizar el cannabis de uso adulto: permitir que los mayores de edad lo consuman y que el Estado regule su producción y venta, en lugar de dejar ese mercado en manos de la ilegalidad. Tras siete debates aprobados, llega a la votación final en el Senado, donde necesita la mayoría absoluta (54 votos).",
    "question": "Regularizar el cannabis de uso adulto:",
    "options": [
-    "Sí, seguir con la reforma",
-    "No, archivarla"
+    "Sí, aprobar la reforma",
+    "No, rechazarla"
    ],
    "positions": {
     "PH": 0,
     "COM": 0,
     "AV": 0,
     "LIB": 0,
-    "CR": 0,
+    "CR": 1,
     "PC": 1,
     "CD": 1,
     "U": 1
    },
-   "actor": "Plenaria del Senado, votación de las proposiciones de archivo del proyecto de acto legislativo (29 votos por archivarlo y 48 en contra).",
-   "nuance": "El Centro Democrático y los conservadores votaron en bloque por archivarla. El Pacto Histórico, Comunes y casi todos los liberales (9 contra 1) votaron por seguir, igual que la mayoría de Alianza Verde (4 contra 1) y de Cambio Radical (5 contra 1). La U se dividió (3 por archivar y 2 por seguir).",
+   "actor": "Plenaria del Senado, votación final de la reforma (último de los ocho debates): 47 votos a favor y 43 en contra, sin llegar a los 54 necesarios.",
+   "nuance": "El Pacto Histórico, Comunes y Alianza Verde votaron en bloque a favor, y los liberales en su mayoría (8 contra 2). El Centro Democrático y los conservadores votaron en bloque en contra, igual que casi todo Cambio Radical (9 contra 1). La U se dividió (4 en contra y 3 a favor).",
    "reliability": 3,
    "sources": [
     {
-     "name": "Gaceta del Congreso 1222 de 2023 (acta de la plenaria del Senado del 15 de junio de 2023, con la votación nominal)",
-     "url": "https://sidn.ramajudicial.gov.co/SIDN/PUBLICACIONES%20PERIODICAS/TEXTO%20COMPLETO%20Y%20TABLAS%20DE%20CONTENIDO/GACETA%20DEL%20CONGRESO/GACETA%20DEL%20CONGRESO%202023/GC%201222%20DE%202023.PDF"
+     "name": "Gaceta del Congreso 1361 de 2023 (acta de la plenaria del Senado del 20 de junio de 2023, con la votación nominal)",
+     "url": "https://sidn.ramajudicial.gov.co/SIDN/PUBLICACIONES%20PERIODICAS/TEXTO%20COMPLETO%20Y%20TABLAS%20DE%20CONTENIDO/GACETA%20DEL%20CONGRESO/GACETA%20DEL%20CONGRESO%202023/GC%201361%20DE%202023.PDF"
+    },
+    {
+     "name": "Gaceta del Congreso 698 de 2024 (archivo del segundo intento, 12 de diciembre de 2023)",
+     "url": "https://sidn.ramajudicial.gov.co/SIDN/PUBLICACIONES%20PERIODICAS/TEXTO%20COMPLETO%20Y%20TABLAS%20DE%20CONTENIDO/GACETA%20DEL%20CONGRESO/GACETA%20DEL%20CONGRESO%202024/GC%200698%20DE%202024.PDF"
     }
    ],
-   "contexte": "El archivo se negó, pero días después la reforma se hundió en la votación final porque no alcanzó la mayoría absoluta que exige un cambio a la Constitución.",
+   "contexte": "La reforma se hundió por no alcanzar la mayoría absoluta. Un segundo intento se archivó en el Senado el 12 de diciembre de 2023, por 46 votos contra 40.",
    "split": {
     "PH": [
      18,
@@ -808,33 +812,33 @@
      0
     ],
     "AV": [
-     4,
-     1,
+     6,
+     0,
      0
     ],
     "LIB": [
+     8,
+     2,
+     0
+    ],
+    "CR": [
      9,
      1,
      0
     ],
-    "CR": [
-     5,
-     1,
-     0
-    ],
     "PC": [
-     10,
+     12,
      0,
      0
     ],
     "CD": [
-     8,
+     12,
      0,
      0
     ],
     "U": [
+     4,
      3,
-     2,
      0
     ]
    }

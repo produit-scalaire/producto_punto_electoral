@@ -411,45 +411,45 @@
   ]
  },
  "cannabis-uso-adulto": {
-  "_fuente": "Gaceta 1222 de 2023, plenaria del Senado del 15 jun 2023, voto del archivo (listas nominales de la Gaceta cruzadas con el padrón de Congreso Visible); [sí, no, 0]",
+  "_fuente": "Gaceta 1361 de 2023, plenaria del Senado del 20 jun 2023, votación final (listas nominales cruzadas con el padrón de Congreso Visible); [sí, no, 0]",
   "AV": [
-   1,
-   4,
-   0
-  ],
-  "CD": [
-   8,
+   6,
    0,
    0
   ],
   "COM": [
-   0,
    5,
+   0,
    0
   ],
   "CR": [
    1,
-   5,
-   0
-  ],
-  "LIB": [
-   1,
    9,
    0
   ],
-  "PC": [
-   10,
-   0,
+  "LIB": [
+   8,
+   2,
    0
   ],
   "PH": [
-   0,
    18,
+   0,
    0
   ],
   "U": [
    3,
-   2,
+   4,
+   0
+  ],
+  "CD": [
+   0,
+   12,
+   0
+  ],
+  "PC": [
+   0,
+   12,
    0
   ]
  },
