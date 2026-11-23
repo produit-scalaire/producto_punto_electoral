@@ -26,7 +26,7 @@ REPO_URL='https://github.com/produit-scalaire/producto_punto_electoral'
 FORM_URL=''  # formulario de comentarios (Google Forms); vacío mientras no exista
 PAGE_URL='https://produit-scalaire.github.io/producto_punto_electoral/'
 # Enlace para compartir: cambiar el número de versión para que las aplicaciones recarguen la vista previa
-SHARE_URL=PAGE_URL+'?v=1'
+SHARE_URL=PAGE_URL+'?v=2'
 # Vista previa del enlace (WhatsApp, iMessage, redes): imagen preview.png en la raíz del sitio, generada desde vista-previa.html
 DESC="Responda a las votaciones reales del Congreso y mida su cercanía con cada partido, tema por tema."
 FAV="data:image/svg+xml,"+__import__('urllib.parse').parse.quote('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><rect width="30" height="30" rx="6" fill="#0f1633"/><path d="M5 25 L25 21" stroke="#8ea2ff" stroke-width="3" stroke-linecap="round"/><path d="M5 25 L19 6" stroke="#fff" stroke-width="3" stroke-linecap="round"/></svg>')
