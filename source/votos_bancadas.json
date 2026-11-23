@@ -199,5 +199,48 @@
    4,
    12
   ]
+ },
+ "reforma-tributaria-2022": {
+  "_fuente": "Congreso Visible, votación nominal 14404 (Cámara, 17 de noviembre de 2022, informe de conciliación). Tercera columna: congresistas registrados sin voto.",
+  "PH": [
+   24,
+   0,
+   5
+  ],
+  "COM": [
+   4,
+   0,
+   1
+  ],
+  "AV": [
+   10,
+   0,
+   1
+  ],
+  "LIB": [
+   31,
+   0,
+   1
+  ],
+  "U": [
+   14,
+   0,
+   1
+  ],
+  "CR": [
+   1,
+   13,
+   2
+  ],
+  "PC": [
+   22,
+   1,
+   2
+  ],
+  "CD": [
+   4,
+   6,
+   5
+  ]
  }
 }

@@ -400,6 +400,83 @@
      11
     ]
    }
+  },
+  {
+   "id": "reforma-tributaria-2022",
+   "theme": "impuestos",
+   "date": "17 de noviembre de 2022",
+   "situation": "El nuevo Gobierno busca unos 20 billones de pesos al año para gasto social. Su reforma tributaria sube el impuesto de renta a las personas de más altos ingresos y a los dividendos, crea un impuesto al patrimonio permanente, pone sobretasas a las petroleras y mineras, y grava las bebidas azucaradas y los ultraprocesados.",
+   "question": "Esta reforma tributaria:",
+   "options": [
+    "La apruebo",
+    "La rechazo"
+   ],
+   "positions": {
+    "PH": 0,
+    "COM": 0,
+    "AV": 0,
+    "LIB": 0,
+    "U": 0,
+    "PC": 0,
+    "CR": 1,
+    "CD": 1
+   },
+   "actor": "Plenaria de la Cámara, aprobación del informe de conciliación (último paso antes de la sanción presidencial).",
+   "nuance": "Casi toda la coalición de Gobierno de entonces votó a favor, incluidos liberales, La U y conservadores (22 a favor, 1 en contra). Cambio Radical votó en contra (13 contra 1). El Centro Democrático, en la oposición, se dividió: 6 en contra, 4 a favor y 5 sin votar.",
+   "reliability": 3,
+   "sources": [
+    {
+     "name": "Congreso Visible, proyecto de ley 118/22 Cámara y votaciones",
+     "url": "https://congresovisible.uniandes.edu.co/proyectos-de-ley/x/12558/"
+    },
+    {
+     "name": "Gaceta del Congreso 1739 de 2022 (acta con la votación nominal)",
+     "url": "https://apicongresovisible.uniandes.edu.co/uploads/votacion/14404/gaceta_1739.pdf"
+    }
+   ],
+   "contexte": "Fue la primera gran ley del Gobierno Petro y se aprobó en sus primeros cien días. Los impuestos saludables a bebidas azucaradas y comida ultraprocesada empezaron a cobrarse de forma gradual a partir de noviembre de 2023.",
+   "split": {
+    "PH": [
+     24,
+     0,
+     5
+    ],
+    "COM": [
+     4,
+     0,
+     1
+    ],
+    "AV": [
+     10,
+     0,
+     1
+    ],
+    "LIB": [
+     31,
+     0,
+     1
+    ],
+    "U": [
+     14,
+     0,
+     1
+    ],
+    "PC": [
+     22,
+     1,
+     2
+    ],
+    "CR": [
+     13,
+     1,
+     2
+    ],
+    "CD": [
+     6,
+     4,
+     5
+    ]
+   }
   }
  ]
 }
