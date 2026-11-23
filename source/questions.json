@@ -694,6 +694,79 @@
    }
   },
   {
+   "id": "impuesto-plasticos",
+   "theme": "ambiente",
+   "date": "2 de noviembre de 2022",
+   "situation": "La reforma tributaria crea un impuesto a los plásticos de un solo uso que se usan para envasar, embalar o empacar productos. Quienes lo defienden recuerdan que esa basura tapa alcantarillas y contamina ríos y mares. El Centro Democrático propone eliminarlo: dice que gran parte de la canasta básica viene en esos empaques y que el impuesto terminará subiendo los precios.",
+   "question": "Cobrar un impuesto a los plásticos de un solo uso:",
+   "options": [
+    "Sí, cobrarlo",
+    "No, eliminarlo"
+   ],
+   "positions": {
+    "PH": 0,
+    "COM": 0,
+    "AV": 0,
+    "LIB": 0,
+    "U": 0,
+    "PC": 0,
+    "CR": 1,
+    "CD": 1
+   },
+   "actor": "Plenaria del Senado, votación de la propuesta de eliminar los artículos 42 y 43 de la reforma tributaria (24 votos por eliminarlos y 59 en contra).",
+   "nuance": "La eliminación se negó. Votaron por eliminar el impuesto en bloque el Centro Democrático y Cambio Radical. Lo defendieron en bloque el Pacto Histórico, Comunes y Alianza Verde, y en su mayoría los conservadores (10 contra 2), La U (8 contra 1) y los liberales (8 contra 4).",
+   "reliability": 3,
+   "sources": [
+    {
+     "name": "Gaceta del Congreso 121 de 2023 (acta de la plenaria del Senado del 2 de noviembre de 2022, con la votación nominal)",
+     "url": "https://apicongresovisible.uniandes.edu.co/uploads/votacion/14430/gaceta_121.pdf"
+    }
+   ],
+   "contexte": "El impuesto quedó en la reforma tributaria, que se convirtió en la Ley 2277 de 2022.",
+   "split": {
+    "PH": [
+     18,
+     0,
+     0
+    ],
+    "COM": [
+     4,
+     0,
+     0
+    ],
+    "AV": [
+     6,
+     0,
+     0
+    ],
+    "LIB": [
+     8,
+     4,
+     0
+    ],
+    "U": [
+     8,
+     1,
+     0
+    ],
+    "PC": [
+     10,
+     2,
+     0
+    ],
+    "CR": [
+     5,
+     0,
+     0
+    ],
+    "CD": [
+     7,
+     0,
+     0
+    ]
+   }
+  },
+  {
    "id": "pension-semanas-mujeres",
    "theme": "trabajo",
    "date": "17 de abril de 2024",
@@ -1272,6 +1345,225 @@
    }
   },
   {
+   "id": "pnd-comision-verdad",
+   "theme": "paz",
+   "date": "2 de mayo de 2023",
+   "situation": "El Plan Nacional de Desarrollo 2022-2026 incluye un artículo que obliga a las entidades del orden nacional a acoger, de forma progresiva, las recomendaciones del informe final de la Comisión de la Verdad. El Gobierno dice que cada entidad las adoptará y que lo que necesite una ley pasará por el Congreso. Los senadores Carlos Fernando Motoa, Paloma Valencia y Honorio Henríquez piden eliminarlo: según ellos, convierte en obligatorias decenas de recomendaciones sobre la Fuerza Pública, la elección del fiscal y la política de paz.",
+   "question": "Que las entidades del Estado acojan las recomendaciones de la Comisión de la Verdad:",
+   "options": [
+    "Sí, mantener el artículo",
+    "No, eliminarlo del Plan"
+   ],
+   "positions": {
+    "PH": 0,
+    "COM": 0,
+    "AV": 0,
+    "CD": 1,
+    "CR": 1,
+    "LIB": 1,
+    "PC": 1,
+    "U": 1
+   },
+   "actor": "Plenaria del Senado, votación de la proposición que eliminaba el artículo 8 del Plan Nacional de Desarrollo (50 votos a favor de eliminarlo y 31 en contra).",
+   "nuance": "El Senado eliminó el artículo. Votaron por eliminarlo en bloque el Centro Democrático y La U, y en su mayoría los conservadores (10 contra 1), los liberales (6 contra 2) y Cambio Radical (4 contra 1). Lo defendieron Comunes en bloque, el Pacto Histórico (15 contra 1) y la mayoría de Alianza Verde (4 contra 2). Una petición posterior para reabrir la votación se negó (34 contra 48).",
+   "reliability": 3,
+   "sources": [
+    {
+     "name": "Gaceta del Congreso 889 de 2023 (acta de la plenaria del Senado del 2 de mayo de 2023, con la votación nominal)",
+     "url": "https://sidn.ramajudicial.gov.co/SIDN/PUBLICACIONES%20PERIODICAS/TEXTO%20COMPLETO%20Y%20TABLAS%20DE%20CONTENIDO/GACETA%20DEL%20CONGRESO/GACETA%20DEL%20CONGRESO%202023/GC%200889%20DE%202023.PDF"
+    }
+   ],
+   "contexte": "El Plan Nacional de Desarrollo quedó como Ley 2294 de 2023. Esta pregunta refleja la votación del Senado, no el texto final conciliado con la Cámara.",
+   "split": {
+    "PH": [
+     15,
+     1,
+     0
+    ],
+    "COM": [
+     3,
+     0,
+     0
+    ],
+    "AV": [
+     4,
+     2,
+     0
+    ],
+    "CD": [
+     12,
+     0,
+     0
+    ],
+    "CR": [
+     4,
+     1,
+     0
+    ],
+    "LIB": [
+     6,
+     2,
+     0
+    ],
+    "PC": [
+     10,
+     1,
+     0
+    ],
+    "U": [
+     7,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "pnd-concesiones-forestales",
+   "theme": "ambiente",
+   "date": "2 de mayo de 2023",
+   "situation": "El Plan Nacional de Desarrollo crea concesiones forestales campesinas: en las zonas de reserva forestal (no en los parques nacionales), campesinos que ya viven allí podrían usar el bosque hasta por 30 años, con la obligación de conservarlo. La ministra de Ambiente, Susana Muhamad, dice que es la forma de frenar la deforestación con los campesinos y no contra ellos. Los senadores José David Name, Paloma Valencia y Miguel Uribe piden eliminar el artículo: temen que abra las reservas a la explotación y termine arrasando el bosque.",
+   "question": "Dar a campesinos concesiones de hasta 30 años en zonas de reserva forestal:",
+   "options": [
+    "Sí, mantener el artículo",
+    "No, eliminarlo del Plan"
+   ],
+   "positions": {
+    "PH": 0,
+    "COM": 0,
+    "AV": 0,
+    "LIB": 0,
+    "CD": 1,
+    "CR": 1,
+    "PC": 1,
+    "U": 1
+   },
+   "actor": "Plenaria del Senado, votación de la proposición que eliminaba el artículo 49 del Plan Nacional de Desarrollo (41 votos a favor de eliminarlo y 44 en contra).",
+   "nuance": "El artículo se mantuvo por tres votos. Votaron por eliminarlo en bloque el Centro Democrático y La U, y en su mayoría los conservadores (9 contra 2) y Cambio Radical (3 contra 1). Lo defendieron en bloque el Pacto Histórico y Comunes, y en su mayoría Alianza Verde (7 contra 1) y los liberales (5 contra 3).",
+   "reliability": 3,
+   "sources": [
+    {
+     "name": "Gaceta del Congreso 889 de 2023 (acta de la plenaria del Senado del 2 de mayo de 2023, con la votación nominal)",
+     "url": "https://sidn.ramajudicial.gov.co/SIDN/PUBLICACIONES%20PERIODICAS/TEXTO%20COMPLETO%20Y%20TABLAS%20DE%20CONTENIDO/GACETA%20DEL%20CONGRESO/GACETA%20DEL%20CONGRESO%202023/GC%200889%20DE%202023.PDF"
+    }
+   ],
+   "contexte": "El Plan Nacional de Desarrollo quedó como Ley 2294 de 2023. Esta pregunta refleja la votación del Senado, no el texto final conciliado con la Cámara.",
+   "split": {
+    "PH": [
+     16,
+     0,
+     0
+    ],
+    "COM": [
+     3,
+     0,
+     0
+    ],
+    "AV": [
+     7,
+     1,
+     0
+    ],
+    "LIB": [
+     5,
+     3,
+     0
+    ],
+    "CD": [
+     13,
+     0,
+     0
+    ],
+    "CR": [
+     3,
+     1,
+     0
+    ],
+    "PC": [
+     9,
+     2,
+     0
+    ],
+    "U": [
+     9,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "transferencias-energia-renovable",
+   "theme": "ambiente",
+   "date": "2 de mayo de 2023",
+   "situation": "Las plantas de energía solar y eólica pagan a los municipios y a las corporaciones ambientales de su zona un 1 % de sus ventas de energía, mucho menos que las hidroeléctricas y las térmicas. Un artículo del Plan Nacional de Desarrollo sube ese pago al 6 %. Senadores del Centro Democrático, Cambio Radical y Alianza Verde piden eliminarlo: dicen que es un impuesto que frena las energías limpias justo cuando el país quiere hacer la transición energética.",
+   "question": "Subir del 1 % al 6 % lo que pagan las plantas solares y eólicas:",
+   "options": [
+    "Sí, subirlo",
+    "No, eliminar el artículo"
+   ],
+   "positions": {
+    "PH": 0,
+    "COM": 0,
+    "AV": 1,
+    "LIB": 1,
+    "U": 1,
+    "CR": 1,
+    "PC": 1,
+    "CD": 1
+   },
+   "actor": "Plenaria del Senado, votación de las propuestas de eliminar el artículo 207 del Plan Nacional de Desarrollo (59 votos por eliminarlo y 21 en contra).",
+   "nuance": "El Senado eliminó el artículo. Votaron por eliminarlo en bloque el Centro Democrático, Cambio Radical, los liberales y La U, y en su mayoría los conservadores (8 contra 1) y Alianza Verde (6 contra 1), aunque esta bancada es de la coalición de gobierno. Solo lo defendieron Comunes en bloque y el Pacto Histórico (13 contra 1).",
+   "reliability": 3,
+   "sources": [
+    {
+     "name": "Gaceta del Congreso 889 de 2023 (acta de la plenaria del Senado del 2 de mayo de 2023, con la votación nominal)",
+     "url": "https://sidn.ramajudicial.gov.co/SIDN/PUBLICACIONES%20PERIODICAS/TEXTO%20COMPLETO%20Y%20TABLAS%20DE%20CONTENIDO/GACETA%20DEL%20CONGRESO/GACETA%20DEL%20CONGRESO%202023/GC%200889%20DE%202023.PDF"
+    }
+   ],
+   "contexte": "El Plan Nacional de Desarrollo quedó como Ley 2294 de 2023. Esta pregunta refleja la votación del Senado, no el texto final conciliado con la Cámara.",
+   "split": {
+    "PH": [
+     13,
+     1,
+     0
+    ],
+    "COM": [
+     3,
+     0,
+     0
+    ],
+    "AV": [
+     6,
+     1,
+     0
+    ],
+    "LIB": [
+     7,
+     0,
+     0
+    ],
+    "U": [
+     8,
+     0,
+     0
+    ],
+    "CR": [
+     6,
+     0,
+     0
+    ],
+    "PC": [
+     8,
+     1,
+     0
+    ],
+    "CD": [
+     13,
+     0,
+     0
+    ]
+   }
+  },
+  {
    "id": "congresistas-otra-actividad",
    "theme": "probidad",
    "date": "22 de agosto de 2023",
@@ -1329,6 +1621,73 @@
     "PH": [
      9,
      5,
+     0
+    ],
+    "COM": [
+     5,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "gas-vivienda-social",
+   "theme": "vivienda",
+   "date": "11 de diciembre de 2023",
+   "situation": "Hoy quien recibe una vivienda de interés social o prioritario tiene que pagar por su cuenta la conexión al gas natural, y cerca de 1,8 millones de colombianos todavía cocinan con leña o carbón. Un proyecto, con ponencia de la senadora Ana María Castañeda (Cambio Radical), obliga a entregar esas viviendas conectadas al gas por redes, con un subsidio del 70 % del costo de la conexión. El Pacto Histórico lo rechaza: dice que va en contra de la sustitución de energías que plantea el Plan Nacional de Desarrollo y que tiene un costo fiscal sin respaldo.",
+   "question": "Entregar las viviendas de interés social con conexión al gas natural, con subsidio:",
+   "options": [
+    "Sí, aprobar el proyecto",
+    "No, rechazarlo"
+   ],
+   "positions": {
+    "CD": 0,
+    "CR": 0,
+    "LIB": 0,
+    "PC": 0,
+    "U": 0,
+    "PH": 1,
+    "COM": 1
+   },
+   "actor": "Plenaria del Senado, votación de la ponencia para segundo debate del proyecto de ley 231 de 2022 Senado (46 votos a favor y 21 en contra).",
+   "nuance": "La ponencia se aprobó. La apoyaron en bloque el Centro Democrático, los conservadores y los liberales, y en su mayoría La U (8 contra 1) y Cambio Radical (5 contra 1). Votaron en contra Comunes en bloque y la mayoría del Pacto Histórico (9 contra 2). Alianza Verde se partió en dos (3 y 3): queda sin posición.",
+   "reliability": 3,
+   "sources": [
+    {
+     "name": "Gaceta del Congreso 448 de 2024 (acta de la plenaria del Senado del 11 de diciembre de 2023, con la votación nominal)",
+     "url": "https://sidn.ramajudicial.gov.co/SIDN/PUBLICACIONES%20PERIODICAS/TEXTO%20COMPLETO%20Y%20TABLAS%20DE%20CONTENIDO/GACETA%20DEL%20CONGRESO/GACETA%20DEL%20CONGRESO%202024/GC%200448%20DE%202024.PDF"
+    }
+   ],
+   "contexte": "Era el segundo debate del proyecto en el Senado; todavía le faltaba el trámite en la Cámara.",
+   "split": {
+    "CD": [
+     8,
+     0,
+     0
+    ],
+    "CR": [
+     5,
+     1,
+     0
+    ],
+    "LIB": [
+     4,
+     0,
+     0
+    ],
+    "PC": [
+     9,
+     0,
+     0
+    ],
+    "U": [
+     8,
+     1,
+     0
+    ],
+    "PH": [
+     9,
+     2,
      0
     ],
     "COM": [

@@ -748,5 +748,220 @@
    0,
    0
   ]
+ },
+ "pnd-comision-verdad": {
+  "_fuente": "Gaceta 889 de 2023, plenaria del Senado del 2 may 2023 (listas nominales cruzadas con el padrón de Congreso Visible); [sí a eliminar, no, 0]",
+  "AV": [
+   2,
+   4,
+   0
+  ],
+  "CD": [
+   12,
+   0,
+   0
+  ],
+  "COM": [
+   0,
+   3,
+   0
+  ],
+  "CR": [
+   4,
+   1,
+   0
+  ],
+  "LIB": [
+   6,
+   2,
+   0
+  ],
+  "PC": [
+   10,
+   1,
+   0
+  ],
+  "PH": [
+   1,
+   15,
+   0
+  ],
+  "U": [
+   7,
+   0,
+   0
+  ]
+ },
+ "pnd-concesiones-forestales": {
+  "_fuente": "Gaceta 889 de 2023, plenaria del Senado del 2 may 2023 (listas nominales cruzadas con el padrón de Congreso Visible); [sí a eliminar, no, 0]",
+  "AV": [
+   1,
+   7,
+   0
+  ],
+  "CD": [
+   13,
+   0,
+   0
+  ],
+  "COM": [
+   0,
+   3,
+   0
+  ],
+  "CR": [
+   3,
+   1,
+   0
+  ],
+  "LIB": [
+   3,
+   5,
+   0
+  ],
+  "PC": [
+   9,
+   2,
+   0
+  ],
+  "PH": [
+   0,
+   16,
+   0
+  ],
+  "U": [
+   9,
+   0,
+   0
+  ]
+ },
+ "impuesto-plasticos": {
+  "_fuente": "Gaceta 121 de 2023, plenaria del Senado del 2 nov 2022 (listas nominales cruzadas con el padrón de Congreso Visible); [sí a eliminar, no, 0]",
+  "AV": [
+   0,
+   6,
+   0
+  ],
+  "CD": [
+   7,
+   0,
+   0
+  ],
+  "COM": [
+   0,
+   4,
+   0
+  ],
+  "CR": [
+   5,
+   0,
+   0
+  ],
+  "LIB": [
+   4,
+   8,
+   0
+  ],
+  "PC": [
+   2,
+   10,
+   0
+  ],
+  "PH": [
+   0,
+   18,
+   0
+  ],
+  "U": [
+   1,
+   8,
+   0
+  ]
+ },
+ "transferencias-energia-renovable": {
+  "_fuente": "Gaceta 889 de 2023, plenaria del Senado del 2 may 2023 (listas nominales cruzadas con el padrón de Congreso Visible); [sí a eliminar, no, 0]",
+  "AV": [
+   6,
+   1,
+   0
+  ],
+  "CD": [
+   13,
+   0,
+   0
+  ],
+  "COM": [
+   0,
+   3,
+   0
+  ],
+  "CR": [
+   6,
+   0,
+   0
+  ],
+  "LIB": [
+   7,
+   0,
+   0
+  ],
+  "PC": [
+   8,
+   1,
+   0
+  ],
+  "PH": [
+   1,
+   13,
+   0
+  ],
+  "U": [
+   8,
+   0,
+   0
+  ]
+ },
+ "gas-vivienda-social": {
+  "_fuente": "Gaceta 448 de 2024, plenaria del Senado del 11 dic 2023 (listas nominales cruzadas con el padrón de Congreso Visible); [sí, no, 0]",
+  "AV": [
+   3,
+   3,
+   0
+  ],
+  "CD": [
+   8,
+   0,
+   0
+  ],
+  "COM": [
+   0,
+   5,
+   0
+  ],
+  "CR": [
+   5,
+   1,
+   0
+  ],
+  "LIB": [
+   4,
+   0,
+   0
+  ],
+  "PC": [
+   9,
+   0,
+   0
+  ],
+  "PH": [
+   2,
+   9,
+   0
+  ],
+  "U": [
+   8,
+   1,
+   0
+  ]
  }
 }
