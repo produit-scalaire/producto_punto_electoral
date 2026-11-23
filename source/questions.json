@@ -433,6 +433,79 @@
    }
   },
   {
+   "id": "voto-electronico",
+   "theme": "probidad",
+   "date": "16 de mayo de 2023",
+   "situation": "El nuevo Código Electoral prevé que, además del voto manual en papel, se pueda votar con máquinas: un voto electrónico mixto, que combina la máquina con el papel, y un voto totalmente electrónico. Se propone eliminar esas modalidades o limitarlas. A favor de mantenerlas se argumenta que agilizan el conteo y reducen los errores en las mesas; en contra, que una máquina es más difícil de auditar para el ciudadano, cuesta mucho y puede ser vulnerable a manipulaciones.",
+   "question": "El voto electrónico en el Código Electoral:",
+   "options": [
+    "Mantenerlo",
+    "Eliminarlo o limitarlo"
+   ],
+   "positions": {
+    "AV": 1,
+    "CD": 1,
+    "COM": 1,
+    "PH": 1,
+    "PC": 0,
+    "CR": 0,
+    "LIB": 0,
+    "U": 0
+   },
+   "actor": "Plenaria del Senado, votación en bloque de las propuestas no avaladas a los artículos 153, 154 y 162 del Código Electoral, que eliminaban o limitaban el voto electrónico (25 votos a favor y 39 en contra).",
+   "nuance": "Las propuestas se negaron. Votaron por eliminar o limitar el voto electrónico Comunes en bloque y la mayoría del Centro Democrático (8 contra 2), Alianza Verde (4 contra 1) y el Pacto Histórico (6 contra 4). Votaron por mantenerlo en bloque Cambio Radical, los liberales y La U, y la mayoría de los conservadores (6 contra 4).",
+   "reliability": 3,
+   "sources": [
+    {
+     "name": "Gaceta del Congreso 1257 de 2023 (acta de la plenaria del Senado del 16 de mayo de 2023, con la votación nominal)",
+     "url": "https://sidn.ramajudicial.gov.co/SIDN/PUBLICACIONES%20PERIODICAS/TEXTO%20COMPLETO%20Y%20TABLAS%20DE%20CONTENIDO/GACETA%20DEL%20CONGRESO/GACETA%20DEL%20CONGRESO%202023/GC%201257%20DE%202023.PDF"
+    }
+   ],
+   "contexte": "Las propuestas se negaron y el texto aprobado en el Senado mantuvo el voto electrónico.",
+   "split": {
+    "AV": [
+     4,
+     1,
+     0
+    ],
+    "CD": [
+     8,
+     2,
+     0
+    ],
+    "COM": [
+     2,
+     0,
+     0
+    ],
+    "PH": [
+     6,
+     4,
+     0
+    ],
+    "PC": [
+     6,
+     4,
+     0
+    ],
+    "CR": [
+     7,
+     0,
+     0
+    ],
+    "LIB": [
+     8,
+     0,
+     0
+    ],
+    "U": [
+     6,
+     0,
+     0
+    ]
+   }
+  },
+  {
    "id": "reforma-salud-2025",
    "theme": "salud",
    "date": "marzo de 2025",
@@ -1235,6 +1308,79 @@
      0
     ],
     "CD": [
+     9,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "igualdad-cuidadoras-animales",
+   "theme": "sociedad",
+   "date": "12 de diciembre de 2022",
+   "situation": "La ley que crea el Ministerio de Igualdad y Equidad enumera las poblaciones que atenderá: mujeres, jóvenes, población LGBTIQ+, pueblos étnicos y personas con discapacidad, entre otras. Se propone agregar a las mujeres cuidadoras de animales rescatados, muchas de ellas pobres y cabeza de hogar, que acogen en sus casas animales de la calle con sus propios recursos. A favor se argumenta que son mujeres vulnerables que no tienen otra entidad que las atienda; en contra, que no son un sujeto de especial protección y que la ley ya cubre a las mujeres en toda su diversidad.",
+   "question": "Incluir a las mujeres cuidadoras de animales entre las poblaciones del Ministerio de Igualdad:",
+   "options": [
+    "Sí, incluirlas",
+    "No, dejar la lista como está"
+   ],
+   "positions": {
+    "AV": 0,
+    "CR": 0,
+    "CD": 1,
+    "COM": 1,
+    "LIB": 1,
+    "PC": 1,
+    "PH": 1,
+    "U": 1
+   },
+   "actor": "Plenaria del Senado, votación de la proposición no avalada al artículo 5 del proyecto que crea el Ministerio de Igualdad (23 votos a favor y 50 en contra).",
+   "nuance": "La propuesta se negó. La apoyó la mayoría de Alianza Verde (4 contra 2) y de Cambio Radical (2 contra 1). Votaron en contra en bloque Comunes y La U, y en su mayoría el Pacto Histórico (14 contra 4), el Centro Democrático (7 contra 1), los conservadores (6 contra 4) y los liberales (5 contra 3).",
+   "reliability": 3,
+   "sources": [
+    {
+     "name": "Gaceta del Congreso 244 de 2023 (acta de la plenaria del Senado del 12 de diciembre de 2022, con la votación nominal)",
+     "url": "https://sidn.ramajudicial.gov.co/SIDN/PUBLICACIONES%20PERIODICAS/TEXTO%20COMPLETO%20Y%20TABLAS%20DE%20CONTENIDO/GACETA%20DEL%20CONGRESO/GACETA%20DEL%20CONGRESO%202023/GC%200244%20DE%202023.PDF"
+    }
+   ],
+   "contexte": "La propuesta se negó; la ley se aprobó con la lista original de poblaciones.",
+   "split": {
+    "AV": [
+     4,
+     2,
+     0
+    ],
+    "CR": [
+     2,
+     1,
+     0
+    ],
+    "CD": [
+     7,
+     1,
+     0
+    ],
+    "COM": [
+     4,
+     0,
+     0
+    ],
+    "LIB": [
+     5,
+     3,
+     0
+    ],
+    "PC": [
+     6,
+     4,
+     0
+    ],
+    "PH": [
+     14,
+     4,
+     0
+    ],
+    "U": [
      9,
      0,
      0
