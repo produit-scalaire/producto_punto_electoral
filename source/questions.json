@@ -1203,6 +1203,140 @@
      0
     ]
    }
+  },
+  {
+   "id": "jurisdiccion-agraria",
+   "theme": "campo",
+   "date": "6 de diciembre de 2022",
+   "situation": "Los conflictos por la tierra (linderos, posesión, baldíos, uso del suelo) se resuelven hoy en juzgados civiles lentos y lejanos del campo. Una reforma constitucional crea una Jurisdicción Agraria y Rural, con jueces especializados y una sala en la Corte Suprema, como lo pedía el Acuerdo de Paz.",
+   "question": "Crear una Jurisdicción Agraria y Rural:",
+   "options": [
+    "Sí, crearla",
+    "No, rechazarla"
+   ],
+   "positions": {
+    "PH": 0,
+    "COM": 0,
+    "AV": 0,
+    "LIB": 0,
+    "U": 0,
+    "PC": 0,
+    "CD": 1
+   },
+   "actor": "Plenaria del Senado, aprobación de la reforma en su debate (59 votos a favor y 6 en contra).",
+   "nuance": "Votaron a favor todas las bancadas presentes salvo el Centro Democrático (5 en contra y 1 a favor), que antes había pedido archivarla. Casi ningún senador de Cambio Radical votó, por lo que queda sin posición.",
+   "reliability": 3,
+   "sources": [
+    {
+     "name": "Gaceta del Congreso 212 de 2023 (acta de la plenaria del Senado del 6 de diciembre de 2022, con la votación nominal)",
+     "url": "https://sidn.ramajudicial.gov.co/SIDN/PUBLICACIONES%20PERIODICAS/TEXTO%20COMPLETO%20Y%20TABLAS%20DE%20CONTENIDO/GACETA%20DEL%20CONGRESO/GACETA%20DEL%20CONGRESO%202023/GC%200212%20DE%202023.PDF"
+    }
+   ],
+   "contexte": "La reforma se aprobó y quedó como Acto Legislativo 03 de 2023. La ley que pone a funcionar esa jurisdicción siguió en trámite.",
+   "split": {
+    "PH": [
+     17,
+     0,
+     0
+    ],
+    "COM": [
+     5,
+     0,
+     0
+    ],
+    "AV": [
+     6,
+     0,
+     0
+    ],
+    "LIB": [
+     7,
+     0,
+     0
+    ],
+    "U": [
+     8,
+     0,
+     0
+    ],
+    "PC": [
+     8,
+     1,
+     0
+    ],
+    "CD": [
+     5,
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "id": "congresistas-otra-actividad",
+   "theme": "probidad",
+   "date": "22 de agosto de 2023",
+   "situation": "La Constitución prohíbe a los congresistas desempeñar otro cargo o empleo, para que se dediquen solo a su labor. En el debate de un proyecto para bajarles el salario, el senador Carlos Meisel (Centro Democrático) propuso un artículo nuevo: que los congresistas puedan desempeñar otra actividad económica.",
+   "question": "Permitir que los congresistas tengan otra actividad económica:",
+   "options": [
+    "Sí, permitirlo",
+    "No, que se dediquen solo al Congreso"
+   ],
+   "positions": {
+    "CD": 0,
+    "LIB": 0,
+    "PC": 0,
+    "U": 0,
+    "CR": 0,
+    "PH": 1,
+    "COM": 1
+   },
+   "actor": "Plenaria del Senado, votación del artículo nuevo en el proyecto de ley que modifica el régimen salarial de los congresistas (63 votos a favor y 31 en contra).",
+   "nuance": "El artículo se aprobó. Lo apoyaron en bloque el Centro Democrático, los liberales, los conservadores y La U, y la mayoría de Cambio Radical (5 contra 3). Comunes votó en bloque en contra y el Pacto Histórico en su mayoría (9 contra 5). Alianza Verde se partió en dos (4 y 4) y queda sin posición. El ponente, Jonathan Pulido, votó en contra citando el artículo 180 de la Constitución.",
+   "reliability": 3,
+   "sources": [
+    {
+     "name": "Gaceta del Congreso 19 de 2024 (acta de la plenaria del Senado del 22 de agosto de 2023, con la votación nominal)",
+     "url": "https://sidn.ramajudicial.gov.co/SIDN/PUBLICACIONES%20PERIODICAS/TEXTO%20COMPLETO%20Y%20TABLAS%20DE%20CONTENIDO/GACETA%20DEL%20CONGRESO/GACETA%20DEL%20CONGRESO%202024/GC%200019%20DE%202024.PDF"
+    }
+   ],
+   "contexte": "Los conteos por bancada salen de las listas de votantes publicadas en la Gaceta.",
+   "split": {
+    "CD": [
+     12,
+     0,
+     0
+    ],
+    "LIB": [
+     10,
+     0,
+     0
+    ],
+    "PC": [
+     12,
+     0,
+     0
+    ],
+    "U": [
+     9,
+     0,
+     0
+    ],
+    "CR": [
+     5,
+     3,
+     0
+    ],
+    "PH": [
+     9,
+     5,
+     0
+    ],
+    "COM": [
+     5,
+     0,
+     0
+    ]
+   }
   }
  ]
 }
