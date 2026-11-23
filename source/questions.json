@@ -51,94 +51,288 @@
  },
  "questions": [
   {
-   "id": "prueba-1",
+   "id": "reforma-pensional",
    "theme": "trabajo",
-   "date": "2022-2026",
-   "situation": "PREGUNTA DE PRUEBA. Aquí irá la descripción de una situación real, con fecha, tomada de una votación del Congreso.",
-   "question": "Pregunta de prueba 1:",
+   "date": "14 de junio de 2024",
+   "situation": "Más de la mitad de los colombianos en edad de jubilarse no recibe pensión. El Gobierno propone un sistema por pilares: un bono para adultos mayores pobres y la obligación de cotizar a Colpensiones sobre los primeros 2,3 salarios mínimos; el resto iría a los fondos privados. Los fondos y parte de la oposición advierten sobre el costo fiscal a largo plazo.",
+   "question": "Esta reforma pensional:",
    "options": [
-    "Opción A de prueba",
-    "Opción B de prueba"
+    "La apruebo",
+    "La rechazo o no la apoyo"
    ],
    "positions": {
-    "COM": 1,
-    "PH": 1,
-    "AV": 1,
+    "PH": 0,
+    "COM": 0,
     "LIB": 0,
     "U": 0,
-    "CR": 0,
-    "PC": 0,
-    "CD": 0
+    "PC": 1
    },
-   "actor": "Dato de prueba, sin fuente real.",
-   "reliability": 1,
+   "actor": "Plenaria de la Cámara, votación para acoger el texto aprobado por el Senado: 86 votos a favor y 32 en contra.",
+   "nuance": "Alianza Verde se dividió (5 a favor, 4 en contra, 6 sin votar) y queda sin posición. Cambio Radical y el Centro Democrático no votaron; el Centro Democrático calificó el trámite de «tramposo» y anunció una demanda ante la Corte Constitucional.",
+   "reliability": 3,
    "sources": [
     {
-     "name": "fuente pendiente",
-     "url": "https://www.camara.gov.co"
+     "name": "El Colombiano, «Así se votó la reforma pensional», 14 de junio de 2024",
+     "url": "https://www.elcolombiano.com/colombia/asi-se-voto-la-reforma-pensional-DI24790056"
+    },
+    {
+     "name": "Blu Radio, lista de votantes",
+     "url": "https://www.bluradio.com/nacion/asi-votaron-la-proposicion-de-aprobacion-de-la-reforma-pensional-en-la-camara-rg10"
     }
    ],
-   "contexte": "Texto de contexto de prueba."
+   "contexte": "La Cámara no debatió artículo por artículo: aprobó acoger el texto que ya había votado el Senado, lo que evitó la conciliación. Por eso la oposición denunció un vicio de trámite, y la Corte Constitucional devolvió después la ley a la Cámara para repetir ese paso.",
+   "split": {
+    "PH": [
+     24,
+     3,
+     2
+    ],
+    "COM": [
+     5,
+     0,
+     0
+    ],
+    "LIB": [
+     20,
+     8,
+     5
+    ],
+    "U": [
+     11,
+     2,
+     2
+    ]
+   }
   },
   {
-   "id": "prueba-2",
-   "theme": "salud",
-   "date": "2022-2026",
-   "situation": "PREGUNTA DE PRUEBA. Aquí irá la descripción de una situación real, con fecha, tomada de una votación del Congreso.",
-   "question": "Pregunta de prueba 2:",
+   "id": "consulta-popular",
+   "theme": "trabajo",
+   "date": "14 de mayo de 2025",
+   "situation": "Tras el hundimiento de su reforma laboral en una comisión del Senado, el Gobierno pide convocar una consulta popular para que los ciudadanos voten preguntas como el pago de recargo nocturno desde las 7 p. m. o el recargo del 100 % los domingos. Para hacerla, el Senado debe dar su aval.",
+   "question": "Convocar esta consulta popular:",
    "options": [
-    "Opción A de prueba",
-    "Opción B de prueba"
+    "Sí, que la gente decida",
+    "No, eso le corresponde al Congreso"
    ],
    "positions": {
-    "COM": 0,
     "PH": 0,
+    "COM": 0,
     "AV": 0,
-    "LIB": 1,
-    "U": 1,
+    "U": 0,
     "CR": 1,
     "PC": 1,
     "CD": 1
    },
-   "actor": "Dato de prueba, sin fuente real.",
-   "reliability": 1,
+   "actor": "Plenaria del Senado: 47 votos a favor y 49 en contra; la consulta no fue convocada.",
+   "nuance": "La U votó dividida (6 por el sí, 4 por el no). Los liberales se partieron: 6 de sus 13 senadores votaron no y el resto no fue detallado por la prensa, así que quedan sin posición. Semanas después el Congreso revivió y aprobó la reforma laboral.",
+   "reliability": 3,
    "sources": [
     {
-     "name": "fuente pendiente",
-     "url": "https://www.camara.gov.co"
+     "name": "Radio Nacional, senadores que votaron no, 15 de mayo de 2025",
+     "url": "https://radionacional.co/actualidad/politica/senadores-que-dijeron-no-la-consulta-popular"
+    },
+    {
+     "name": "El Colombiano, senadores que la hundieron",
+     "url": "https://www.elcolombiano.com/colombia/consulta-popular-senadores-que-votaron-no-y-la-hundieron-KB27404358"
+    }
+   ],
+   "split": {
+    "PH": [
+     22,
+     0,
+     0
+    ],
+    "COM": [
+     5,
+     0,
+     0
+    ],
+    "AV": [
+     5,
+     1,
+     1
+    ],
+    "U": [
+     6,
+     4,
+     0
+    ],
+    "CR": [
+     8,
+     0,
+     0
+    ],
+    "PC": [
+     12,
+     0,
+     0
+    ],
+    "CD": [
+     13,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "escazu",
+   "theme": "ambiente",
+   "date": "10 de octubre de 2022",
+   "situation": "Colombia es uno de los países donde más líderes ambientales son asesinados. El Acuerdo de Escazú obliga a los Estados a garantizar el acceso a la información ambiental, la participación de las comunidades en las decisiones y la protección de quienes defienden el ambiente. Sus críticos temen que frene proyectos mineros y de infraestructura y que abra la puerta a tribunales internacionales.",
+   "question": "Ratificar el Acuerdo de Escazú:",
+   "options": [
+    "Sí, ratificarlo",
+    "No ratificarlo"
+   ],
+   "positions": {
+    "PH": 0,
+    "COM": 0,
+    "AV": 0,
+    "LIB": 0,
+    "U": 0,
+    "PC": 0,
+    "CD": 1
+   },
+   "actor": "Plenaria de la Cámara, último debate: 121 votos a favor y 1 en contra. El Centro Democrático presentó ponencia negativa y se retiró del recinto.",
+   "nuance": "La prensa no publicó el voto partido por partido. Las posiciones de los demás partidos se deducen del resultado (121 votos a favor con casi toda la Cámara presente, salvo los que se retiraron). Cambio Radical pidió aplazar el debate y también se retiró: queda sin posición.",
+   "reliability": 2,
+   "sources": [
+    {
+     "name": "Portafolio, «Congreso ratificó el acuerdo de Escazú», 10 de octubre de 2022",
+     "url": "https://www.portafolio.co/economia/finanzas/congreso-ratifico-el-acuerdo-de-escazu-tras-tres-anos-de-su-firma-572422"
     }
    ]
   },
   {
-   "id": "prueba-3",
-   "theme": "paz",
-   "date": "2022-2026",
-   "situation": "PREGUNTA DE PRUEBA. Aquí irá la descripción de una situación real, con fecha, tomada de una votación del Congreso.",
-   "question": "Pregunta de prueba 3:",
+   "id": "reforma-salud-2024",
+   "theme": "salud",
+   "date": "3 de abril de 2024",
+   "situation": "El Gobierno propone cambiar el modelo de salud: quitarles a las EPS el manejo de los recursos, que pasaría a un fondo público (la ADRES), y crear centros de atención primaria en los territorios. Sus defensores dicen que las EPS niegan servicios y se quedan con la plata; sus críticos temen que el sistema público no sea capaz de reemplazarlas.",
+   "question": "Esta reforma a la salud:",
    "options": [
-    "Opción A de prueba",
-    "Opción B de prueba",
-    "Opción C de prueba"
+    "Que siga su trámite",
+    "Que se archive"
    ],
-   "ordered": true,
    "positions": {
-    "COM": 0,
     "PH": 0,
-    "AV": 1,
+    "COM": 0,
+    "AV": 0,
     "LIB": 1,
-    "U": 2,
-    "CR": 2,
-    "PC": 2
+    "U": 1,
+    "PC": 1,
+    "CD": 1
    },
-   "actor": "Dato de prueba, sin fuente real.",
-   "nuance": "Matiz de prueba.",
+   "actor": "Comisión Séptima del Senado: 9 votos por archivarla y 5 en contra; la reforma se hundió.",
+   "nuance": "Es una comisión de 14 senadores: cada partido tiene uno o dos votos (Pacto Histórico 2, Conservador 2, Centro Democrático 2, los demás 1). Votaron también por el archivo senadores de MIRA, Colombia Justa Libres y ASI. Cambio Radical no tenía miembros votando.",
+   "reliability": 2,
+   "sources": [
+    {
+     "name": "Vanguardia, «Con 9 votos contra 5 fue archivada», 3 de abril de 2024",
+     "url": "https://www.vanguardia.com/politica/2024/04/03/ultima-hora-con-9-votos-contra-5-fue-archivada-en-comision-septima-del-senado-la-reforma-a-la-salud-del-gobierno-petro/"
+    }
+   ],
+   "contexte": "Un año después el Gobierno presentó una nueva versión, que la Cámara aprobó en 2025.",
+   "split": {
+    "PH": [
+     2,
+     0,
+     0
+    ],
+    "COM": [
+     1,
+     0,
+     0
+    ],
+    "AV": [
+     1,
+     0,
+     0
+    ],
+    "LIB": [
+     1,
+     0,
+     0
+    ],
+    "U": [
+     1,
+     0,
+     0
+    ],
+    "PC": [
+     2,
+     0,
+     0
+    ],
+    "CD": [
+     2,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "salario-congresistas",
+   "theme": "probidad",
+   "date": "4 de junio de 2024",
+   "situation": "Un congresista colombiano gana más de 48 millones de pesos al mes, unas 37 veces el salario mínimo. Un proyecto propone reducir el sueldo de los congresistas y de los altos funcionarios a partir de 2026.",
+   "question": "Reducir el sueldo de los congresistas:",
+   "options": [
+    "Sí, reducirlo",
+    "No, dejarlo como está"
+   ],
+   "positions": {
+    "PH": 0,
+    "AV": 0,
+    "CD": 0,
+    "LIB": 1,
+    "U": 1,
+    "PC": 1
+   },
+   "actor": "Comisión Primera de la Cámara: 15 votos a favor y 14 en contra. Necesitaba 21 votos, así que se hundió.",
+   "nuance": "Votos en una comisión: pocos congresistas por partido. Los 5 conservadores que votaron lo hicieron en contra; los liberales 3 en contra y 1 a favor; Pacto Histórico 2 a favor; Alianza Verde y Centro Democrático 1 a favor cada uno (con un solo voto, su ubicación es débil). Cambio Radical se dividió (1 y 1). El proyecto se ha hundido muchas veces en distintos años.",
    "reliability": 1,
    "sources": [
     {
-     "name": "fuente pendiente",
-     "url": "https://www.camara.gov.co"
+     "name": "Vanguardia, los congresistas que votaron en contra, 5 de junio de 2024",
+     "url": "https://www.vanguardia.com/colombia/2024/06/05/estos-fueron-los-14-congresistas-que-votaron-en-contra-del-proyecto-de-ley-que-reducia-sus-salarios/"
+    },
+    {
+     "name": "El Espectador, 4 de junio de 2024",
+     "url": "https://www.elespectador.com/politica/estos-fueron-los-14-congresistas-que-votaron-en-contra-del-proyecto-para-reducir-sus-salarios-se-hundio-en-la-comision-primera-de-la-camara/"
     }
-   ]
+   ],
+   "split": {
+    "PH": [
+     2,
+     0,
+     0
+    ],
+    "AV": [
+     1,
+     0,
+     0
+    ],
+    "CD": [
+     1,
+     0,
+     0
+    ],
+    "LIB": [
+     3,
+     1,
+     0
+    ],
+    "U": [
+     1,
+     0,
+     0
+    ],
+    "PC": [
+     5,
+     0,
+     0
+    ]
+   }
   }
  ]
 }
