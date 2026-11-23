@@ -11,7 +11,7 @@ done = 0
 for q in d['questions']:
     q.pop('split', None)
     if q['id'] not in V or len(q['options']) != 2: continue
-    v = {GROUPES[g]: c for g, c in V[q['id']].items() if g in GROUPES}  # bancadas que no se comparan: se ignoran
+    v = {GROUPES[g]: c for g, c in V[q['id']].items() if g in GROUPES}  # las claves que empiezan por _ (fuente) se ignoran  # bancadas que no se comparan: se ignoran
     # ¿qué opción corresponde al «sí»? se deduce de las bancadas mayoritariamente a favor o en contra
     pour_opt = set()
     for p, pos in q['positions'].items():

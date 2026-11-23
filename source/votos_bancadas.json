@@ -1,3 +1,84 @@
 {
- "_source": "Votaciones nominales del Congreso de la República (se completa en el paso 2). Cada línea: [a favor, en contra, abstención]."
+ "_source": "Conteos por bancada de votaciones nominales del Congreso, tomados de la prensa que publica cómo votó cada congresista (fuente en cada entrada). Cada línea: [a favor, en contra, abstención o no votó estando en la sesión].",
+ "reforma-pensional": {
+  "_fuente": "El Colombiano, 14 de junio de 2024 (Cámara); Blu Radio para Comunes",
+  "PH": [
+   24,
+   3,
+   2
+  ],
+  "COM": [
+   5,
+   0,
+   0
+  ],
+  "AV": [
+   5,
+   4,
+   6
+  ],
+  "LIB": [
+   20,
+   8,
+   5
+  ],
+  "U": [
+   11,
+   2,
+   2
+  ],
+  "CR": [
+   0,
+   0,
+   19
+  ],
+  "PC": [
+   5,
+   10,
+   12
+  ],
+  "CD": [
+   0,
+   0,
+   16
+  ]
+ },
+ "consulta-popular": {
+  "_fuente": "El Colombiano y Radio Nacional, 15 de mayo de 2025 (Senado). Sí de los liberales no publicado: se deja sin dato.",
+  "PH": [
+   22,
+   0,
+   0
+  ],
+  "COM": [
+   5,
+   0,
+   0
+  ],
+  "AV": [
+   5,
+   1,
+   1
+  ],
+  "U": [
+   6,
+   4,
+   0
+  ],
+  "CR": [
+   0,
+   8,
+   0
+  ],
+  "PC": [
+   0,
+   12,
+   0
+  ],
+  "CD": [
+   0,
+   13,
+   0
+  ]
+ }
 }

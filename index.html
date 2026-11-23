@@ -274,7 +274,6 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-off
 .muted{color:var(--muted)}
 .sources{font-size:13px;color:var(--muted);border-top:1px solid var(--grid);padding-top:16px}
 .sources ul{margin:.4rem 0 0;padding-left:1.1rem}
-.prueba{color:var(--disagree);font-weight:600}
 
 @media (max-width:620px){
  body{font-size:17px}
@@ -313,33 +312,33 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-off
   </div>
 
   <div class=&quot;sources&quot;>
-    <strong>Fuentes y método.</strong> <span class=&quot;prueba&quot;>DATOS DE PRUEBA: los 5 ejes, las posiciones y las curules se reemplazarán por votaciones reales de la Cámara de Representantes 2022-2026.</span> Un partido vale +1 si su bancada votó a favor, −1 si votó en contra, 0 si se abstuvo, se dividió o no tiene posición conocida. El cuestionario, en cambio, matiza según la parte de la bancada que siguió el voto.
+    <strong>Fuentes y método.</strong> Los 3 ejes son 3 votaciones reales del Congreso 2022-2026, de la Cámara o del Senado. Un partido vale +1 si su bancada votó a favor, −1 si votó en contra, 0 si se abstuvo, se dividió o no tiene posición conocida. El cuestionario, en cambio, matiza según la parte de la bancada que siguió el voto. El hemiciclo muestra las curules que cada partido ganó con lista propia en la Cámara en marzo de 2022 (sin coaliciones, curules de paz ni circunscripciones especiales).
     <ul id=&quot;srcs&quot;></ul>
   </div>
 </div>
 
 <script>
-/* DATOS DE PRUEBA (paso 1): partidos, ejes y curules provisionales, se reemplazan en el paso 2 */
+/* Partidos comparados, ordenados de izquierda a derecha para la línea del paso 1 */
 const PARTIES=[
  {id:&quot;COM&quot;,name:&quot;Comunes&quot;,x:0},{id:&quot;PH&quot;,name:&quot;Pacto Histórico&quot;,x:1.43},{id:&quot;AV&quot;,name:&quot;Alianza Verde&quot;,x:2.86},{id:&quot;LIB&quot;,name:&quot;Liberal&quot;,x:4.29},
  {id:&quot;U&quot;,name:&quot;La U&quot;,x:5.71},{id:&quot;CR&quot;,name:&quot;Cambio Radical&quot;,x:7.14},{id:&quot;PC&quot;,name:&quot;Conservador&quot;,x:8.57},{id:&quot;CD&quot;,name:&quot;Centro Democrático&quot;,x:10}];
+/* Ejes: votaciones reales del Congreso 2022-2026. +1 a favor, −1 en contra; un partido dividido, ausente o sin posición conocida no aparece (vale 0). */
 const AXES=[
- {id:&quot;a&quot;,short:&quot;Votación de prueba A&quot;,pour:&quot;Texto de prueba: aquí irá una votación real&quot;,date:&quot;2022-2026&quot;,
-  p:{COM:1,PH:1,AV:1,LIB:-1,U:-1,CR:-1,PC:-1,CD:-1},note:&quot;Dato de prueba.&quot;,src:&quot;#&quot;,srcName:&quot;fuente pendiente&quot;},
- {id:&quot;b&quot;,short:&quot;Votación de prueba B&quot;,pour:&quot;Texto de prueba: aquí irá una votación real&quot;,date:&quot;2022-2026&quot;,
-  p:{COM:1,PH:1,AV:1,LIB:1,U:1,CR:-1,PC:-1,CD:-1},note:&quot;Dato de prueba.&quot;,src:&quot;#&quot;,srcName:&quot;fuente pendiente&quot;},
- {id:&quot;c&quot;,short:&quot;Votación de prueba C&quot;,pour:&quot;Texto de prueba: aquí irá una votación real&quot;,date:&quot;2022-2026&quot;,
-  p:{COM:1,PH:1,LIB:-1,U:1,CR:1,PC:-1,CD:1},note:&quot;Dato de prueba.&quot;,src:&quot;#&quot;,srcName:&quot;fuente pendiente&quot;},
- {id:&quot;d&quot;,short:&quot;Votación de prueba D&quot;,pour:&quot;Texto de prueba: aquí irá una votación real&quot;,date:&quot;2022-2026&quot;,
-  p:{COM:1,PH:1,AV:-1,LIB:1,CD:1},note:&quot;Dato de prueba.&quot;,src:&quot;#&quot;,srcName:&quot;fuente pendiente&quot;},
- {id:&quot;e&quot;,short:&quot;Votación de prueba E&quot;,pour:&quot;Texto de prueba: aquí irá una votación real&quot;,date:&quot;2022-2026&quot;,
-  p:{COM:-1,PH:-1,AV:1,LIB:1,U:1,CR:1,PC:1,CD:-1},note:&quot;Dato de prueba.&quot;,src:&quot;#&quot;,srcName:&quot;fuente pendiente&quot;}];
-const LINE_SUBJ=[&quot;a&quot;,&quot;b&quot;,&quot;c&quot;];
+ {id:&quot;pens&quot;,short:&quot;Reforma pensional&quot;,pour:&quot;Aprobar la reforma pensional del Gobierno Petro (sistema de pilares, con más aportes a Colpensiones)&quot;,date:&quot;14 de junio de 2024, Cámara&quot;,
+  p:{COM:1,PH:1,LIB:1,U:1,PC:-1},
+  note:&quot;Pacto Histórico, Comunes, los liberales y La U votan a favor. Los conservadores votan sobre todo en contra (5 a favor, 10 en contra). Alianza Verde se divide (5 a favor, 4 en contra), y Cambio Radical y el Centro Democrático no votan.&quot;,src:&quot;https://www.elcolombiano.com/colombia/asi-se-voto-la-reforma-pensional-DI24790056&quot;,srcName:&quot;El Colombiano&quot;},
+ {id:&quot;cons&quot;,short:&quot;Consulta popular laboral&quot;,pour:&quot;Convocar la consulta popular del Gobierno sobre la reforma laboral&quot;,date:&quot;14 de mayo de 2025, Senado&quot;,
+  p:{COM:1,PH:1,AV:1,U:1,CR:-1,PC:-1,CD:-1},
+  note:&quot;El Senado la hunde por 49 votos contra 47. Pacto Histórico, Comunes y casi toda Alianza Verde votan sí; La U también, aunque dividida (6 a favor, 4 en contra). Centro Democrático, Conservador y Cambio Radical votan en bloque por el no. Los liberales se parten: 6 de sus 13 senadores votan no.&quot;,src:&quot;https://radionacional.co/actualidad/politica/senadores-que-dijeron-no-la-consulta-popular&quot;,srcName:&quot;Radio Nacional&quot;},
+ {id:&quot;esc&quot;,short:&quot;Acuerdo de Escazú&quot;,pour:&quot;Ratificar el Acuerdo de Escazú sobre acceso a la información, participación y justicia en asuntos ambientales&quot;,date:&quot;10 de octubre de 2022, Cámara&quot;,
+  p:{COM:1,PH:1,AV:1,LIB:1,U:1,PC:1,CD:-1},
+  note:&quot;121 votos a favor y uno en contra. El Centro Democrático presenta ponencia negativa y se retira del recinto, igual que Cambio Radical, que había pedido aplazar el debate. Los demás partidos, incluidos los conservadores, quedan en el recinto y aportan los votos a favor.&quot;,src:&quot;https://www.portafolio.co/economia/finanzas/congreso-ratifico-el-acuerdo-de-escazu-tras-tres-anos-de-su-firma-572422&quot;,srcName:&quot;Portafolio&quot;}];
+const LINE_SUBJ=[&quot;pens&quot;,&quot;cons&quot;,&quot;esc&quot;];
 const SHORTN={PH:&quot;Pacto&quot;,AV:&quot;Verde&quot;,CR:&quot;C. Radical&quot;,PC:&quot;Conserv.&quot;,CD:&quot;C. Dem.&quot;}; /* en celular, nombres cortos en la línea para evitar choques */
 const N=AXES.length,vec=pid=>AXES.map(a=>a.p[pid]||0);
 
 /* una persona de ejemplo: la animación explica, el cuestionario viene después */
-const state={step:0,subj:0,party:null,cmp:null,you:{a:{v:1,w:2},b:{v:1,w:3},c:{v:1,w:1},d:{v:1,w:1},e:{v:-1,w:2}}};
+const state={step:0,subj:0,party:null,cmp:null,you:{pens:{v:1,w:2},cons:{v:-1,w:3},esc:{v:1,w:2}}};
 const done=id=>state.you[id].v!==null&amp;&amp;state.you[id].w!==null;
 const U=id=>done(id)?state.you[id]:{v:0,w:0};
 const nDone=()=>AXES.filter(a=>done(a.id)).length;
@@ -361,8 +360,8 @@ function arrow(x1,y1,x2,y2,color,w=3,op=1,p=svg){const L=Math.hypot(x2-x1,y2-y1)
   el(&quot;path&quot;,{d:`M${x2},${y2} L${x2-ux*h-uy*h*.55},${y2-uy*h+ux*h*.55} L${x2-ux*h+uy*h*.55},${y2-uy*h-ux*h*.55} Z`,fill:color,opacity:op},p);}
 function chain(v,len){const f=Math.min(1,.92*R/((maxPartial(v,len)*STEP)||1)),st=STEP*f,pts=[[0,0]];v.forEach((c,k)=>{const l=pts[k];pts.push([l[0]+c*len[k]*st*DIR[k][0],l[1]+c*len[k]*st*DIR[k][1]]);});pts.st=st;return pts;}
 
-/* hemiciclo: curules por partido (DATOS DE PRUEBA, se reemplazan en el paso 2), llenadas de izquierda a derecha */
-const SEATS_N={COM:5,PH:28,AV:12,LIB:32,U:15,CR:16,PC:25,CD:16};
+/* hemiciclo: curules ganadas en la Cámara en marzo de 2022 por lista propia de cada partido (sin coaliciones, curules de paz ni circunscripciones especiales), llenadas de izquierda a derecha */
+const SEATS_N={COM:5,PH:28,AV:11,LIB:32,U:15,CR:16,PC:25,CD:16};
 const HC={x:340,y:430,r0:120,r1:270,rows:11};
 const SEATS=(()=>{const tot=PARTIES.reduce((a,p)=>a+SEATS_N[p.id],0),rad=[];let sum=0;
   for(let k=0;k<HC.rows;k++){const r=HC.r0+k*(HC.r1-HC.r0)/(HC.rows-1);rad.push(r);sum+=r;}
@@ -552,9 +551,10 @@ go(0);
 <li><strong>No todas las opiniones tienen cabida.</strong> Las respuestas propuestas vienen de votaciones y decisiones reales. Una idea que nunca se sometió a votación no puede aparecer, aunque mucha gente la comparta. Por ejemplo, la Corte Constitucional reconoció el derecho a morir dignamente desde 1997, pero el Congreso nunca ha aprobado una ley que lo regule: los proyectos se han hundido una y otra vez. Este cuestionario no puede representarlo todo: si su posición no aparece, elija la más cercana o salte la pregunta.</li>
 <li><strong>La elección de las preguntas sigue siendo nuestra.</strong> Otro equipo habría escogido otras situaciones y obtenido otros resultados. La <a href="https://produit-scalaire.github.io/producto_punto_electoral/catalogo-preguntas.html" target="_blank" rel="noopener">lista completa de preguntas y fuentes</a> se puede consultar.</li>
 <li><strong>Las preguntas se preparan con una inteligencia artificial.</strong> Una IA busca las votaciones, redacta o reformula las preguntas y ubica a los partidos. No todas las preguntas se revisan a mano una por una: puede haber errores, y los sesgos propios del modelo pueden reflejarse en la elección de los temas o en la redacción. Las fuentes siempre se indican para que usted pueda verificar. Todo error que se reporte será corregido: repórtelo en <a href="https://github.com/produit-scalaire/producto_punto_electoral" target="_blank" rel="noopener">GitHub</a>.</li>
-<li><strong>¿Qué partidos?</strong> Se comparan las principales bancadas del Congreso elegido en 2022. Los partidos con muy pocos congresistas no aparecen: sus votos son demasiado pocos para compararlos de forma justa. Cuando no se conoce con certeza la posición de una bancada en una votación (abstención, bancada dividida, un solo congresista presente o votación no detallada), se deja vacía y no cuenta ni a favor ni en contra.</li>
+<li><strong>¿Qué partidos?</strong> Se comparan las ocho bancadas principales del Congreso elegido en 2022: Comunes, Pacto Histórico, Alianza Verde, Partido Liberal, Partido de la U, Cambio Radical, Partido Conservador y Centro Democrático. Los partidos con muy pocos congresistas (MIRA, Colombia Justa Libres, Nuevo Liberalismo, entre otros), las curules de paz y las circunscripciones especiales no aparecen: sus votos son demasiado pocos para compararlos de forma justa. Cuando no se conoce con certeza la posición de una bancada en una votación (abstención, bancada dividida, un solo congresista presente o votación no detallada), se deja vacía y no cuenta ni a favor ni en contra.</li>
 <li><strong>Votaciones de 2022 a 2026, salvo excepciones.</strong> Las preguntas se basan sobre todo en las votaciones del Congreso 2022-2026. Para una decisión más antigua, solo se ubican los partidos que existían en ese momento, con su nombre actual. Los demás quedan sin posición en esa pregunta.</li>
-<li><strong>Los partidos no siempre votan en bloque.</strong> En algunos temas sus congresistas se dividen. Cuando la pregunta se basa en una votación nominal, registramos cuántos congresistas de cada bancada votaron a favor, en contra o se abstuvieron, y el cálculo lo tiene en cuenta: una bancada dividida cuenta menos que una unida. El detalle aparece en sus resultados.</li>
+<li><strong>Cámara y Senado.</strong> Las preguntas usan votaciones de las dos cámaras. Una misma bancada puede votar distinto en la Cámara y en el Senado; cada pregunta dice de qué cámara viene la votación.</li>
+<li><strong>Los partidos no siempre votan en bloque.</strong> En algunos temas sus congresistas se dividen. Colombia no tiene un registro público y fácil de consultar de cómo vota cada congresista, así que tomamos los conteos por bancada de la prensa que publica la lista de votantes, y citamos esa fuente. Con esos conteos (a favor, en contra, abstenciones), el cálculo tiene en cuenta la división: una bancada dividida cuenta menos que una unida. Cuando solo hay un anuncio de bancada y no un conteo, la pregunta lleva menos puntos ●●○ de confiabilidad. El detalle aparece en sus resultados.</li>
 <li><strong>Una alcaldía no es todo un partido.</strong> Cuando una pregunta se basa en lo que hizo una administración local, muestra lo que hizo esa alcaldía, no necesariamente lo que harían todas las alcaldías del mismo partido. Los puntos ●●● del detalle de la pregunta indican qué tan segura es esa ubicación.</li>
 <li><strong>Lo que hace un partido en la oposición no es lo que haría en el poder.</strong> Los votos de oposición, y también los de gobierno, a veces son tácticos.</li>
 <li><strong>El resultado no es una recomendación de voto.</strong> Indica de quién está usted más cerca en estas preguntas precisas. Nadie lo va a representar perfectamente, y es normal.</li>
@@ -571,7 +571,7 @@ go(0);
 </div><div class="subpanel" data-subpanel="4" hidden><h2>Agradecimientos</h2>
 <p>Este cuestionario no existiría sin quienes hacen que la información pública sea accesible, organizada y verificable. Gracias a ellos.</p>
 <ul>
-<li><strong>El <a href="https://www.camara.gov.co" target="_blank" rel="noopener">Congreso de la República</a></strong>, que publica sus votaciones nominales, gacetas y actas.</li>
+<li><strong>El Congreso de la República</strong>, que publica sus gacetas y actas, y <strong>los medios que publican cómo votó cada congresista</strong> en las votaciones importantes, como <a href="https://www.elcolombiano.com" target="_blank" rel="noopener">El Colombiano</a>, <a href="https://www.radionacional.co" target="_blank" rel="noopener">Radio Nacional</a>, <a href="https://www.bluradio.com" target="_blank" rel="noopener">Blu Radio</a> y <a href="https://www.lasillavacia.com" target="_blank" rel="noopener">La Silla Vacía</a>.</li>
 <li><strong>El <a href="https://github.com/produit-scalaire/produit-scalaire-electoral" target="_blank" rel="noopener">Produit scalaire électoral</a></strong>, el comparador francés del que esta página es una adaptación.</li>
 <li><strong>El video «<a href="https://www.youtube.com/watch?v=myqYO7I6MBA" target="_blank" rel="noopener">¿Usted es de izquierda o derecha?</a>» del canal Magic Markers</strong>, que inspiró la idea de representar las opiniones políticas en varias dimensiones en lugar de una sola línea.</li>
 </ul></div></article>
