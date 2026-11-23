@@ -54,7 +54,7 @@
    "id": "reforma-pensional",
    "theme": "trabajo",
    "date": "3 de abril de 2024",
-   "situation": "Más de la mitad de los colombianos en edad de jubilarse no recibe pensión. El Gobierno propone un sistema por pilares: un bono para adultos mayores pobres y la obligación de cotizar a Colpensiones sobre los primeros 2,3 salarios mínimos; el resto iría a los fondos privados. Los fondos privados y sus críticos advierten sobre el costo fiscal a largo plazo.",
+   "situation": "Más de la mitad de los colombianos en edad de jubilarse no recibe pensión. Una reforma crea un sistema por pilares: un bono para adultos mayores pobres y la obligación de cotizar a Colpensiones sobre los primeros 2,3 salarios mínimos; lo que supere ese monto iría a los fondos privados. A favor se argumenta que amplía la cobertura; en contra, que tiene un costo fiscal alto a largo plazo.",
    "question": "Esta reforma pensional:",
    "options": [
     "La apruebo",
@@ -87,7 +87,7 @@
      "url": "https://www.bluradio.com/nacion/asi-votaron-la-proposicion-de-aprobacion-de-la-reforma-pensional-en-la-camara-rg10"
     }
    ],
-   "contexte": "El Senado aprobó la reforma en abril de 2024. En junio, la Cámara no la debatió artículo por artículo: aprobó acoger el texto del Senado (86 votos contra 32), lo que evitó la conciliación. Los críticos denunciaron un vicio de trámite, y la Corte Constitucional devolvió después la ley a la Cámara para repetir ese paso.",
+   "contexte": "La reforma se aprobó en 2024. La Corte Constitucional devolvió después la ley a la Cámara para repetir un paso de su trámite.",
    "split": {
     "PH": [
      14,
@@ -135,7 +135,7 @@
    "id": "reforma-laboral-2025",
    "theme": "trabajo",
    "date": "18 de marzo de 2025",
-   "situation": "La reforma laboral del Gobierno, ya aprobada por la Cámara, paga más caro el trabajo nocturno y el de domingos y festivos y formaliza a aprendices y trabajadores de plataformas. Sus defensores dicen que devuelve derechos perdidos en 2002; los gremios y sus críticos advierten que encarece la contratación y puede frenar el empleo formal. Ocho senadores de la Comisión Séptima presentan una ponencia para archivarla.",
+   "situation": "Una reforma laboral paga más caro el trabajo nocturno y el de domingos y festivos, y formaliza a aprendices y trabajadores de plataformas. A favor se argumenta que devuelve derechos perdidos en 2002; en contra, que encarece la contratación y puede frenar el empleo formal. En la Comisión Séptima del Senado se vota una ponencia para archivarla.",
    "question": "Esta reforma laboral:",
    "options": [
     "Que siga su trámite",
@@ -163,7 +163,7 @@
      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/uno-a-uno-los-ocho-senadores-que-hundieron-virtualmente-la-reforma-laboral-de-petro/"
     }
    ],
-   "contexte": "El Gobierno respondió con la propuesta de una consulta popular. Luego la plenaria del Senado aceptó una apelación, la reforma pasó a la Comisión Cuarta y se aprobó en junio de 2025 con cambios: es la Ley 2466 de 2025.",
+   "contexte": "Tras el archivo en la comisión, una apelación llevó la reforma a otra comisión del Senado y se aprobó en junio de 2025 con cambios: es la Ley 2466 de 2025.",
    "split": {
     "PH": [
      3,
@@ -206,7 +206,7 @@
    "id": "consulta-popular",
    "theme": "trabajo",
    "date": "14 de mayo de 2025",
-   "situation": "Tras el hundimiento de su reforma laboral en una comisión del Senado, el Gobierno pide convocar una consulta popular para que los ciudadanos voten preguntas como el pago de recargo nocturno desde las 7 p. m. o el recargo del 100 % los domingos. Para hacerla, el Senado debe dar su aval.",
+   "situation": "Tras el hundimiento de una reforma laboral en una comisión del Senado, se plantea una consulta popular para que los ciudadanos voten preguntas como el pago de recargo nocturno desde las 7 p. m. o el recargo del 100 % los domingos. Para hacerla, el Senado debe dar su aval. A favor se argumenta que los ciudadanos decidan directamente; en contra, que esos temas le corresponden al Congreso y que la consulta cuesta cientos de miles de millones de pesos.",
    "question": "Convocar esta consulta popular:",
    "options": [
     "Sí, que la gente decida",
@@ -276,7 +276,7 @@
    "id": "escazu",
    "theme": "ambiente",
    "date": "10 de octubre de 2022",
-   "situation": "Colombia es uno de los países donde más líderes ambientales son asesinados. El Acuerdo de Escazú obliga a los Estados a garantizar el acceso a la información ambiental, la participación de las comunidades en las decisiones y la protección de quienes defienden el ambiente. Sus críticos temen que frene proyectos mineros y de infraestructura y que abra la puerta a tribunales internacionales.",
+   "situation": "Colombia es uno de los países donde más líderes ambientales son asesinados. El Acuerdo de Escazú obliga a los Estados a garantizar el acceso a la información ambiental, la participación de las comunidades en las decisiones y la protección de quienes defienden el ambiente. A favor se argumenta que protege a esos líderes; en contra, que puede frenar proyectos mineros y de infraestructura y abrir la puerta a tribunales internacionales.",
    "question": "Ratificar el Acuerdo de Escazú:",
    "options": [
     "Sí, ratificarlo",
@@ -305,7 +305,7 @@
    "id": "reforma-salud-2024",
    "theme": "salud",
    "date": "3 de abril de 2024",
-   "situation": "El Gobierno propone cambiar el modelo de salud: quitarles a las EPS el manejo de los recursos, que pasaría a un fondo público (la ADRES), y crear centros de atención primaria en los territorios. Sus defensores dicen que las EPS niegan servicios y se quedan con la plata; sus críticos temen que el sistema público no sea capaz de reemplazarlas.",
+   "situation": "Una reforma cambia el modelo de salud: quita a las EPS el manejo de los recursos, que pasaría a un fondo público (la ADRES), y crea centros de atención primaria en los territorios. A favor se argumenta que las EPS niegan servicios y se quedan con la plata; en contra, que el sistema público no sería capaz de reemplazarlas.",
    "question": "Esta reforma a la salud:",
    "options": [
     "Que siga su trámite",
@@ -329,7 +329,7 @@
      "url": "https://www.vanguardia.com/politica/2024/04/03/ultima-hora-con-9-votos-contra-5-fue-archivada-en-comision-septima-del-senado-la-reforma-a-la-salud-del-gobierno-petro/"
     }
    ],
-   "contexte": "Un año después el Gobierno presentó una nueva versión, que la Cámara aprobó en 2025.",
+   "contexte": "Un año después se presentó una nueva versión, que la Cámara aprobó en 2025.",
    "split": {
     "PH": [
      2,
@@ -372,7 +372,7 @@
    "id": "salario-congresistas",
    "theme": "probidad",
    "date": "4 de junio de 2024",
-   "situation": "Un congresista colombiano gana más de 48 millones de pesos al mes, unas 37 veces el salario mínimo. Un proyecto propone reducir el sueldo de los congresistas y de los altos funcionarios a partir de 2026.",
+   "situation": "Un congresista colombiano gana más de 48 millones de pesos al mes, unas 37 veces el salario mínimo. Un proyecto propone reducir el sueldo de los congresistas y de los altos funcionarios a partir de 2026. A favor se argumenta que la brecha con el salario de la mayoría es injustificable; en contra, que un buen sueldo atrae perfiles calificados y reduce el riesgo de corrupción.",
    "question": "Reducir el sueldo de los congresistas:",
    "options": [
     "Sí, reducirlo",
@@ -436,7 +436,7 @@
    "id": "reforma-salud-2025",
    "theme": "salud",
    "date": "marzo de 2025",
-   "situation": "Un año después de que se hundiera su primera reforma, el Gobierno presenta una nueva versión: las EPS se transforman en «gestoras de salud» que ya no manejan directamente la plata, la ADRES paga a hospitales y clínicas, y se crean centros de atención primaria en cada territorio.",
+   "situation": "Tras el hundimiento de una primera reforma, llega una nueva versión: las EPS se transforman en «gestoras de salud» que ya no manejan directamente la plata, la ADRES paga a hospitales y clínicas, y se crean centros de atención primaria en cada territorio. A favor se argumenta que el dinero llega más directo a quienes prestan el servicio; en contra, que el cambio pone en riesgo la atención y las finanzas del sistema.",
    "question": "Esta nueva reforma a la salud:",
    "options": [
     "La apruebo",
@@ -503,7 +503,7 @@
    "id": "reforma-tributaria-2022",
    "theme": "impuestos",
    "date": "17 de noviembre de 2022",
-   "situation": "El nuevo Gobierno busca unos 20 billones de pesos al año para gasto social. Su reforma tributaria sube el impuesto de renta a las personas de más altos ingresos y a los dividendos, crea un impuesto al patrimonio permanente, pone sobretasas a las petroleras y mineras, y grava las bebidas azucaradas y los ultraprocesados.",
+   "situation": "Una reforma tributaria busca unos 20 billones de pesos al año para gasto social. Sube el impuesto de renta a las personas de más altos ingresos y a los dividendos, crea un impuesto al patrimonio permanente, pone sobretasas a las petroleras y mineras, y grava las bebidas azucaradas y los ultraprocesados. A favor se argumenta que pagan más quienes más tienen; en contra, que frena la inversión y encarece algunos productos.",
    "question": "Esta reforma tributaria:",
    "options": [
     "La apruebo",
@@ -532,7 +532,7 @@
      "url": "https://apicongresovisible.uniandes.edu.co/uploads/votacion/14404/gaceta_1739.pdf"
     }
    ],
-   "contexte": "Fue la primera gran ley del Gobierno y se aprobó en sus primeros cien días. Los impuestos saludables a bebidas azucaradas y comida ultraprocesada empezaron a cobrarse de forma gradual a partir de noviembre de 2023.",
+   "contexte": "Se aprobó en noviembre de 2022 (Ley 2277). Los impuestos saludables a bebidas azucaradas y comida ultraprocesada empezaron a cobrarse de forma gradual a partir de noviembre de 2023.",
    "split": {
     "PH": [
      24,
@@ -580,7 +580,7 @@
    "id": "presupuesto-2023",
    "theme": "impuestos",
    "date": "18 de octubre de 2022",
-   "situation": "El primer presupuesto del nuevo Gobierno, para 2023, suma 405,6 billones de pesos, unos 14 billones más que el proyecto original. Sube con fuerza la inversión en agricultura y educación, que llega a cerca de 55 billones. Sus críticos piden más recursos para la salud, la defensa y los subsidios de vivienda Mi Casa Ya.",
+   "situation": "El presupuesto general de la Nación para 2023 suma 405,6 billones de pesos, unos 14 billones más que el proyecto original. Sube con fuerza la inversión en agricultura y educación, que llega a cerca de 55 billones. A favor se argumenta que prioriza el campo y la educación; en contra, que faltan recursos para la salud, la defensa y los subsidios de vivienda Mi Casa Ya.",
    "question": "Este presupuesto general para 2023:",
    "options": [
     "Lo apruebo",
@@ -657,7 +657,7 @@
    "id": "impuesto-iglesias",
    "theme": "sociedad",
    "date": "2 de noviembre de 2022",
-   "situation": "Las iglesias y confesiones religiosas no pagan impuesto de renta. La reforma tributaria del Gobierno incluía un artículo para que pagaran impuestos por sus actividades comerciales, las que no son del culto. Un grupo de senadores propuso eliminarlo, en nombre de la libertad religiosa.",
+   "situation": "Las iglesias y confesiones religiosas no pagan impuesto de renta. La reforma tributaria incluye un artículo para que paguen impuestos por sus actividades comerciales, las que no son del culto. Se propone eliminarlo en nombre de la libertad religiosa. A favor se argumenta que esas actividades compiten con negocios que sí pagan; en contra, que afecta la libertad religiosa y la labor social de las iglesias.",
    "question": "Cobrarles impuestos a las iglesias por sus actividades comerciales:",
    "options": [
     "Sí, que paguen por esas actividades",
@@ -734,7 +734,7 @@
    "id": "impuesto-ultraprocesados",
    "theme": "salud",
    "date": "2 de noviembre de 2022",
-   "situation": "La reforma tributaria crea un impuesto a los alimentos ultraprocesados con exceso de azúcar, sal o grasas (la llamada comida chatarra), que sube de forma gradual hasta el 20 %. Sus defensores dicen que protege la salud; sus críticos, que encarece la canasta de las familias pobres.",
+   "situation": "La reforma tributaria crea un impuesto a los alimentos ultraprocesados con exceso de azúcar, sal o grasas (la llamada comida chatarra), que sube de forma gradual hasta el 20 %. A favor se argumenta que protege la salud; en contra, que encarece la canasta de las familias pobres.",
    "question": "El impuesto a los alimentos ultraprocesados:",
    "options": [
     "Lo mantengo",
@@ -758,7 +758,7 @@
      "url": "https://apicongresovisible.uniandes.edu.co/uploads/votacion/14430/gaceta_121.pdf"
     }
    ],
-   "contexte": "La eliminación se negó. El artículo se aprobó luego por 54 votos contra 19, con cambios pedidos en el debate (excluir algunos alimentos y aplazar el cobro). El impuesto empezó a cobrarse en noviembre de 2023.",
+   "contexte": "La eliminación se negó. El artículo se aprobó luego por 54 votos contra 19, con cambios (excluir algunos alimentos y aplazar el cobro). El impuesto empezó a cobrarse en noviembre de 2023.",
    "split": {
     "PH": [
      18,
@@ -801,7 +801,7 @@
    "id": "impuesto-plasticos",
    "theme": "ambiente",
    "date": "2 de noviembre de 2022",
-   "situation": "La reforma tributaria crea un impuesto a los plásticos de un solo uso que se usan para envasar, embalar o empacar productos. Quienes lo defienden recuerdan que esa basura tapa alcantarillas y contamina ríos y mares. Un grupo de senadores propone eliminarlo: dice que gran parte de la canasta básica viene en esos empaques y que el impuesto terminará subiendo los precios.",
+   "situation": "La reforma tributaria crea un impuesto a los plásticos de un solo uso que se usan para envasar, embalar o empacar productos. A favor se argumenta que esa basura tapa alcantarillas y contamina ríos y mares; en contra, que gran parte de la canasta básica viene en esos empaques y que el impuesto subirá los precios.",
    "question": "Cobrar un impuesto a los plásticos de un solo uso:",
    "options": [
     "Sí, cobrarlo",
@@ -874,7 +874,7 @@
    "id": "pension-semanas-mujeres",
    "theme": "trabajo",
    "date": "17 de abril de 2024",
-   "situation": "La reforma pensional reconoce el trabajo no remunerado de las madres: por cada hijo, una mujer puede descontar 50 semanas de las que le exige Colpensiones, hasta con tres hijos. El texto del Gobierno fijaba un mínimo de 1.150 semanas. Un senador propuso bajar ese mínimo a 850 semanas.",
+   "situation": "La reforma pensional reconoce el trabajo no remunerado de las madres: por cada hijo, una mujer puede descontar 50 semanas de las que le exige Colpensiones, hasta con tres hijos. El texto en debate fija un mínimo de 1.150 semanas. Se propone bajar ese mínimo a 850 semanas. A favor se argumenta que las mujeres cotizan menos por las labores de cuidado; en contra, que bajar tanto el mínimo eleva el costo del sistema.",
    "question": "El mínimo de semanas para las madres que se acogen a ese descuento:",
    "options": [
     "Bajarlo a 850 semanas",
@@ -899,7 +899,7 @@
      "url": "https://sidn.ramajudicial.gov.co/SIDN/PUBLICACIONES%20PERIODICAS/TEXTO%20COMPLETO%20Y%20TABLAS%20DE%20CONTENIDO/GACETA%20DEL%20CONGRESO/GACETA%20DEL%20CONGRESO%202024/GC%201813%20DE%202024.PDF"
     }
    ],
-   "contexte": "Quienes defendían la propuesta citaron la Corte Constitucional, que había ordenado reducir las semanas exigidas a las mujeres hasta 1.000.",
+   "contexte": "A favor de bajarlo se citó a la Corte Constitucional, que había ordenado reducir las semanas exigidas a las mujeres hasta 1.000.",
    "split": {
     "CD": [
      9,
@@ -947,7 +947,7 @@
    "id": "cannabis-uso-adulto",
    "theme": "sociedad",
    "date": "20 de junio de 2023",
-   "situation": "Una reforma constitucional busca regularizar el cannabis de uso adulto: permitir que los mayores de edad lo consuman y que el Estado regule su producción y venta, en lugar de dejar ese mercado en manos de la ilegalidad. Tras siete debates aprobados, llega a la votación final en el Senado, donde necesita la mayoría absoluta (54 votos).",
+   "situation": "Una reforma constitucional busca regularizar el cannabis de uso adulto: permitir que los mayores de edad lo consuman y que el Estado regule su producción y venta, en lugar de dejar ese mercado en manos de la ilegalidad. Tras siete debates aprobados, llega a la votación final en el Senado, donde necesita la mayoría absoluta (54 votos). A favor se argumenta que le quita el negocio a la ilegalidad; en contra, que aumentaría el consumo y sus riesgos para la salud.",
    "question": "Regularizar el cannabis de uso adulto:",
    "options": [
     "Sí, aprobar la reforma",
@@ -1024,7 +1024,7 @@
    "id": "censura-irene-velez",
    "theme": "ambiente",
    "date": "29 de marzo de 2023",
-   "situation": "La ministra de Minas y Energía defiende no firmar nuevos contratos de exploración de petróleo y gas, como parte de la transición energética. Un grupo de senadores promueve una moción de censura para sacarla del cargo.",
+   "situation": "La ministra de Minas y Energía defiende no firmar nuevos contratos de exploración de petróleo y gas, como parte de la transición energética. En el Senado se vota una moción de censura para sacarla del cargo. A favor de la censura se argumenta que esa política pone en riesgo el abastecimiento de energía y los ingresos del país; en contra, que la transición energética es necesaria y que la censura es un castigo político.",
    "question": "La moción de censura contra la ministra de Minas:",
    "options": [
     "La rechazo",
@@ -1097,7 +1097,7 @@
    "id": "divorcio-unilateral",
    "theme": "sociedad",
    "date": "21 de noviembre de 2023",
-   "situation": "Hoy, para divorciarse sin el acuerdo del otro cónyuge, hay que probar una causal ante un juez, como la infidelidad o el maltrato. Un proyecto de ley permite el divorcio por la sola voluntad de cualquiera de los dos, sin tener que demostrar ninguna causa.",
+   "situation": "Hoy, para divorciarse sin el acuerdo del otro cónyuge, hay que probar una causal ante un juez, como la infidelidad o el maltrato. Un proyecto de ley permite el divorcio por la sola voluntad de cualquiera de los dos, sin tener que demostrar ninguna causa. A favor se argumenta que nadie debe permanecer casado contra su voluntad; en contra, que debilita la protección del matrimonio y del cónyuge más vulnerable.",
    "question": "El divorcio por la sola voluntad de uno de los cónyuges:",
    "options": [
     "Lo apruebo",
@@ -1168,7 +1168,7 @@
    "id": "ministerio-igualdad",
    "theme": "sociedad",
    "date": "12 de diciembre de 2022",
-   "situation": "El Gobierno propone crear el Ministerio de Igualdad y Equidad, a cargo de la vicepresidenta, para coordinar las políticas para mujeres, jóvenes, población LGBTIQ+, pueblos étnicos, personas con discapacidad y habitantes de los territorios más pobres. Sus críticos dicen que agranda el Estado y duplica funciones que ya existen.",
+   "situation": "Se propone crear el Ministerio de Igualdad y Equidad, a cargo de la vicepresidencia, para coordinar las políticas para mujeres, jóvenes, población LGBTIQ+, pueblos étnicos, personas con discapacidad y habitantes de los territorios más pobres. A favor se argumenta que esas poblaciones necesitan una entidad propia; en contra, que agranda el Estado y duplica funciones que ya existen.",
    "question": "Crear el Ministerio de Igualdad y Equidad:",
    "options": [
     "Sí, crearlo",
@@ -1245,7 +1245,7 @@
    "id": "singapur-alianza-pacifico",
    "theme": "trabajo",
    "date": "1 de noviembre de 2022",
-   "situation": "Colombia, Chile, México y Perú forman la Alianza del Pacífico, un bloque de libre comercio. Un acuerdo incorpora a Singapur como Estado asociado: baja aranceles y abre el comercio y la inversión entre las partes. Sus defensores ven una puerta a Asia; sus críticos temen por la producción nacional.",
+   "situation": "Colombia, Chile, México y Perú forman la Alianza del Pacífico, un bloque de libre comercio. Un acuerdo incorpora a Singapur como Estado asociado: baja aranceles y abre el comercio y la inversión entre las partes. A favor se argumenta que abre una puerta a Asia; en contra, que amenaza la producción nacional.",
    "question": "El acuerdo de libre comercio con Singapur:",
    "options": [
     "Lo apruebo",
@@ -1318,7 +1318,7 @@
    "id": "campesinado-consulta-previa",
    "theme": "campo",
    "date": "25 de abril de 2023",
-   "situation": "Una reforma constitucional reconoce al campesinado como sujeto de especial protección, con derechos sobre la tierra, el territorio y la participación en las decisiones que lo afectan. Gremios como la ANDI temen que eso abra la puerta a una consulta previa para los campesinos, como la que tienen los pueblos indígenas y afrodescendientes. Una senadora propone escribir en la Constitución que los campesinos no serán objeto de consulta previa.",
+   "situation": "Una reforma constitucional reconoce al campesinado como sujeto de especial protección, con derechos sobre la tierra, el territorio y la participación en las decisiones que lo afectan. Se discute si eso abre la puerta a una consulta previa para los campesinos, como la que tienen los pueblos indígenas y afrodescendientes. Se propone escribir en la Constitución que los campesinos no serán objeto de consulta previa. A favor de dejarlo escrito se argumenta que da seguridad jurídica a los proyectos; en contra, que el texto no crea ninguna consulta previa y que la aclaración sobra.",
    "question": "Agregar que los campesinos no tendrán consulta previa:",
    "options": [
     "Sí, dejarlo escrito",
@@ -1391,7 +1391,7 @@
    "id": "jurisdiccion-agraria",
    "theme": "campo",
    "date": "6 de diciembre de 2022",
-   "situation": "Los conflictos por la tierra (linderos, posesión, baldíos, uso del suelo) se resuelven hoy en juzgados civiles lentos y lejanos del campo. Una reforma constitucional crea una Jurisdicción Agraria y Rural, con jueces y tribunales agrarios especializados, como lo pedía el Acuerdo de Paz de 2016.",
+   "situation": "Los conflictos por la tierra (linderos, posesión, baldíos, uso del suelo) se resuelven hoy en juzgados civiles lentos y lejanos del campo. Una reforma constitucional crea una Jurisdicción Agraria y Rural, con jueces y tribunales agrarios especializados, como lo pedía el Acuerdo de Paz de 2016. A favor se argumenta que acelera la solución de los conflictos y da seguridad sobre la tierra; en contra, que crea más burocracia y duplica funciones de la justicia ordinaria.",
    "question": "Crear una Jurisdicción Agraria y Rural:",
    "options": [
     "Sí, crearla",
@@ -1458,7 +1458,7 @@
    "id": "pnd-comision-verdad",
    "theme": "paz",
    "date": "2 de mayo de 2023",
-   "situation": "El Plan Nacional de Desarrollo 2022-2026 incluye un artículo que obliga a las entidades del orden nacional a acoger, de forma progresiva, las recomendaciones del informe final de la Comisión de la Verdad. El Gobierno dice que cada entidad las adoptará y que lo que necesite una ley pasará por el Congreso. Un grupo de senadores pide eliminarlo: según ellos, convierte en obligatorias decenas de recomendaciones sobre la Fuerza Pública, la elección del fiscal y la política de paz.",
+   "situation": "El Plan Nacional de Desarrollo 2022-2026 incluye un artículo que obliga a las entidades del orden nacional a acoger, de forma progresiva, las recomendaciones del informe final de la Comisión de la Verdad; lo que necesite una ley pasaría por el Congreso. Se propone eliminarlo. A favor del artículo se argumenta que ayuda a no repetir el conflicto; en contra, que vuelve obligatorias decenas de recomendaciones sobre la Fuerza Pública, la elección del fiscal y la política de paz.",
    "question": "Que las entidades del Estado acojan las recomendaciones de la Comisión de la Verdad:",
    "options": [
     "Sí, mantener el artículo",
@@ -1531,7 +1531,7 @@
    "id": "pnd-concesiones-forestales",
    "theme": "ambiente",
    "date": "2 de mayo de 2023",
-   "situation": "El Plan Nacional de Desarrollo crea concesiones forestales campesinas: en las zonas de reserva forestal (no en los parques nacionales), campesinos que ya viven allí podrían usar el bosque hasta por 30 años, con la obligación de conservarlo. La ministra de Ambiente dice que es la forma de frenar la deforestación con los campesinos y no contra ellos. Un grupo de senadores pide eliminar el artículo: temen que abra las reservas a la explotación y termine arrasando el bosque.",
+   "situation": "El Plan Nacional de Desarrollo crea concesiones forestales campesinas: en las zonas de reserva forestal (no en los parques nacionales), campesinos que ya viven allí podrían usar el bosque hasta por 30 años, con la obligación de conservarlo. A favor se argumenta que es la forma de frenar la deforestación con los campesinos y no contra ellos; en contra, que abre las reservas a la explotación y puede terminar arrasando el bosque.",
    "question": "Dar a campesinos concesiones de hasta 30 años en zonas de reserva forestal:",
    "options": [
     "Sí, mantener el artículo",
@@ -1604,7 +1604,7 @@
    "id": "transferencias-energia-renovable",
    "theme": "ambiente",
    "date": "2 de mayo de 2023",
-   "situation": "Las plantas de energía solar y eólica pagan a los municipios y a las corporaciones ambientales de su zona un 1 % de sus ventas de energía, mucho menos que las hidroeléctricas y las térmicas. Un artículo del Plan Nacional de Desarrollo sube ese pago al 6 %. Un grupo de senadores pide eliminarlo: dicen que es un impuesto que frena las energías limpias justo cuando el país quiere hacer la transición energética.",
+   "situation": "Las plantas de energía solar y eólica pagan a los municipios y a las corporaciones ambientales de su zona un 1 % de sus ventas de energía, mucho menos que las hidroeléctricas y las térmicas. Un artículo del Plan Nacional de Desarrollo sube ese pago al 6 %. A favor se argumenta que las iguala con las demás fuentes y beneficia a las regiones donde se instalan; en contra, que es un impuesto que frena las energías limpias justo cuando el país busca la transición energética.",
    "question": "Subir del 1 % al 6 % lo que pagan las plantas solares y eólicas:",
    "options": [
     "Sí, subirlo",
@@ -1677,7 +1677,7 @@
    "id": "congresistas-otra-actividad",
    "theme": "probidad",
    "date": "22 de agosto de 2023",
-   "situation": "La Constitución prohíbe a los congresistas desempeñar otro cargo o empleo, para que se dediquen solo a su labor. En el debate de un proyecto para bajarles el salario, un senador propuso un artículo nuevo: que los congresistas puedan desempeñar otra actividad económica.",
+   "situation": "La Constitución prohíbe a los congresistas desempeñar otro cargo o empleo, para que se dediquen solo a su labor. En el debate de un proyecto para bajarles el salario, se propone un artículo nuevo: que los congresistas puedan desempeñar otra actividad económica. A favor se argumenta que no hay razón para prohibirles otros ingresos si bajan su salario; en contra, que abre la puerta a conflictos de interés y les quita tiempo para su labor.",
    "question": "Permitir que los congresistas tengan otra actividad económica:",
    "options": [
     "Sí, permitirlo",
@@ -1744,7 +1744,7 @@
    "id": "gas-vivienda-social",
    "theme": "vivienda",
    "date": "11 de diciembre de 2023",
-   "situation": "Hoy quien recibe una vivienda de interés social o prioritario tiene que pagar por su cuenta la conexión al gas natural, y cerca de 1,8 millones de colombianos todavía cocinan con leña o carbón. Un proyecto de ley obliga a entregar esas viviendas conectadas al gas por redes, con un subsidio del 70 % del costo de la conexión. Sus críticos lo rechazan: dicen que va en contra de la sustitución de energías que plantea el Plan Nacional de Desarrollo y que tiene un costo fiscal sin respaldo.",
+   "situation": "Hoy quien recibe una vivienda de interés social o prioritario tiene que pagar por su cuenta la conexión al gas natural, y cerca de 1,8 millones de colombianos todavía cocinan con leña o carbón. Un proyecto de ley obliga a entregar esas viviendas conectadas al gas por redes, con un subsidio del 70 % del costo de la conexión. A favor se argumenta que mejora la salud y el bolsillo de los hogares más pobres; en contra, que va contra la sustitución de energías que plantea el Plan Nacional de Desarrollo y que tiene un costo fiscal sin respaldo.",
    "question": "Entregar las viviendas de interés social con conexión al gas natural, con subsidio:",
    "options": [
     "Sí, aprobar el proyecto",
