@@ -963,5 +963,43 @@
    1,
    0
   ]
+ },
+ "reforma-laboral-2025": {
+  "_fuente": "Vanguardia, 18 mar 2025, Comisión Séptima del Senado; [sí al archivo, no, 0]",
+  "PC": [
+   2,
+   0,
+   0
+  ],
+  "CD": [
+   2,
+   0,
+   0
+  ],
+  "LIB": [
+   1,
+   0,
+   0
+  ],
+  "PH": [
+   0,
+   3,
+   0
+  ],
+  "AV": [
+   0,
+   1,
+   0
+  ],
+  "U": [
+   0,
+   1,
+   0
+  ],
+  "COM": [
+   0,
+   1,
+   0
+  ]
  }
 }

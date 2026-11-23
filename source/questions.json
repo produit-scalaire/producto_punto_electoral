@@ -132,6 +132,77 @@
    }
   },
   {
+   "id": "reforma-laboral-2025",
+   "theme": "trabajo",
+   "date": "18 de marzo de 2025",
+   "situation": "La reforma laboral del Gobierno, ya aprobada por la Cámara, paga más caro el trabajo nocturno y el de domingos y festivos y formaliza a aprendices y trabajadores de plataformas. Sus defensores dicen que devuelve derechos perdidos en 2002; los gremios y la oposición advierten que encarece la contratación y puede frenar el empleo formal. Ocho senadores de la Comisión Séptima presentan una ponencia para archivarla.",
+   "question": "Esta reforma laboral:",
+   "options": [
+    "Que siga su trámite",
+    "Archivarla"
+   ],
+   "positions": {
+    "PH": 0,
+    "COM": 0,
+    "AV": 0,
+    "U": 0,
+    "LIB": 1,
+    "PC": 1,
+    "CD": 1
+   },
+   "actor": "Comisión Séptima del Senado, votación de la ponencia de archivo: 8 votos por archivarla y 6 en contra.",
+   "nuance": "Votos en una comisión de 14 senadores: pocos por partido. Votaron por archivarla los 2 conservadores, los 2 del Centro Democrático, el liberal Miguel Ángel Pinto y tres senadores de partidos pequeños. Votaron en contra los 3 del Pacto Histórico y un senador de Alianza Verde, de La U y de Comunes (con un solo voto, la ubicación de esas bancadas y la de los liberales es débil). Cambio Radical no tenía voto en esa comisión.",
+   "reliability": 2,
+   "sources": [
+    {
+     "name": "Vanguardia, «Uno a uno: estos fueron los congresistas de la Comisión Séptima que hundieron la reforma laboral», 18 de marzo de 2025",
+     "url": "https://www.vanguardia.com/politica/2025/03/18/uno-a-uno-estos-fueron-los-congresistas-de-la-comision-septima-que-hundieron-la-reforma-laboral/"
+    },
+    {
+     "name": "Bloomberg Línea, los ocho senadores que firmaron la ponencia de archivo",
+     "url": "https://www.bloomberglinea.com/latinoamerica/colombia/uno-a-uno-los-ocho-senadores-que-hundieron-virtualmente-la-reforma-laboral-de-petro/"
+    }
+   ],
+   "contexte": "El Gobierno respondió con la propuesta de una consulta popular. Luego la plenaria del Senado aceptó una apelación, la reforma pasó a la Comisión Cuarta y se aprobó en junio de 2025 con cambios: es la Ley 2466 de 2025.",
+   "split": {
+    "PH": [
+     3,
+     0,
+     0
+    ],
+    "COM": [
+     1,
+     0,
+     0
+    ],
+    "AV": [
+     1,
+     0,
+     0
+    ],
+    "U": [
+     1,
+     0,
+     0
+    ],
+    "LIB": [
+     1,
+     0,
+     0
+    ],
+    "PC": [
+     2,
+     0,
+     0
+    ],
+    "CD": [
+     2,
+     0,
+     0
+    ]
+   }
+  },
+  {
    "id": "consulta-popular",
    "theme": "trabajo",
    "date": "14 de mayo de 2025",
