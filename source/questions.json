@@ -53,7 +53,7 @@
   {
    "id": "reforma-pensional",
    "theme": "trabajo",
-   "date": "14 de junio de 2024",
+   "date": "3 de abril de 2024",
    "situation": "Más de la mitad de los colombianos en edad de jubilarse no recibe pensión. El Gobierno propone un sistema por pilares: un bono para adultos mayores pobres y la obligación de cotizar a Colpensiones sobre los primeros 2,3 salarios mínimos; el resto iría a los fondos privados. Los fondos y parte de la oposición advierten sobre el costo fiscal a largo plazo.",
    "question": "Esta reforma pensional:",
    "options": [
@@ -63,14 +63,21 @@
    "positions": {
     "PH": 0,
     "COM": 0,
+    "AV": 0,
     "LIB": 0,
     "U": 0,
-    "PC": 1
+    "PC": 1,
+    "CR": 1,
+    "CD": 1
    },
-   "actor": "Plenaria de la Cámara, votación para acoger el texto aprobado por el Senado: 86 votos a favor y 32 en contra.",
-   "nuance": "Alianza Verde se dividió (5 a favor, 4 en contra, 6 sin votar) y queda sin posición. Cambio Radical y el Centro Democrático no votaron; el Centro Democrático calificó el trámite de «tramposo» y anunció una demanda ante la Corte Constitucional.",
+   "actor": "Plenaria del Senado, votación de la ponencia negativa que pedía archivar la reforma (41 votos por archivarla y 50 en contra).",
+   "nuance": "El archivo se negó y la reforma siguió su curso. Votaron por archivarla el Centro Democrático en bloque y en su mayoría los conservadores (12 contra 1) y Cambio Radical (6 contra 1). La defendieron en bloque el Pacto Histórico y Comunes, y en su mayoría los liberales (10 contra 2), Alianza Verde (6 contra 1) y La U (7 contra 3).",
    "reliability": 3,
    "sources": [
+    {
+     "name": "Gaceta del Congreso 1711 de 2024 (acta de la plenaria del Senado del 3 de abril de 2024, con la votación nominal)",
+     "url": "https://sidn.ramajudicial.gov.co/SIDN/PUBLICACIONES%20PERIODICAS/TEXTO%20COMPLETO%20Y%20TABLAS%20DE%20CONTENIDO/GACETA%20DEL%20CONGRESO/GACETA%20DEL%20CONGRESO%202024/GC%201711%20DE%202024.PDF"
+    },
     {
      "name": "El Colombiano, «Así se votó la reforma pensional», 14 de junio de 2024",
      "url": "https://www.elcolombiano.com/colombia/asi-se-voto-la-reforma-pensional-DI24790056"
@@ -80,27 +87,47 @@
      "url": "https://www.bluradio.com/nacion/asi-votaron-la-proposicion-de-aprobacion-de-la-reforma-pensional-en-la-camara-rg10"
     }
    ],
-   "contexte": "La Cámara no debatió artículo por artículo: aprobó acoger el texto que ya había votado el Senado, lo que evitó la conciliación. Por eso la oposición denunció un vicio de trámite, y la Corte Constitucional devolvió después la ley a la Cámara para repetir ese paso.",
+   "contexte": "El Senado aprobó la reforma en abril de 2024. En junio, la Cámara no la debatió artículo por artículo: aprobó acoger el texto del Senado (86 votos contra 32), lo que evitó la conciliación. La oposición denunció un vicio de trámite, y la Corte Constitucional devolvió después la ley a la Cámara para repetir ese paso.",
    "split": {
     "PH": [
-     24,
-     3,
-     2
-    ],
-    "COM": [
-     5,
+     14,
      0,
      0
     ],
+    "COM": [
+     4,
+     0,
+     0
+    ],
+    "AV": [
+     6,
+     1,
+     0
+    ],
     "LIB": [
-     20,
-     8,
-     5
+     10,
+     2,
+     0
     ],
     "U": [
-     11,
-     2,
-     2
+     7,
+     3,
+     0
+    ],
+    "PC": [
+     12,
+     1,
+     0
+    ],
+    "CR": [
+     6,
+     1,
+     0
+    ],
+    "CD": [
+     10,
+     0,
+     0
     ]
    }
   },

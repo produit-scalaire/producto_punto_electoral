@@ -1,46 +1,46 @@
 {
  "_source": "Conteos por bancada de votaciones nominales del Congreso, tomados de la prensa que publica cómo votó cada congresista (fuente en cada entrada). Cada línea: [a favor, en contra, abstención o no votó estando en la sesión].",
  "reforma-pensional": {
-  "_fuente": "El Colombiano, 14 de junio de 2024 (Cámara); Blu Radio para Comunes",
-  "PH": [
-   24,
-   3,
-   2
+  "_fuente": "Gaceta 1711 de 2024, plenaria del Senado del 3 abr 2024, ponencia negativa (listas nominales cruzadas con el padrón de Congreso Visible); [sí al archivo, no, 0]",
+  "AV": [
+   1,
+   6,
+   0
   ],
-  "COM": [
-   5,
+  "CD": [
+   10,
    0,
    0
   ],
-  "AV": [
-   5,
+  "COM": [
+   0,
    4,
-   6
-  ],
-  "LIB": [
-   20,
-   8,
-   5
-  ],
-  "U": [
-   11,
-   2,
-   2
+   0
   ],
   "CR": [
-   0,
-   0,
-   19
+   6,
+   1,
+   0
+  ],
+  "LIB": [
+   2,
+   10,
+   0
   ],
   "PC": [
-   5,
-   10,
-   12
+   12,
+   1,
+   0
   ],
-  "CD": [
+  "PH": [
    0,
-   0,
-   16
+   14,
+   0
+  ],
+  "U": [
+   3,
+   7,
+   0
   ]
  },
  "consulta-popular": {
