@@ -156,5 +156,48 @@
    0,
    0
   ]
+ },
+ "reforma-salud-2025": {
+  "_fuente": "El Colombiano, listas nominales, marzo de 2025 (plenaria de la Cámara, título y pregunta).",
+  "PH": [
+   28,
+   0,
+   1
+  ],
+  "COM": [
+   5,
+   0,
+   0
+  ],
+  "AV": [
+   9,
+   0,
+   6
+  ],
+  "LIB": [
+   21,
+   2,
+   10
+  ],
+  "U": [
+   9,
+   0,
+   6
+  ],
+  "CR": [
+   0,
+   3,
+   16
+  ],
+  "PC": [
+   2,
+   14,
+   11
+  ],
+  "CD": [
+   0,
+   4,
+   12
+  ]
  }
 }
