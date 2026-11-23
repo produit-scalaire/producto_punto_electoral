@@ -1,0 +1,144 @@
+{
+ "version": "2026-11-23",
+ "parties": [
+  {
+   "id": "COM",
+   "name": "Comunes"
+  },
+  {
+   "id": "PH",
+   "name": "Pacto Histórico"
+  },
+  {
+   "id": "AV",
+   "name": "Alianza Verde"
+  },
+  {
+   "id": "LIB",
+   "name": "Partido Liberal"
+  },
+  {
+   "id": "U",
+   "name": "Partido de la U"
+  },
+  {
+   "id": "CR",
+   "name": "Cambio Radical"
+  },
+  {
+   "id": "PC",
+   "name": "Partido Conservador"
+  },
+  {
+   "id": "CD",
+   "name": "Centro Democrático"
+  }
+ ],
+ "themes": {
+  "vivienda": "Tener vivienda",
+  "trabajo": "Trabajar y envejecer",
+  "salud": "Tener salud",
+  "campo": "Tierra y campo",
+  "ambiente": "Ambiente y energía",
+  "transporte": "Moverse",
+  "impuestos": "Pagar y compartir",
+  "justicia": "Justicia y seguridad",
+  "paz": "Paz y conflicto",
+  "sociedad": "Convivir",
+  "educacion": "Estudiar",
+  "probidad": "Transparencia y corrupción",
+  "servicios": "Servicios públicos"
+ },
+ "questions": [
+  {
+   "id": "prueba-1",
+   "theme": "trabajo",
+   "date": "2022-2026",
+   "situation": "PREGUNTA DE PRUEBA. Aquí irá la descripción de una situación real, con fecha, tomada de una votación del Congreso.",
+   "question": "Pregunta de prueba 1:",
+   "options": [
+    "Opción A de prueba",
+    "Opción B de prueba"
+   ],
+   "positions": {
+    "COM": 1,
+    "PH": 1,
+    "AV": 1,
+    "LIB": 0,
+    "U": 0,
+    "CR": 0,
+    "PC": 0,
+    "CD": 0
+   },
+   "actor": "Dato de prueba, sin fuente real.",
+   "reliability": 1,
+   "sources": [
+    {
+     "name": "fuente pendiente",
+     "url": "https://www.camara.gov.co"
+    }
+   ],
+   "contexte": "Texto de contexto de prueba."
+  },
+  {
+   "id": "prueba-2",
+   "theme": "salud",
+   "date": "2022-2026",
+   "situation": "PREGUNTA DE PRUEBA. Aquí irá la descripción de una situación real, con fecha, tomada de una votación del Congreso.",
+   "question": "Pregunta de prueba 2:",
+   "options": [
+    "Opción A de prueba",
+    "Opción B de prueba"
+   ],
+   "positions": {
+    "COM": 0,
+    "PH": 0,
+    "AV": 0,
+    "LIB": 1,
+    "U": 1,
+    "CR": 1,
+    "PC": 1,
+    "CD": 1
+   },
+   "actor": "Dato de prueba, sin fuente real.",
+   "reliability": 1,
+   "sources": [
+    {
+     "name": "fuente pendiente",
+     "url": "https://www.camara.gov.co"
+    }
+   ]
+  },
+  {
+   "id": "prueba-3",
+   "theme": "paz",
+   "date": "2022-2026",
+   "situation": "PREGUNTA DE PRUEBA. Aquí irá la descripción de una situación real, con fecha, tomada de una votación del Congreso.",
+   "question": "Pregunta de prueba 3:",
+   "options": [
+    "Opción A de prueba",
+    "Opción B de prueba",
+    "Opción C de prueba"
+   ],
+   "ordered": true,
+   "positions": {
+    "COM": 0,
+    "PH": 0,
+    "AV": 1,
+    "LIB": 1,
+    "U": 2,
+    "CR": 2,
+    "PC": 2
+   },
+   "actor": "Dato de prueba, sin fuente real.",
+   "nuance": "Matiz de prueba.",
+   "reliability": 1,
+   "sources": [
+    {
+     "name": "fuente pendiente",
+     "url": "https://www.camara.gov.co"
+    }
+   ]
+  }
+ ]
+}
