@@ -1130,6 +1130,79 @@
      0
     ]
    }
+  },
+  {
+   "id": "campesinado-consulta-previa",
+   "theme": "campo",
+   "date": "25 de abril de 2023",
+   "situation": "Una reforma constitucional reconoce al campesinado como sujeto de especial protección, con derechos sobre la tierra, el territorio y la participación en las decisiones que lo afectan. Gremios como la ANDI temen que eso abra la puerta a una consulta previa para los campesinos, como la que tienen los pueblos indígenas y afrodescendientes. La senadora Paloma Valencia propone escribir en la Constitución que los campesinos no serán objeto de consulta previa.",
+   "question": "Agregar que los campesinos no tendrán consulta previa:",
+   "options": [
+    "Sí, dejarlo escrito",
+    "No, no hace falta"
+   ],
+   "positions": {
+    "CD": 0,
+    "LIB": 0,
+    "PC": 0,
+    "U": 0,
+    "PH": 1,
+    "COM": 1,
+    "AV": 1,
+    "CR": 1
+   },
+   "actor": "Plenaria del Senado, votación de la proposición que agregaba ese inciso al artículo 1 de la reforma (34 votos a favor y 43 en contra).",
+   "nuance": "La propuesta se negó. La apoyaron en bloque el Centro Democrático y los liberales, y en su mayoría los conservadores (6 contra 2) y La U (5 contra 1). La rechazaron en bloque el Pacto Histórico, Comunes y Cambio Radical, y la mayoría de Alianza Verde (4 contra 1). El ponente, Alexánder López, dijo que el texto no creaba ninguna consulta previa.",
+   "reliability": 3,
+   "sources": [
+    {
+     "name": "Gaceta del Congreso 607 de 2023 (acta de la plenaria del Senado del 25 de abril de 2023, con la votación nominal)",
+     "url": "https://sidn.ramajudicial.gov.co/SIDN/PUBLICACIONES%20PERIODICAS/TEXTO%20COMPLETO%20Y%20TABLAS%20DE%20CONTENIDO/GACETA%20DEL%20CONGRESO/GACETA%20DEL%20CONGRESO%202023/GC%200607%20DE%202023.PDF"
+    }
+   ],
+   "contexte": "La reforma se aprobó luego de forma casi unánime y quedó como Acto Legislativo 01 de 2023, que reconoce al campesinado como sujeto de derechos.",
+   "split": {
+    "CD": [
+     12,
+     0,
+     0
+    ],
+    "LIB": [
+     7,
+     0,
+     0
+    ],
+    "PC": [
+     6,
+     2,
+     0
+    ],
+    "U": [
+     5,
+     1,
+     0
+    ],
+    "PH": [
+     19,
+     0,
+     0
+    ],
+    "COM": [
+     5,
+     0,
+     0
+    ],
+    "AV": [
+     4,
+     1,
+     0
+    ],
+    "CR": [
+     6,
+     0,
+     0
+    ]
+   }
   }
  ]
 }
