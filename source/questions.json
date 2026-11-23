@@ -54,7 +54,7 @@
    "id": "reforma-pensional",
    "theme": "trabajo",
    "date": "3 de abril de 2024",
-   "situation": "Más de la mitad de los colombianos en edad de jubilarse no recibe pensión. El Gobierno propone un sistema por pilares: un bono para adultos mayores pobres y la obligación de cotizar a Colpensiones sobre los primeros 2,3 salarios mínimos; el resto iría a los fondos privados. Los fondos y parte de la oposición advierten sobre el costo fiscal a largo plazo.",
+   "situation": "Más de la mitad de los colombianos en edad de jubilarse no recibe pensión. El Gobierno propone un sistema por pilares: un bono para adultos mayores pobres y la obligación de cotizar a Colpensiones sobre los primeros 2,3 salarios mínimos; el resto iría a los fondos privados. Los fondos privados y sus críticos advierten sobre el costo fiscal a largo plazo.",
    "question": "Esta reforma pensional:",
    "options": [
     "La apruebo",
@@ -87,7 +87,7 @@
      "url": "https://www.bluradio.com/nacion/asi-votaron-la-proposicion-de-aprobacion-de-la-reforma-pensional-en-la-camara-rg10"
     }
    ],
-   "contexte": "El Senado aprobó la reforma en abril de 2024. En junio, la Cámara no la debatió artículo por artículo: aprobó acoger el texto del Senado (86 votos contra 32), lo que evitó la conciliación. La oposición denunció un vicio de trámite, y la Corte Constitucional devolvió después la ley a la Cámara para repetir ese paso.",
+   "contexte": "El Senado aprobó la reforma en abril de 2024. En junio, la Cámara no la debatió artículo por artículo: aprobó acoger el texto del Senado (86 votos contra 32), lo que evitó la conciliación. Los críticos denunciaron un vicio de trámite, y la Corte Constitucional devolvió después la ley a la Cámara para repetir ese paso.",
    "split": {
     "PH": [
      14,
@@ -135,7 +135,7 @@
    "id": "reforma-laboral-2025",
    "theme": "trabajo",
    "date": "18 de marzo de 2025",
-   "situation": "La reforma laboral del Gobierno, ya aprobada por la Cámara, paga más caro el trabajo nocturno y el de domingos y festivos y formaliza a aprendices y trabajadores de plataformas. Sus defensores dicen que devuelve derechos perdidos en 2002; los gremios y la oposición advierten que encarece la contratación y puede frenar el empleo formal. Ocho senadores de la Comisión Séptima presentan una ponencia para archivarla.",
+   "situation": "La reforma laboral del Gobierno, ya aprobada por la Cámara, paga más caro el trabajo nocturno y el de domingos y festivos y formaliza a aprendices y trabajadores de plataformas. Sus defensores dicen que devuelve derechos perdidos en 2002; los gremios y sus críticos advierten que encarece la contratación y puede frenar el empleo formal. Ocho senadores de la Comisión Séptima presentan una ponencia para archivarla.",
    "question": "Esta reforma laboral:",
    "options": [
     "Que siga su trámite",
@@ -465,7 +465,7 @@
      "url": "https://www.eltiempo.com/politica/congreso/gobierno-y-benedetti-se-anotan-victoria-en-la-camara-de-la-mano-de-conservadores-y-liberales-como-votaron-3433443"
     }
    ],
-   "contexte": "Las cifras por partido salen de las listas nominales publicadas por El Colombiano; la suma de esas listas da 90 a favor, 27 en contra y 70 sin votar. Después de la Cámara, la reforma seguía su trámite en el Senado.",
+   "contexte": "Después de la Cámara, la reforma seguía su trámite en el Senado.",
    "split": {
     "PH": [
      28,
@@ -532,7 +532,7 @@
      "url": "https://apicongresovisible.uniandes.edu.co/uploads/votacion/14404/gaceta_1739.pdf"
     }
    ],
-   "contexte": "Fue la primera gran ley del Gobierno Petro y se aprobó en sus primeros cien días. Los impuestos saludables a bebidas azucaradas y comida ultraprocesada empezaron a cobrarse de forma gradual a partir de noviembre de 2023.",
+   "contexte": "Fue la primera gran ley del Gobierno y se aprobó en sus primeros cien días. Los impuestos saludables a bebidas azucaradas y comida ultraprocesada empezaron a cobrarse de forma gradual a partir de noviembre de 2023.",
    "split": {
     "PH": [
      24,
@@ -580,7 +580,7 @@
    "id": "presupuesto-2023",
    "theme": "impuestos",
    "date": "18 de octubre de 2022",
-   "situation": "El primer presupuesto del gobierno Petro para 2023 suma 405,6 billones de pesos, unos 14 billones más que el proyecto original. Sube con fuerza la inversión en agricultura y educación, que llega a cerca de 55 billones. La oposición pide más recursos para la salud, la defensa y los subsidios de vivienda Mi Casa Ya.",
+   "situation": "El primer presupuesto del nuevo Gobierno, para 2023, suma 405,6 billones de pesos, unos 14 billones más que el proyecto original. Sube con fuerza la inversión en agricultura y educación, que llega a cerca de 55 billones. Sus críticos piden más recursos para la salud, la defensa y los subsidios de vivienda Mi Casa Ya.",
    "question": "Este presupuesto general para 2023:",
    "options": [
     "Lo apruebo",
@@ -657,7 +657,7 @@
    "id": "impuesto-iglesias",
    "theme": "sociedad",
    "date": "2 de noviembre de 2022",
-   "situation": "Las iglesias y confesiones religiosas no pagan impuesto de renta. La reforma tributaria del Gobierno incluía un artículo para que pagaran impuestos por sus actividades comerciales, las que no son del culto. El Centro Democrático propuso eliminarlo, en nombre de la libertad religiosa.",
+   "situation": "Las iglesias y confesiones religiosas no pagan impuesto de renta. La reforma tributaria del Gobierno incluía un artículo para que pagaran impuestos por sus actividades comerciales, las que no son del culto. Un grupo de senadores propuso eliminarlo, en nombre de la libertad religiosa.",
    "question": "Cobrarles impuestos a las iglesias por sus actividades comerciales:",
    "options": [
     "Sí, que paguen por esas actividades",
@@ -686,7 +686,7 @@
      "url": "https://congresovisible.uniandes.edu.co/proyectos-de-ley/x/12558/"
     }
    ],
-   "contexte": "El artículo se eliminó en el Senado. Los conteos por bancada salen de las listas de votantes publicadas en la Gaceta.",
+   "contexte": "El artículo se eliminó en el Senado.",
    "split": {
     "PH": [
      15,
@@ -746,10 +746,11 @@
     "AV": 0,
     "LIB": 0,
     "U": 1,
-    "CD": 1
+    "CD": 1,
+    "PC": 1
    },
    "actor": "Plenaria del Senado, votación de las propuestas para eliminar el artículo 45 de la reforma tributaria (31 votos por eliminarlo y 42 en contra).",
-   "nuance": "El Centro Democrático votó en bloque por eliminarlo, y el Pacto Histórico y Comunes en bloque por mantenerlo. Las demás bancadas se dividieron: Alianza Verde (4 contra 3) y los liberales (6 contra 3) se inclinaron por mantenerlo, y La U por eliminarlo (3 contra 0). Los conservadores se partieron casi en dos (7 por eliminarlo y 6 por mantenerlo) y casi todo Cambio Radical no votó: quedan sin posición.",
+   "nuance": "El Centro Democrático votó en bloque por eliminarlo, y el Pacto Histórico y Comunes en bloque por mantenerlo. Las demás bancadas se dividieron: Alianza Verde (4 contra 3) y los liberales (6 contra 3) se inclinaron por mantenerlo, y La U por eliminarlo (3 contra 0). Los conservadores se partieron casi en dos, con mayoría por eliminarlo (7 contra 6). Casi todo Cambio Radical no votó y queda sin posición.",
    "reliability": 3,
    "sources": [
     {
@@ -757,7 +758,7 @@
      "url": "https://apicongresovisible.uniandes.edu.co/uploads/votacion/14430/gaceta_121.pdf"
     }
    ],
-   "contexte": "La eliminación se negó. El artículo se aprobó luego por 54 votos contra 19, con cambios pedidos por conservadores y liberales (excluir algunos alimentos y aplazar el cobro). El impuesto empezó a cobrarse en noviembre de 2023.",
+   "contexte": "La eliminación se negó. El artículo se aprobó luego por 54 votos contra 19, con cambios pedidos en el debate (excluir algunos alimentos y aplazar el cobro). El impuesto empezó a cobrarse en noviembre de 2023.",
    "split": {
     "PH": [
      18,
@@ -788,6 +789,11 @@
      10,
      0,
      0
+    ],
+    "PC": [
+     7,
+     6,
+     0
     ]
    }
   },
@@ -795,7 +801,7 @@
    "id": "impuesto-plasticos",
    "theme": "ambiente",
    "date": "2 de noviembre de 2022",
-   "situation": "La reforma tributaria crea un impuesto a los plásticos de un solo uso que se usan para envasar, embalar o empacar productos. Quienes lo defienden recuerdan que esa basura tapa alcantarillas y contamina ríos y mares. El Centro Democrático propone eliminarlo: dice que gran parte de la canasta básica viene en esos empaques y que el impuesto terminará subiendo los precios.",
+   "situation": "La reforma tributaria crea un impuesto a los plásticos de un solo uso que se usan para envasar, embalar o empacar productos. Quienes lo defienden recuerdan que esa basura tapa alcantarillas y contamina ríos y mares. Un grupo de senadores propone eliminarlo: dice que gran parte de la canasta básica viene en esos empaques y que el impuesto terminará subiendo los precios.",
    "question": "Cobrar un impuesto a los plásticos de un solo uso:",
    "options": [
     "Sí, cobrarlo",
@@ -868,7 +874,7 @@
    "id": "pension-semanas-mujeres",
    "theme": "trabajo",
    "date": "17 de abril de 2024",
-   "situation": "La reforma pensional reconoce el trabajo no remunerado de las madres: por cada hijo, una mujer puede descontar 50 semanas de las que le exige Colpensiones, hasta con tres hijos. El texto del Gobierno fijaba un mínimo de 1.150 semanas. El senador Honorio Henríquez (Centro Democrático) propuso bajar ese mínimo a 850 semanas.",
+   "situation": "La reforma pensional reconoce el trabajo no remunerado de las madres: por cada hijo, una mujer puede descontar 50 semanas de las que le exige Colpensiones, hasta con tres hijos. El texto del Gobierno fijaba un mínimo de 1.150 semanas. Un senador propuso bajar ese mínimo a 850 semanas.",
    "question": "El mínimo de semanas para las madres que se acogen a ese descuento:",
    "options": [
     "Bajarlo a 850 semanas",
@@ -893,7 +899,7 @@
      "url": "https://sidn.ramajudicial.gov.co/SIDN/PUBLICACIONES%20PERIODICAS/TEXTO%20COMPLETO%20Y%20TABLAS%20DE%20CONTENIDO/GACETA%20DEL%20CONGRESO/GACETA%20DEL%20CONGRESO%202024/GC%201813%20DE%202024.PDF"
     }
    ],
-   "contexte": "Quienes defendían la propuesta citaron la Corte Constitucional, que había ordenado reducir las semanas exigidas a las mujeres hasta 1.000. Los conteos por bancada salen de las listas de votantes publicadas en la Gaceta.",
+   "contexte": "Quienes defendían la propuesta citaron la Corte Constitucional, que había ordenado reducir las semanas exigidas a las mujeres hasta 1.000.",
    "split": {
     "CD": [
      9,
@@ -1018,7 +1024,7 @@
    "id": "censura-irene-velez",
    "theme": "ambiente",
    "date": "29 de marzo de 2023",
-   "situation": "La ministra de Minas y Energía, Irene Vélez, defiende no firmar nuevos contratos de exploración de petróleo y gas, como parte de la transición energética. Senadores de oposición promueven una moción de censura para sacarla del cargo.",
+   "situation": "La ministra de Minas y Energía defiende no firmar nuevos contratos de exploración de petróleo y gas, como parte de la transición energética. Un grupo de senadores promueve una moción de censura para sacarla del cargo.",
    "question": "La moción de censura contra la ministra de Minas:",
    "options": [
     "La rechazo",
@@ -1031,10 +1037,11 @@
     "LIB": 0,
     "U": 0,
     "PC": 0,
-    "CD": 1
+    "CD": 1,
+    "CR": 1
    },
    "actor": "Plenaria del Senado, votación de la moción de censura (16 votos a favor y 58 en contra).",
-   "nuance": "Solo el Centro Democrático la apoyó en bloque. Cambio Radical se dividió (3 a favor y 2 en contra) y queda sin posición. Los conservadores votaron casi todos en contra (8 contra 1).",
+   "nuance": "Solo el Centro Democrático la apoyó en bloque. Cambio Radical se dividió, con mayoría a favor (3 contra 2). Los conservadores votaron casi todos en contra (8 contra 1).",
    "reliability": 3,
    "sources": [
     {
@@ -1077,6 +1084,11 @@
     "CD": [
      10,
      0,
+     0
+    ],
+    "CR": [
+     3,
+     2,
      0
     ]
    }
@@ -1156,7 +1168,7 @@
    "id": "ministerio-igualdad",
    "theme": "sociedad",
    "date": "12 de diciembre de 2022",
-   "situation": "El Gobierno propone crear el Ministerio de Igualdad y Equidad, a cargo de la vicepresidenta Francia Márquez, para coordinar las políticas para mujeres, jóvenes, población LGBTIQ+, pueblos étnicos, personas con discapacidad y habitantes de los territorios más pobres. Sus críticos dicen que agranda el Estado y duplica funciones que ya existen.",
+   "situation": "El Gobierno propone crear el Ministerio de Igualdad y Equidad, a cargo de la vicepresidenta, para coordinar las políticas para mujeres, jóvenes, población LGBTIQ+, pueblos étnicos, personas con discapacidad y habitantes de los territorios más pobres. Sus críticos dicen que agranda el Estado y duplica funciones que ya existen.",
    "question": "Crear el Ministerio de Igualdad y Equidad:",
    "options": [
     "Sí, crearlo",
@@ -1258,7 +1270,7 @@
      "url": "https://sidn.ramajudicial.gov.co/SIDN/PUBLICACIONES%20PERIODICAS/TEXTO%20COMPLETO%20Y%20TABLAS%20DE%20CONTENIDO/GACETA%20DEL%20CONGRESO/GACETA%20DEL%20CONGRESO%202023/GC%200016%20DE%202023.PDF"
     }
    ],
-   "contexte": "Es uno de los pocos votos de libre comercio de este Congreso. Los conteos por bancada salen de las listas de votantes publicadas en la Gaceta.",
+   "contexte": "Es uno de los pocos votos de libre comercio de este Congreso.",
    "split": {
     "PH": [
      9,
@@ -1306,7 +1318,7 @@
    "id": "campesinado-consulta-previa",
    "theme": "campo",
    "date": "25 de abril de 2023",
-   "situation": "Una reforma constitucional reconoce al campesinado como sujeto de especial protección, con derechos sobre la tierra, el territorio y la participación en las decisiones que lo afectan. Gremios como la ANDI temen que eso abra la puerta a una consulta previa para los campesinos, como la que tienen los pueblos indígenas y afrodescendientes. La senadora Paloma Valencia propone escribir en la Constitución que los campesinos no serán objeto de consulta previa.",
+   "situation": "Una reforma constitucional reconoce al campesinado como sujeto de especial protección, con derechos sobre la tierra, el territorio y la participación en las decisiones que lo afectan. Gremios como la ANDI temen que eso abra la puerta a una consulta previa para los campesinos, como la que tienen los pueblos indígenas y afrodescendientes. Una senadora propone escribir en la Constitución que los campesinos no serán objeto de consulta previa.",
    "question": "Agregar que los campesinos no tendrán consulta previa:",
    "options": [
     "Sí, dejarlo escrito",
@@ -1446,7 +1458,7 @@
    "id": "pnd-comision-verdad",
    "theme": "paz",
    "date": "2 de mayo de 2023",
-   "situation": "El Plan Nacional de Desarrollo 2022-2026 incluye un artículo que obliga a las entidades del orden nacional a acoger, de forma progresiva, las recomendaciones del informe final de la Comisión de la Verdad. El Gobierno dice que cada entidad las adoptará y que lo que necesite una ley pasará por el Congreso. Los senadores Carlos Fernando Motoa, Paloma Valencia y Honorio Henríquez piden eliminarlo: según ellos, convierte en obligatorias decenas de recomendaciones sobre la Fuerza Pública, la elección del fiscal y la política de paz.",
+   "situation": "El Plan Nacional de Desarrollo 2022-2026 incluye un artículo que obliga a las entidades del orden nacional a acoger, de forma progresiva, las recomendaciones del informe final de la Comisión de la Verdad. El Gobierno dice que cada entidad las adoptará y que lo que necesite una ley pasará por el Congreso. Un grupo de senadores pide eliminarlo: según ellos, convierte en obligatorias decenas de recomendaciones sobre la Fuerza Pública, la elección del fiscal y la política de paz.",
    "question": "Que las entidades del Estado acojan las recomendaciones de la Comisión de la Verdad:",
    "options": [
     "Sí, mantener el artículo",
@@ -1519,7 +1531,7 @@
    "id": "pnd-concesiones-forestales",
    "theme": "ambiente",
    "date": "2 de mayo de 2023",
-   "situation": "El Plan Nacional de Desarrollo crea concesiones forestales campesinas: en las zonas de reserva forestal (no en los parques nacionales), campesinos que ya viven allí podrían usar el bosque hasta por 30 años, con la obligación de conservarlo. La ministra de Ambiente, Susana Muhamad, dice que es la forma de frenar la deforestación con los campesinos y no contra ellos. Los senadores José David Name, Paloma Valencia y Miguel Uribe piden eliminar el artículo: temen que abra las reservas a la explotación y termine arrasando el bosque.",
+   "situation": "El Plan Nacional de Desarrollo crea concesiones forestales campesinas: en las zonas de reserva forestal (no en los parques nacionales), campesinos que ya viven allí podrían usar el bosque hasta por 30 años, con la obligación de conservarlo. La ministra de Ambiente dice que es la forma de frenar la deforestación con los campesinos y no contra ellos. Un grupo de senadores pide eliminar el artículo: temen que abra las reservas a la explotación y termine arrasando el bosque.",
    "question": "Dar a campesinos concesiones de hasta 30 años en zonas de reserva forestal:",
    "options": [
     "Sí, mantener el artículo",
@@ -1592,7 +1604,7 @@
    "id": "transferencias-energia-renovable",
    "theme": "ambiente",
    "date": "2 de mayo de 2023",
-   "situation": "Las plantas de energía solar y eólica pagan a los municipios y a las corporaciones ambientales de su zona un 1 % de sus ventas de energía, mucho menos que las hidroeléctricas y las térmicas. Un artículo del Plan Nacional de Desarrollo sube ese pago al 6 %. Senadores del Centro Democrático, Cambio Radical y Alianza Verde piden eliminarlo: dicen que es un impuesto que frena las energías limpias justo cuando el país quiere hacer la transición energética.",
+   "situation": "Las plantas de energía solar y eólica pagan a los municipios y a las corporaciones ambientales de su zona un 1 % de sus ventas de energía, mucho menos que las hidroeléctricas y las térmicas. Un artículo del Plan Nacional de Desarrollo sube ese pago al 6 %. Un grupo de senadores pide eliminarlo: dicen que es un impuesto que frena las energías limpias justo cuando el país quiere hacer la transición energética.",
    "question": "Subir del 1 % al 6 % lo que pagan las plantas solares y eólicas:",
    "options": [
     "Sí, subirlo",
@@ -1665,7 +1677,7 @@
    "id": "congresistas-otra-actividad",
    "theme": "probidad",
    "date": "22 de agosto de 2023",
-   "situation": "La Constitución prohíbe a los congresistas desempeñar otro cargo o empleo, para que se dediquen solo a su labor. En el debate de un proyecto para bajarles el salario, el senador Carlos Meisel (Centro Democrático) propuso un artículo nuevo: que los congresistas puedan desempeñar otra actividad económica.",
+   "situation": "La Constitución prohíbe a los congresistas desempeñar otro cargo o empleo, para que se dediquen solo a su labor. En el debate de un proyecto para bajarles el salario, un senador propuso un artículo nuevo: que los congresistas puedan desempeñar otra actividad económica.",
    "question": "Permitir que los congresistas tengan otra actividad económica:",
    "options": [
     "Sí, permitirlo",
@@ -1732,7 +1744,7 @@
    "id": "gas-vivienda-social",
    "theme": "vivienda",
    "date": "11 de diciembre de 2023",
-   "situation": "Hoy quien recibe una vivienda de interés social o prioritario tiene que pagar por su cuenta la conexión al gas natural, y cerca de 1,8 millones de colombianos todavía cocinan con leña o carbón. Un proyecto, con ponencia de la senadora Ana María Castañeda (Cambio Radical), obliga a entregar esas viviendas conectadas al gas por redes, con un subsidio del 70 % del costo de la conexión. El Pacto Histórico lo rechaza: dice que va en contra de la sustitución de energías que plantea el Plan Nacional de Desarrollo y que tiene un costo fiscal sin respaldo.",
+   "situation": "Hoy quien recibe una vivienda de interés social o prioritario tiene que pagar por su cuenta la conexión al gas natural, y cerca de 1,8 millones de colombianos todavía cocinan con leña o carbón. Un proyecto de ley obliga a entregar esas viviendas conectadas al gas por redes, con un subsidio del 70 % del costo de la conexión. Sus críticos lo rechazan: dicen que va en contra de la sustitución de energías que plantea el Plan Nacional de Desarrollo y que tiene un costo fiscal sin respaldo.",
    "question": "Entregar las viviendas de interés social con conexión al gas natural, con subsidio:",
    "options": [
     "Sí, aprobar el proyecto",

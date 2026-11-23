@@ -203,8 +203,8 @@ const PRIOR=2; // weight of a neutral prior: a party with few known positions is
 let DATA=null,S=null;
 
 function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
-/* Cohesión: parte neta de la bancada que votó según su posición ((a favor − en contra) / votantes, abstenciones incluidas). 1 si se desconoce. */
-function coh(q,pid){const c=q.split&&q.split[pid];if(!c)return 1;const t=c[0]+c[1]+c[2];return t?(c[0]-c[1])/t:1;}
+/* Cada bancada cuenta con su posición mayoritaria y peso completo: la división interna no cambia el cálculo (igual para todas las bancadas). */
+function coh(q,pid){return 1;}
 function cohTxt(q,pid){const c=q.split&&q.split[pid];if(!c)return "";const t=c[0]+c[1]+c[2];return `${Math.round(100*c[0]/t)} % de la bancada (${c[0]} en ese sentido, ${c[1]} en sentido contrario, ${c[2]} abst.)`;}
 function agree(q,u,p){if(q.ordered&&q.options.length>2)return 1-2*Math.abs(u-p)/(q.options.length-1);return u===p?1:-1;}
 
@@ -399,7 +399,7 @@ function renderResults(){
   </div>
   <div class="card">
     <h3>Sus respuestas, pregunta por pregunta</h3>
-    <p class="label">Para cada pregunta, su importancia multiplicada por el acuerdo (+1 misma elección, −1 elección opuesta). Cuando una bancada se dividió, el acuerdo se multiplica por su cohesión: la parte de sus congresistas que votó con la bancada, menos la que votó en contra. La suma, frente al total posible, da el porcentaje. Toque una pregunta para ver el contexto, las fuentes y cambiar su respuesta.</p>
+    <p class="label">Para cada pregunta, su importancia multiplicada por el acuerdo (+1 misma elección, −1 elección opuesta). La suma, frente al total posible, da el porcentaje. Toque una pregunta para ver el contexto, las fuentes y cambiar su respuesta.</p>
     <label class="label">Comparar con <select id="calc-p">${all.filter(o=>o.n).map(o=>`<option value="${o.p.id}">${esc(o.p.name)}</option>`).join("")}</select></label>
     <div id="calc"></div>
   </div>
