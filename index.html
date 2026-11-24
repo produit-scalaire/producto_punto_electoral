@@ -324,21 +324,27 @@ const PARTIES=[
  {id:&quot;U&quot;,name:&quot;La U&quot;,x:5.71},{id:&quot;CR&quot;,name:&quot;Cambio Radical&quot;,x:7.14},{id:&quot;PC&quot;,name:&quot;Conservador&quot;,x:8.57},{id:&quot;CD&quot;,name:&quot;Centro Democrático&quot;,x:10}];
 /* Ejes: votaciones reales del Congreso 2022-2026. +1 a favor, −1 en contra; un partido dividido, ausente o sin posición conocida no aparece (vale 0). */
 const AXES=[
- {id:&quot;pens&quot;,short:&quot;Reforma pensional&quot;,pour:&quot;Aprobar la reforma pensional del Gobierno Petro (sistema de pilares, con más aportes a Colpensiones)&quot;,date:&quot;14 de junio de 2024, Cámara&quot;,
-  p:{COM:1,PH:1,LIB:1,U:1,PC:-1},
-  note:&quot;Pacto Histórico, Comunes, los liberales y La U votan a favor. Los conservadores votan sobre todo en contra (5 a favor, 10 en contra). Alianza Verde se divide (5 a favor, 4 en contra), y Cambio Radical y el Centro Democrático no votan.&quot;,src:&quot;https://www.elcolombiano.com/colombia/asi-se-voto-la-reforma-pensional-DI24790056&quot;,srcName:&quot;El Colombiano&quot;},
- {id:&quot;cons&quot;,short:&quot;Consulta popular laboral&quot;,pour:&quot;Convocar la consulta popular del Gobierno sobre la reforma laboral&quot;,date:&quot;14 de mayo de 2025, Senado&quot;,
+ {id:&quot;pens&quot;,short:&quot;Reforma pensional&quot;,pour:&quot;Aprobar la reforma pensional (sistema de pilares, con más aportes a Colpensiones)&quot;,date:&quot;3 de abril de 2024, Senado&quot;,
+  p:{COM:1,PH:1,AV:1,LIB:1,U:1,CR:-1,PC:-1,CD:-1},
+  note:&quot;El Senado niega el archivo por 50 votos contra 41. Pacto Histórico y Comunes defienden la reforma en bloque, y la mayoría de los liberales (10 contra 2), Alianza Verde (6 contra 1) y La U (7 contra 3) también. El Centro Democrático vota en bloque por archivarla, y la mayoría de los conservadores (12 contra 1) y de Cambio Radical (6 contra 1) también.&quot;,src:&quot;https://sidn.ramajudicial.gov.co/SIDN/PUBLICACIONES%20PERIODICAS/TEXTO%20COMPLETO%20Y%20TABLAS%20DE%20CONTENIDO/GACETA%20DEL%20CONGRESO/GACETA%20DEL%20CONGRESO%202024/GC%201711%20DE%202024.PDF&quot;,srcName:&quot;Gaceta del Congreso 1711 de 2024&quot;},
+ {id:&quot;cons&quot;,short:&quot;Consulta popular laboral&quot;,pour:&quot;Convocar una consulta popular sobre la reforma laboral&quot;,date:&quot;14 de mayo de 2025, Senado&quot;,
   p:{COM:1,PH:1,AV:1,U:1,CR:-1,PC:-1,CD:-1},
   note:&quot;El Senado la hunde por 49 votos contra 47. Pacto Histórico, Comunes y casi toda Alianza Verde votan sí; La U también, aunque dividida (6 a favor, 4 en contra). Centro Democrático, Conservador y Cambio Radical votan en bloque por el no. Los liberales se parten: 6 de sus 13 senadores votan no.&quot;,src:&quot;https://radionacional.co/actualidad/politica/senadores-que-dijeron-no-la-consulta-popular&quot;,srcName:&quot;Radio Nacional&quot;},
  {id:&quot;esc&quot;,short:&quot;Acuerdo de Escazú&quot;,pour:&quot;Ratificar el Acuerdo de Escazú sobre acceso a la información, participación y justicia en asuntos ambientales&quot;,date:&quot;10 de octubre de 2022, Cámara&quot;,
   p:{COM:1,PH:1,AV:1,LIB:1,U:1,PC:1,CD:-1},
-  note:&quot;121 votos a favor y uno en contra. El Centro Democrático presenta ponencia negativa y se retira del recinto, igual que Cambio Radical, que había pedido aplazar el debate. Los demás partidos, incluidos los conservadores, quedan en el recinto y aportan los votos a favor.&quot;,src:&quot;https://www.portafolio.co/economia/finanzas/congreso-ratifico-el-acuerdo-de-escazu-tras-tres-anos-de-su-firma-572422&quot;,srcName:&quot;Portafolio&quot;}];
+  note:&quot;121 votos a favor y uno en contra. El Centro Democrático presenta ponencia negativa y se retira del recinto, igual que Cambio Radical, que había pedido aplazar el debate. Los demás partidos, incluidos los conservadores, quedan en el recinto y aportan los votos a favor.&quot;,src:&quot;https://www.portafolio.co/economia/finanzas/congreso-ratifico-el-acuerdo-de-escazu-tras-tres-anos-de-su-firma-572422&quot;,srcName:&quot;Portafolio&quot;},
+ {id:&quot;velec&quot;,short:&quot;Voto electrónico&quot;,pour:&quot;Mantener el voto electrónico (mixto y totalmente electrónico) en el Código Electoral&quot;,date:&quot;16 de mayo de 2023, Senado&quot;,
+  p:{PC:1,CR:1,LIB:1,U:1,AV:-1,CD:-1,COM:-1,PH:-1},
+  note:&quot;El Senado niega por 39 votos contra 25 las propuestas para eliminarlo o limitarlo. Cambio Radical, los liberales y La U lo defienden en bloque, y la mayoría de los conservadores (6 contra 4) también. Comunes, la mayoría del Centro Democrático (8 contra 2), de Alianza Verde (4 contra 1) y del Pacto Histórico (6 contra 4) votan por eliminarlo o limitarlo.&quot;,src:&quot;https://sidn.ramajudicial.gov.co/SIDN/PUBLICACIONES%20PERIODICAS/TEXTO%20COMPLETO%20Y%20TABLAS%20DE%20CONTENIDO/GACETA%20DEL%20CONGRESO/GACETA%20DEL%20CONGRESO%202023/GC%201257%20DE%202023.PDF&quot;,srcName:&quot;Gaceta del Congreso 1257 de 2023&quot;},
+ {id:&quot;cuid&quot;,short:&quot;Cuidadoras de animales&quot;,pour:&quot;Incluir a las mujeres cuidadoras de animales rescatados entre las poblaciones del Ministerio de Igualdad&quot;,date:&quot;12 de diciembre de 2022, Senado&quot;,
+  p:{AV:1,CR:1,PH:-1,COM:-1,LIB:-1,U:-1,PC:-1,CD:-1},
+  note:&quot;El Senado lo niega por 50 votos contra 23. Lo apoya la mayoría de Alianza Verde (4 contra 2) y de Cambio Radical (2 contra 1). Comunes y La U votan en contra en bloque, y la mayoría del Pacto Histórico (14 contra 4), del Centro Democrático (7 contra 1), de los conservadores (6 contra 4) y de los liberales (5 contra 3) también.&quot;,src:&quot;https://sidn.ramajudicial.gov.co/SIDN/PUBLICACIONES%20PERIODICAS/TEXTO%20COMPLETO%20Y%20TABLAS%20DE%20CONTENIDO/GACETA%20DEL%20CONGRESO/GACETA%20DEL%20CONGRESO%202023/GC%200244%20DE%202023.PDF&quot;,srcName:&quot;Gaceta del Congreso 244 de 2023&quot;}];
 const LINE_SUBJ=[&quot;pens&quot;,&quot;cons&quot;,&quot;esc&quot;];
 const SHORTN={PH:&quot;Pacto&quot;,AV:&quot;Verde&quot;,CR:&quot;C. Radical&quot;,PC:&quot;Conserv.&quot;,CD:&quot;C. Dem.&quot;}; /* en celular, nombres cortos en la línea para evitar choques */
 const N=AXES.length,vec=pid=>AXES.map(a=>a.p[pid]||0);
 
 /* una persona de ejemplo: la animación explica, el cuestionario viene después */
-const state={step:0,subj:0,party:null,cmp:null,you:{pens:{v:1,w:2},cons:{v:-1,w:3},esc:{v:1,w:2}}};
+const state={step:0,subj:0,party:null,cmp:null,you:{pens:{v:1,w:2},cons:{v:-1,w:3},esc:{v:1,w:2},velec:{v:-1,w:1},cuid:{v:1,w:1}}};
 const done=id=>state.you[id].v!==null&amp;&amp;state.you[id].w!==null;
 const U=id=>done(id)?state.you[id]:{v:0,w:0};
 const nDone=()=>AXES.filter(a=>done(a.id)).length;
@@ -429,7 +435,7 @@ function draw(){svg.replaceChildren();const s=state.step,ink=css(&quot;--ink&quo
 /* tabla lado a lado: una fila por tema, tu posición (anillo) y la del partido (punto), luego el producto */
 /* reduce una etiqueta demasiado larga para su espacio (las fuentes de respaldo de los celulares son más anchas) */
 function fitText(e,max){try{const l=e.getComputedTextLength();if(l>max){const fs=parseFloat(getComputedStyle(e).fontSize)||15;e.style.fontSize=(fs*max/l).toFixed(2)+&quot;px&quot;;}}catch(_){}return e;}
-function drawRows(pid,prod){const ink=css(&quot;--ink&quot;),mut=css(&quot;--muted&quot;),X0=250,X1=470,XC=(X0+X1)/2,Y0=120,RH=84,PX=590;
+function drawRows(pid,prod){const ink=css(&quot;--ink&quot;),mut=css(&quot;--muted&quot;),X0=250,X1=470,XC=(X0+X1)/2,Y0=120,RH=Math.min(84,380/N),PX=590;
   const u=AXES.map(a=>U(a.id)),pv=pid?vec(pid):null,pc=pid?css(&quot;--p-&quot;+pid):null,pname=pid?PARTIES.find(p=>p.id===pid).name:&quot;&quot;;
   [[&quot;−&quot;,X0],[&quot;0&quot;,XC],[&quot;+&quot;,X1]].forEach(([t,x])=>txt(t,{x,y:Y0-40,class:&quot;sign&quot;,&quot;text-anchor&quot;:&quot;middle&quot;}));
   if(prod)txt(&quot;PRODUCTO&quot;,{x:PX,y:Y0-42,class:&quot;cap&quot;,&quot;text-anchor&quot;:&quot;middle&quot;});
