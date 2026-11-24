@@ -1,0 +1,23 @@
+{
+ "_descripcion": "Corroboración de los conteos por bancada contra las fuentes oficiales (actas de la Gaceta del Congreso y registros de votación). Estados: coincide, corregido, discrepancia, acta no encontrada.",
+ "votaciones": {
+  "consulta-popular": {
+   "revision": "2026-11-24",
+   "acta": "https://img.lalr.co/cms/2025/05/15090237/CERTIFICACION-CONSULTA-PROPULAR-2.pdf",
+   "estado": "corregido",
+   "diferencias": "El acta de la plenaria del 14 de mayo de 2025 no se encontró en la Gaceta (SIDN no la tiene y la Imprenta no permite buscar por contenido); se usó la certificación nominal firmada por el Secretario General del Senado (47 sí, 49 no, igual al total de prensa), cruzada con el padrón de Congreso Visible. Cambios: PH 22→19 sí; AV [5,1,1]→[8,2,0]; LIB sin dato→[7,6,0] (posición: sí, débil); COM, U, CR, PC y CD coinciden. Las diferencias en PH y AV vienen de la bancada asignada a senadores elegidos en las listas de coalición. Pendiente: cotejar con el acta cuando se publique en la Gaceta."
+  },
+  "reforma-salud-2025": {
+   "revision": "2026-11-24",
+   "acta": "https://apicongresovisible.uniandes.edu.co/uploads/proyecto-ley/14137/691/25,%20700/25,%20775/25,%20776/25,%201018/25.pdf",
+   "estado": "discrepancia",
+   "diferencias": "Gaceta 1018 de 2025, Acta 222 de la plenaria de la Cámara del 6 de marzo de 2025 (votación del título y la pregunta): 90 sí y 28 no (la pregunta decía 27 en contra; se corrigió el total). El acta solo nombra los votos manuales (18 sí, 7 no); el registro electrónico no se insertó («INSERTAR VOTACIÓN 14 PDF»), así que el conteo por bancada de la prensa no se pudo cotejar y no se tocó."
+  },
+  "reforma-laboral-2025": {
+   "revision": "2026-11-24",
+   "acta": "https://apicongresovisible.uniandes.edu.co/uploads/proyecto-ley/13271/290/25,%20607/25,%20608/25,%20613/25.pdf",
+   "estado": "coincide",
+   "diferencias": "Acta 31 de la Comisión Séptima del Senado (Gaceta 613 de 2025): 8 sí al archivo, 6 no, con voto nominal de cada senador; coincide nombre por nombre con la prensa. Nota: Sor Berenice Bedoya (sí al archivo) figura en Congreso Visible en la coalición Alianza Verde-Centro Esperanza; aquí se cuenta como partido pequeño, como en la prensa. Si se contara en AV, AV quedaría 1-1 y sin posición."
+  }
+ }
+}

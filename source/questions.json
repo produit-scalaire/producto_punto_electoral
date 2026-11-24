@@ -155,6 +155,10 @@
    "reliability": 2,
    "sources": [
     {
+     "name": "Gaceta del Congreso 613 de 2025, Acta 31 de la Comisión Séptima del Senado (18 de marzo de 2025), votación nominal",
+     "url": "https://apicongresovisible.uniandes.edu.co/uploads/proyecto-ley/13271/290/25,%20607/25,%20608/25,%20613/25.pdf"
+    },
+    {
      "name": "Vanguardia, «Uno a uno: estos fueron los congresistas de la Comisión Séptima que hundieron la reforma laboral», 18 de marzo de 2025",
      "url": "https://www.vanguardia.com/politica/2025/03/18/uno-a-uno-estos-fueron-los-congresistas-de-la-comision-septima-que-hundieron-la-reforma-laboral/"
     },
@@ -216,15 +220,20 @@
     "PH": 0,
     "COM": 0,
     "AV": 0,
+    "LIB": 0,
     "U": 0,
     "CR": 1,
     "PC": 1,
     "CD": 1
    },
    "actor": "Plenaria del Senado: 47 votos a favor y 49 en contra; la consulta no fue convocada.",
-   "nuance": "La U votó dividida (6 por el sí, 4 por el no). Los liberales se partieron: 6 de sus 13 senadores votaron no y el resto no fue detallado por la prensa, así que quedan sin posición. Semanas después el Congreso revivió y aprobó la reforma laboral.",
+   "nuance": "La U votó dividida (6 por el sí, 4 por el no) y los liberales casi por mitades (7 por el sí, 6 por el no), así que la ubicación liberal es débil. Alianza Verde votó 8 a 2 por el sí. Semanas después el Congreso revivió y aprobó la reforma laboral.",
    "reliability": 3,
    "sources": [
+    {
+     "name": "Secretaría General del Senado, certificación de la votación nominal de la consulta popular, sesión plenaria del 14 de mayo de 2025",
+     "url": "https://img.lalr.co/cms/2025/05/15090237/CERTIFICACION-CONSULTA-PROPULAR-2.pdf"
+    },
     {
      "name": "Radio Nacional, senadores que votaron no, 15 de mayo de 2025",
      "url": "https://radionacional.co/actualidad/politica/senadores-que-dijeron-no-la-consulta-popular"
@@ -236,7 +245,7 @@
    ],
    "split": {
     "PH": [
-     22,
+     19,
      0,
      0
     ],
@@ -246,9 +255,14 @@
      0
     ],
     "AV": [
-     5,
-     1,
-     1
+     8,
+     2,
+     0
+    ],
+    "LIB": [
+     7,
+     6,
+     0
     ],
     "U": [
      6,
@@ -508,7 +522,7 @@
   {
    "id": "reforma-salud-2025",
    "theme": "salud",
-   "date": "marzo de 2025",
+   "date": "6 de marzo de 2025",
    "situation": "Tras el hundimiento de una primera reforma, llega una nueva versión: las EPS se transforman en «gestoras de salud» que ya no manejan directamente la plata, la ADRES paga a hospitales y clínicas, y se crean centros de atención primaria en cada territorio. A favor se argumenta que el dinero llega más directo a quienes prestan el servicio; en contra, que el cambio pone en riesgo la atención y las finanzas del sistema.",
    "question": "Esta nueva reforma a la salud:",
    "options": [
@@ -525,10 +539,14 @@
     "PC": 1,
     "CD": 1
    },
-   "actor": "Plenaria de la Cámara, votación del título y la pregunta: unos 90 votos a favor y 27 en contra; 70 representantes no votaron.",
+   "actor": "Plenaria de la Cámara, votación del título y la pregunta: 90 votos a favor y 28 en contra; 70 representantes no votaron.",
    "nuance": "Esta vez los liberales (21 a favor, 2 en contra) y La U (9 a favor) votaron con el Gobierno. Cambio Radical y el Centro Democrático casi no votaron (16 y 12 de sus representantes se abstuvieron); quienes votaron lo hicieron en contra. Los conservadores votaron sobre todo en contra (2 a favor, 14 en contra).",
    "reliability": 3,
    "sources": [
+    {
+     "name": "Gaceta del Congreso 1018 de 2025, Acta 222 de la plenaria de la Cámara (6 de marzo de 2025): 90 votos por el sí y 28 por el no",
+     "url": "https://apicongresovisible.uniandes.edu.co/uploads/proyecto-ley/14137/691/25,%20700/25,%20775/25,%20776/25,%201018/25.pdf"
+    },
     {
      "name": "El Colombiano, «Reforma a la salud: así votaron los representantes a la Cámara», marzo de 2025",
      "url": "https://www.elcolombiano.com/colombia/reforma-a-la-salud-asi-votaron-representantes-a-la-camara-AM26802442"

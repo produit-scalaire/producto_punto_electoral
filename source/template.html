@@ -363,7 +363,7 @@ function detailHTML(q,a,k){
     <p><button class="btn ghost" data-edit="${k}">Cambiar mi respuesta</button></p></div>`;
 }
 function calcRows(pid){
-  const p=DATA.parties.find(x=>x.id===pid);let num=0,den=0;
+  const p=DATA.parties.find(x=>x.id===pid);if(!p)return;let num=0,den=0;
   const open=new Set([...document.querySelectorAll("#calc details[open]")].map(d=>d.dataset.q));
   const rows=S.answers.filter(a=>a.choice!==null).map(a=>{
     const q=DATA.byId[a.id],k=S.answers.indexOf(a),pos=q.positions[pid],known=pos!==undefined;

@@ -44,9 +44,9 @@
   ]
  },
  "consulta-popular": {
-  "_fuente": "El Colombiano y Radio Nacional, 15 de mayo de 2025 (Senado). Sí de los liberales no publicado: se deja sin dato.",
+  "_fuente": "Certificación de la Secretaría General del Senado de la votación nominal del 14 may 2025 (47 sí, 49 no), cruzada con el padrón de Congreso Visible; [sí, no, 0]",
   "PH": [
-   22,
+   19,
    0,
    0
   ],
@@ -56,9 +56,14 @@
    0
   ],
   "AV": [
-   5,
-   1,
-   1
+   8,
+   2,
+   0
+  ],
+  "LIB": [
+   7,
+   6,
+   0
   ],
   "U": [
    6,
@@ -965,7 +970,7 @@
   ]
  },
  "reforma-laboral-2025": {
-  "_fuente": "Vanguardia, 18 mar 2025, Comisión Séptima del Senado; [sí al archivo, no, 0]",
+  "_fuente": "Acta 31 de la Comisión Séptima del Senado, 18 mar 2025 (Gaceta 613 de 2025), votación nominal; coincide con Vanguardia; [sí al archivo, no, 0]",
   "PC": [
    2,
    0,
