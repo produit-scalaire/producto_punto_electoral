@@ -18,6 +18,24 @@
    "acta": "https://apicongresovisible.uniandes.edu.co/uploads/proyecto-ley/13271/290/25,%20607/25,%20608/25,%20613/25.pdf",
    "estado": "coincide",
    "diferencias": "Acta 31 de la Comisión Séptima del Senado (Gaceta 613 de 2025): 8 sí al archivo, 6 no, con voto nominal de cada senador; coincide nombre por nombre con la prensa. Nota: Sor Berenice Bedoya (sí al archivo) figura en Congreso Visible en la coalición Alianza Verde-Centro Esperanza; aquí se cuenta como partido pequeño, como en la prensa. Si se contara en AV, AV quedaría 1-1 y sin posición."
+  },
+  "escazu": {
+   "revision": "2026-11-25",
+   "acta": "https://sidn.ramajudicial.gov.co/SIDN/PUBLICACIONES%20PERIODICAS/TEXTO%20COMPLETO%20Y%20TABLAS%20DE%20CONTENIDO/GACETA%20DEL%20CONGRESO/GACETA%20DEL%20CONGRESO%202022/GC%201460%20DE%202022.PDF",
+   "estado": "coincide",
+   "diferencias": "Acta 19 de la plenaria de la Cámara del 10 de octubre de 2022 (Gaceta 1460 de 2022), con los registros nominales. Articulado: 121 sí (106 electrónicos y 15 manuales) y 1 no (Luis Miguel López Aristizábal, conservador), como decía la prensa; ningún representante de Cambio Radical ni del Centro Democrático votó. Ponencia de archivo, votada antes: 25 sí y 128 no; por bancada [sí al archivo, no]: CD 14-0, CR 6-6, PC 1-20, PH 0-24, COM 0-5, AV 0-9, LIB 0-26, U 0-12. Las posiciones de la pregunta (deducidas antes del resultado) coinciden; se agregó el conteo a votos_bancadas.json, el acta a las fuentes y la confiabilidad sube a 3."
+  },
+  "reforma-salud-2024": {
+   "revision": "2026-11-25",
+   "acta": "https://sidn.ramajudicial.gov.co/SIDN/PUBLICACIONES%20PERIODICAS/TEXTO%20COMPLETO%20Y%20TABLAS%20DE%20CONTENIDO/GACETA%20DEL%20CONGRESO/GACETA%20DEL%20CONGRESO%202024/GC%200940%20DE%202024.PDF",
+   "estado": "corregido",
+   "diferencias": "Acta 20 de la Comisión Séptima del Senado del 3 de abril de 2024 (Gaceta 940 de 2024): 9 sí al archivo y 5 no, con voto nominal. Coincide con la prensa salvo el Pacto Histórico: 3 votos contra el archivo y no 2 (Martha Peralta, elegida en la lista del Pacto, figura allí en Congreso Visible). Sor Berenice Bedoya y Fabián Díaz (lista Alianza Verde-Centro Esperanza) se cuentan como antes: Bedoya con los partidos pequeños y Díaz en Alianza Verde. Ninguna posición cambia."
+  },
+  "salario-congresistas": {
+   "revision": "2026-11-25",
+   "acta": "https://sidn.ramajudicial.gov.co/SIDN/PUBLICACIONES%20PERIODICAS/TEXTO%20COMPLETO%20Y%20TABLAS%20DE%20CONTENIDO/GACETA%20DEL%20CONGRESO/GACETA%20DEL%20CONGRESO%202024/GC%200994%20DE%202024.PDF",
+   "estado": "corregido",
+   "diferencias": "Acta 56 de la Comisión Primera de la Cámara del 4 de junio de 2024 (Gaceta 994 de 2024): 15 sí y 14 no a la proposición con que termina el informe de ponencia, con voto nominal. Cambios: PH [2,0,0]→[4,0,0] (Becerra, Landínez, Racero, Uribe); CD [1,0,0]→[2,0,0] (Cadavid, Uscátegui); CR [1,1,0]→[2,1,0] (Arbeláez y Triana sí, Pérez Altamiranda no), así que Cambio Radical pasa de sin posición a «a favor» (débil). AV, LIB, U y PC coinciden."
   }
  }
 }
