@@ -231,6 +231,10 @@
    "reliability": 3,
    "sources": [
     {
+     "name": "Gaceta del Congreso 989 de 2025 (acta 70 de la plenaria del Senado del 14 de mayo de 2025, con la votación nominal)",
+     "url": "https://apicongresovisible.uniandes.edu.co/uploads/proyecto-ley/13271/989/25.pdf"
+    },
+    {
      "name": "Secretaría General del Senado, certificación de la votación nominal de la consulta popular, sesión plenaria del 14 de mayo de 2025",
      "url": "https://img.lalr.co/cms/2025/05/15090237/CERTIFICACION-CONSULTA-PROPULAR-2.pdf"
     },
@@ -665,8 +669,8 @@
     "CR": 1,
     "CD": 1
    },
-   "actor": "Plenaria de la Cámara, aprobación del informe de conciliación (último paso antes de la sanción presidencial).",
-   "nuance": "Casi toda la coalición de Gobierno de entonces votó a favor, incluidos liberales, La U y conservadores (22 a favor, 1 en contra). Cambio Radical votó en contra (13 contra 1). El Centro Democrático, en la oposición, se dividió: 6 en contra, 4 a favor y 5 sin votar.",
+   "actor": "Plenaria de la Cámara, aprobación del informe de conciliación, último paso antes de la sanción presidencial (122 votos a favor y 27 en contra).",
+   "nuance": "Casi toda la coalición de Gobierno de entonces votó a favor, incluidos liberales, La U y conservadores (20 a favor, 1 en contra). Cambio Radical votó en bloque en contra (13 votos). El Centro Democrático, en la oposición, también votó en contra (6 votos); el resto de su bancada no votó.",
    "reliability": 3,
    "sources": [
     {
@@ -674,51 +678,51 @@
      "url": "https://congresovisible.uniandes.edu.co/proyectos-de-ley/x/12558/"
     },
     {
-     "name": "Gaceta del Congreso 1739 de 2022 (acta con la votación nominal)",
+     "name": "Gaceta del Congreso 1739 de 2022 (acta 32 de la plenaria de la Cámara, con los registros de votación electrónico y manual)",
      "url": "https://apicongresovisible.uniandes.edu.co/uploads/votacion/14404/gaceta_1739.pdf"
     }
    ],
    "contexte": "Se aprobó en noviembre de 2022 (Ley 2277). Los impuestos saludables a bebidas azucaradas y comida ultraprocesada empezaron a cobrarse de forma gradual a partir de noviembre de 2023.",
    "split": {
     "PH": [
-     24,
+     23,
      0,
-     5
+     0
     ],
     "COM": [
      4,
      0,
-     1
+     0
     ],
     "AV": [
      10,
      0,
-     1
+     0
     ],
     "LIB": [
-     31,
+     28,
      0,
-     1
+     0
     ],
     "U": [
-     14,
+     13,
      0,
-     1
+     0
     ],
     "PC": [
-     22,
+     20,
      1,
-     2
+     0
     ],
     "CR": [
      13,
-     1,
-     2
+     0,
+     0
     ],
     "CD": [
      6,
-     4,
-     5
+     0,
+     0
     ]
    }
   },
@@ -758,39 +762,39 @@
    "contexte": "El presupuesto se aprobó antes de la reforma tributaria. Lo que esta recaudara se agregaría en 2023 con una ley de adición presupuestal.",
    "split": {
     "PH": [
-     14,
+     13,
      0,
-     7
+     0
     ],
     "COM": [
      4,
      0,
-     1
+     0
     ],
     "AV": [
      5,
      0,
-     3
+     0
     ],
     "LIB": [
      10,
      0,
-     3
+     0
     ],
     "U": [
-     8,
-     0,
-     3
-    ],
-    "CR": [
      7,
      0,
-     3
+     0
+    ],
+    "CR": [
+     6,
+     0,
+     0
     ],
     "PC": [
      11,
      0,
-     4
+     0
     ],
     "CD": [
      12,

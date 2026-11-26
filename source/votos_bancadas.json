@@ -206,84 +206,84 @@
   ]
  },
  "reforma-tributaria-2022": {
-  "_fuente": "Congreso Visible, votación nominal 14404 (Cámara, 17 de noviembre de 2022, informe de conciliación). Tercera columna: congresistas registrados sin voto.",
+  "_fuente": "Gaceta 1739 de 2022, Acta 32 de la plenaria de la Cámara del 17 nov 2022, informe de conciliación: registro electrónico (105 sí, 22 no) y manual (17 sí, 5 no), cruzado con el padrón de Congreso Visible; [sí, no, 0]",
   "PH": [
-   24,
+   23,
    0,
-   5
+   0
   ],
   "COM": [
    4,
    0,
-   1
+   0
   ],
   "AV": [
    10,
    0,
-   1
+   0
   ],
   "LIB": [
-   31,
+   28,
    0,
-   1
+   0
   ],
   "U": [
-   14,
+   13,
    0,
-   1
+   0
   ],
   "CR": [
-   1,
+   0,
    13,
-   2
+   0
   ],
   "PC": [
-   22,
+   20,
    1,
-   2
+   0
   ],
   "CD": [
-   4,
+   0,
    6,
-   5
+   0
   ]
  },
  "presupuesto-2023": {
-  "_fuente": "Congreso Visible, votación 14408 (Senado, 18 oct 2022); Gaceta 01 de 2023",
+  "_fuente": "Gaceta 01 de 2023, Acta 16 de la plenaria del Senado del 18 oct 2022, proposición con que termina el informe de ponencia (listas nominales cruzadas con el padrón de Congreso Visible); [sí, no, 0]",
   "PH": [
-   14,
+   13,
    0,
-   7
+   0
   ],
   "COM": [
    4,
    0,
-   1
+   0
   ],
   "AV": [
    5,
    0,
-   3
+   0
   ],
   "LIB": [
    10,
    0,
-   3
+   0
   ],
   "U": [
-   8,
-   0,
-   3
-  ],
-  "CR": [
    7,
    0,
-   3
+   0
+  ],
+  "CR": [
+   6,
+   0,
+   0
   ],
   "PC": [
    11,
    0,
-   4
+   0
   ],
   "CD": [
    1,
