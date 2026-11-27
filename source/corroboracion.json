@@ -48,6 +48,24 @@
    "acta": "https://apicongresovisible.uniandes.edu.co/uploads/votacion/14408/Votaciones%20plenaria%20senado%20pto.pdf",
    "estado": "corregido",
    "diferencias": "Acta 16 de la plenaria del Senado del 18 de octubre de 2022 (Gaceta 01 de 2023): 66 sí y 12 no, con lista nominal. Congreso Visible marca «Sí» a tres senadores que no figuran en el acta (Carlos Alberto Benavides, PH; Julio Elías Vidal, U; Carlos Julio González, CR) y omite a Rodolfo Hernández Suárez (sí, partido pequeño). Cambios [sí, no]: PH 14→13, U 8→7, CR 7→6; COM, AV, LIB, PC y CD (1 sí, 12 no) coinciden. La tercera columna (inscritos sin voto) pasa a 0. Ninguna posición cambia."
+  },
+  "impuesto-iglesias": {
+   "revision": "2026-11-27",
+   "acta": "https://apicongresovisible.uniandes.edu.co/uploads/votacion/14430/gaceta_121.pdf",
+   "estado": "corregido",
+   "diferencias": "Acta 22 de la plenaria del Senado del 2 de noviembre de 2022 (Gaceta 121 de 2023), con la votación nominal; los nombres se cruzaron de nuevo con el padrón de Congreso Visible (112 senadores 2022-2026, con reemplazos). Eliminación del artículo 15: 60 sí y 28 no, como decía la pregunta. El presidente, Roy Barreras (Pacto Histórico), figura en las dos listas, así que no se cuenta. Cambios [sí a eliminar, no]: CR [6,0]→[8,0] (faltaban Luna y Zabaraín); PH [4,15]→[3,15] (Jaimes, López Obregón y Quiroga por eliminar, sin Barreras); AV [1,3]→[3,3] (Castellanos, Moreno Hurtado y Pulido por eliminar; Asprilla, Díaz y Lozano en contra), así que Alianza Verde pasa de «mantener» a sin posición. LIB [13,0], U [9,0], PC [13,0], CD [9,0] y COM [0,4] coinciden. Se ajustó el texto de resultados."
+  },
+  "impuesto-ultraprocesados": {
+   "revision": "2026-11-27",
+   "acta": "https://apicongresovisible.uniandes.edu.co/uploads/votacion/14430/gaceta_121.pdf",
+   "estado": "corregido",
+   "diferencias": "Acta 22 de la plenaria del Senado del 2 de noviembre de 2022 (Gaceta 121 de 2023), con la votación nominal; los nombres se cruzaron de nuevo con el padrón de Congreso Visible (112 senadores 2022-2026, con reemplazos). Eliminación del artículo 45: 31 sí y 42 no, como decía la pregunta. Cambios [sí a eliminar, no]: PH [0,18]→[0,19] (faltaba Martha Peralta); AV [3,4]→[4,5] (Castellanos, Espitia, Name y Pulido por eliminar; Asprilla, Díaz, Lozano, Padilla y Ávila en contra; Sor Berenice Bedoya, en contra, se cuenta con los partidos pequeños, como antes). CD [10,0], COM [0,4], LIB [3,6], U [3,0] y PC [7,6] coinciden; ningún senador de Cambio Radical votó. Ninguna posición cambia; se corrigió el texto de resultados, que decía «casi todo» Cambio Radical."
+  },
+  "impuesto-plasticos": {
+   "revision": "2026-11-27",
+   "acta": "https://apicongresovisible.uniandes.edu.co/uploads/votacion/14430/gaceta_121.pdf",
+   "estado": "corregido",
+   "diferencias": "Acta 22 de la plenaria del Senado del 2 de noviembre de 2022 (Gaceta 121 de 2023), con la votación nominal; los nombres se cruzaron de nuevo con el padrón de Congreso Visible (112 senadores 2022-2026, con reemplazos). Eliminación de los artículos 42 y 43: 24 sí y 59 no, como decía la pregunta. Cambios [sí a eliminar, no]: PH [0,18]→[0,19] (faltaba Martha Peralta); AV [0,6]→[0,8] (faltaban Castellanos y Moreno Hurtado; Bedoya, en contra, va con los partidos pequeños); CR [5,0]→[6,0] (Benedetti, Char, Jiménez, Lobo Chinchilla, Motoa y Pérez Oyuela). LIB [4,8], U [1,8], PC [2,10], CD [7,0] y COM [0,4] coinciden. Ninguna posición cambia."
   }
  }
 }
