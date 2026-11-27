@@ -4,8 +4,8 @@
   "consulta-popular": {
    "revision": "2026-11-26",
    "acta": "https://apicongresovisible.uniandes.edu.co/uploads/proyecto-ley/13271/989/25.pdf",
-   "estado": "coincide",
-   "diferencias": "El acta ya está publicada: Acta 70 de la plenaria del Senado del 14 de mayo de 2025 (Gaceta 989 de 2025, págs. 68-69), con la votación nominal (47 sí, 49 no), igual en totales a la certificación usada antes. Cruzando los 96 nombres con el padrón de Congreso Visible coinciden LIB [7,6], U [6,4], CR [0,8] (con Farelo, coalición Cambio Radical-Alma), CD [0,13] y COM [5,0]. Seis senadores que llegaron como reemplazos (Bernal, Estrada, Muñoz Lopera, Pérez Pérez y Silva Idrobo por el sí; Andrade por el no) no están en el padrón de 2022 al que se tuvo acceso en esta revisión: los conteos de PH [19,0], AV [8,2] y PC [0,12] coinciden si Andrade es conservadora y tres de los cinco reemplazos del sí son del Pacto Histórico (Silva Idrobo lo es según Congreso Visible); no se pudo confirmar a los otros. No se tocaron los conteos; se agregó el acta a las fuentes."
+   "estado": "pendiente",
+   "diferencias": "El acta ya está publicada: Acta 70 de la plenaria del Senado del 14 de mayo de 2025 (Gaceta 989 de 2025, págs. 68-69), con la votación nominal (47 sí, 49 no), igual en totales a la certificación usada antes. Cruzando los 96 nombres con el padrón de Congreso Visible coinciden LIB [7,6], U [6,4], CR [0,8] (con Farelo, coalición Cambio Radical-Alma), CD [0,13] y COM [5,0]. Seis senadores que llegaron como reemplazos (Bernal, Estrada, Muñoz Lopera, Pérez Pérez y Silva Idrobo por el sí; Andrade por el no) no están en el padrón de 2022 al que se tuvo acceso en esta revisión: los conteos de PH [19,0], AV [8,2] y PC [0,12] coinciden si Andrade es conservadora y tres de los cinco reemplazos del sí son del Pacto Histórico (Silva Idrobo lo es según Congreso Visible); no se pudo confirmar a los otros. No se tocaron los conteos; se agregó el acta a las fuentes. PENDIENTE (2026-11-27): los seis senadores reemplazos ya figuran con partido en el padrón actual de Congreso Visible; volver a contar PH, AV y PC con ellos."
   },
   "reforma-salud-2025": {
    "revision": "2026-11-24",
@@ -66,6 +66,13 @@
    "acta": "https://apicongresovisible.uniandes.edu.co/uploads/votacion/14430/gaceta_121.pdf",
    "estado": "corregido",
    "diferencias": "Acta 22 de la plenaria del Senado del 2 de noviembre de 2022 (Gaceta 121 de 2023), con la votación nominal; los nombres se cruzaron de nuevo con el padrón de Congreso Visible (112 senadores 2022-2026, con reemplazos). Eliminación de los artículos 42 y 43: 24 sí y 59 no, como decía la pregunta. Cambios [sí a eliminar, no]: PH [0,18]→[0,19] (faltaba Martha Peralta); AV [0,6]→[0,8] (faltaban Castellanos y Moreno Hurtado; Bedoya, en contra, va con los partidos pequeños); CR [5,0]→[6,0] (Benedetti, Char, Jiménez, Lobo Chinchilla, Motoa y Pérez Oyuela). LIB [4,8], U [1,8], PC [2,10], CD [7,0] y COM [0,4] coinciden. Ninguna posición cambia."
+  },
+  "reforma-pensional": {
+   "revision": "2026-11-27",
+   "acta": "https://sidn.ramajudicial.gov.co/SIDN/PUBLICACIONES%20PERIODICAS/TEXTO%20COMPLETO%20Y%20TABLAS%20DE%20CONTENIDO/GACETA%20DEL%20CONGRESO/GACETA%20DEL%20CONGRESO%202024/GC%201711%20DE%202024.PDF",
+   "estado": "pendiente",
+   "diferencias": "Pendiente con prioridad. Al cruzar los votos individuales con el padrón actual de Congreso Visible (trabajo del ranking de senadores, PR #1) salieron 8 senadores de Cambio Radical por el archivo, no 6 como en votos_bancadas.json. Revisar los nombres del acta (Gaceta 1711 de 2024) contra el padrón actual."
   }
- }
+ },
+ "_pendientes": "Ademas de las votaciones marcadas como pendientes: el cruce con el padrón actual de Congreso Visible (PR #1) dio conteos distintos en varias votaciones. En cada revisión, reconstruir el padrón con los reemplazos y comparar todos los conteos ya registrados, no solo los nuevos."
 }
