@@ -3,6 +3,16 @@ import json,re,html,os
 here=os.path.dirname(os.path.abspath(__file__))
 t=open(os.path.join(here,'template.html')).read()
 d=json.load(open(os.path.join(here,'questions.json')))
+# Comparación senador por senador: voto de cada senador (votos_senadores.json, generado por extraer_senadores.py).
+# d['senators'][j]={'n':nombre,'p':partido}; q['sv'][j] = opción que corresponde a su voto ('0', '1') o '-' si no votó.
+VS=json.load(open(os.path.join(here,'votos_senadores.json')))
+sids=list(VS['senadores']);d['senators']=[{'n':VS['senadores'][i]['nombre'],'p':VS['senadores'][i]['partido']} for i in sids]
+for q in d['questions']:
+    v=VS['votaciones'].get(q['id'])
+    if not v: continue
+    assert len(q['options'])==2, q['id']
+    ch={str(i):str(v['si_es_opcion']) for i in v['si']}; ch.update({str(i):str(1-v['si_es_opcion']) for i in v['no']})
+    q['sv']=''.join(ch.get(i,'-') for i in sids); q['sva']=v['acta']
 data=json.dumps(d,ensure_ascii=False).replace('</','<\\/')
 
 def inline(s):

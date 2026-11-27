@@ -113,6 +113,14 @@ a{color:var(--accent)}
  .brand{font-size:1rem}.brand .dl{font-size:13px;text-align:right;max-width:7.5rem}
  .bar{grid-template-columns:minmax(0,7.5rem) minmax(0,1fr) 3.2rem}.frame{border-radius:0}
  .shell.wide{margin-inline:calc(-1 * max(16px,env(safe-area-inset-left,0px)) + 4px)}}
+.srow{padding:0;border-top:1px solid var(--line)}details.srow:first-of-type{border-top:0;padding-top:0}
+.srow>summary{display:grid;grid-template-columns:1.7rem minmax(0,1fr) 3.4rem;gap:4px 8px;align-items:baseline;padding:10px 0;cursor:pointer;list-style:none}.srow>summary::-webkit-details-marker{display:none}
+.srow .rk{font-family:var(--mono);font-size:13px;color:var(--muted)}.srow .nm{font-weight:800;font-size:14.5px;overflow-wrap:anywhere}.srow .pt{display:block;font-weight:400;font-size:13px;color:var(--muted)}
+.srow .val{font-family:var(--mono);font-variant-numeric:tabular-nums;text-align:right}.srow .track{grid-column:2/-1}.srow.top .track i{opacity:1}
+.srow small{grid-column:2/-1;color:var(--muted);font-size:12.5px;font-weight:400}.srow .more{grid-column:2/-1;font-size:13px;color:var(--accent);font-weight:600}.srow .more::before{content:"▸ "}.srow[open] .more::before{content:"▾ "}
+.sdet{list-style:none;margin:0 0 14px;padding:0 0 0 2.2rem;display:flex;flex-direction:column;gap:10px;font-size:14px}.sdet b{font-weight:700}.sdet span{display:block;color:var(--muted);font-size:13.5px}
+.sdet .ok{color:var(--good);font-weight:800}.sdet .ko{color:#c98500;font-weight:800}
+@media (max-width:620px){.sdet{padding-left:0}}
 .options.guess{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:8px}
 .guess-card{border-left:4px solid var(--accent,currentColor)}
 .crow{padding:0;border-top:1px solid var(--line)}details.crow:first-of-type{border-top:0;padding-top:0}
@@ -216,6 +224,14 @@ function scores(subset){
   return out.sort((a,b)=>(b.s??-9)-(a.s??-9));
 }
 
+/* Senador por senador: mismo cálculo que para los partidos, con el voto individual de cada senador en las votaciones nominales del Senado */
+function senScores(){
+  const sen=DATA.senators||[],out=sen.map((p,j)=>({p,j,num:0,den:0,n:0,same:0}));
+  for(const a of S.answers){if(a.choice===null||a.w===0)continue;const q=DATA.byId[a.id];if(!q.sv)continue;
+    out.forEach(o=>{const c=q.sv[o.j];if(c==="-")return;const pos=+c;o.num+=a.w*agree(q,a.choice,pos);o.den+=a.w;o.n++;if(pos===a.choice)o.same++;});}
+  out.forEach(o=>{o.s=o.den?o.num/(o.den+PRIOR):null;o.pct=o.den?Math.round((o.num/o.den+1)*50):null;});
+  return out.filter(o=>o.n).sort((a,b)=>(b.s-a.s)||(b.n-a.n)||a.p.n.localeCompare(b.p.n,"es"));
+}
 /* adaptive pick: the unanswered question that best separates the parties currently closest to you, balanced across themes */
 function pickNext(){
   const done=new Set(S.answers.map(a=>a.id));const left=DATA.questions.filter(q=>!done.has(q.id));if(!left.length)return null;
@@ -379,14 +395,41 @@ function calcRows(pid){
   box.innerHTML=rows+`<div class="csum"><span>Suma: <b>${num>0?"+":""}${Math.round(num*10)/10}</b> de ${den} posibles</span><span>Alineación: <b>${pct===null?"–":pct+" %"}</b></span></div>`;
   box.querySelectorAll("[data-edit]").forEach(b=>b.onclick=()=>editAnswer(+b.dataset.edit));
 }
+function senHTML(answered,nSen){
+  const nQ=DATA.questions.filter(q=>q.sv).length;
+  if(!nSen)return `<h1>Senador por senador</h1>
+  <div class="card notice"><p>Ninguna de sus respuestas corresponde a una de las ${nQ} votaciones del Senado en las que se conoce el voto de cada senador. Responda más preguntas para ver con qué senadores coincide.</p></div>`;
+  // solo se clasifica a quien votó en al menos la mitad de sus preguntas del Senado; los demás van al final de la lista completa
+  const all=senScores(),min=Math.ceil(nSen/2),r=all.filter(o=>o.n>=min),few=all.filter(o=>o.n<min),top=r[0],K=10,list=S.senAll?r:r.slice(0,K);
+  const det=o=>{const mine=answered.filter(a=>DATA.byId[a.id].sv),miss=mine.filter(a=>DATA.byId[a.id].sv[o.j]==="-").length;
+    return mine.filter(a=>DATA.byId[a.id].sv[o.j]!=="-").map(a=>{const q=DATA.byId[a.id],c=q.sv[o.j];
+    const same=+c===a.choice;return `<li><b>${esc(q.question)}</b><span>Usted: ${esc(q.options[a.choice])} · votó: ${esc(q.options[+c])} <span class="${same?"ok":"ko"}" style="display:inline">${same?"✓ misma elección":"✗ elección opuesta"}</span> · <a href="${esc(q.sva)}" target="_blank" rel="noopener">acta</a></span></li>`;}).join("")+(miss?`<li><span>No figura en la votación de ${miss} de sus otras respuestas del Senado: no era senador en ese momento, no votó o no hacía parte de la comisión.</span></li>`:"");};
+  const row=(o,k)=>`<details class="srow ${k===0&&o.s>0?"top":""}"><summary><span class="rk">${k<0?"–":k+1+"."}</span><span class="nm">${esc(o.p.n)}<span class="pt">${esc(o.p.p)}</span></span><span class="val">${o.pct}&nbsp;%</span>
+      <span class="track"><i style="width:${o.pct}%"></i></span><small>misma elección en ${o.same} de ${o.n>1?`las ${o.n} votaciones`:"la única votación"} en que votó</small><span class="more">Sus votos</span></summary><ul class="sdet">${det(o)}</ul></details>`;
+  return `<h1>${top&&top.s>0?`Quien más vota como usted en el Senado: ${esc(top.p.n)}`:"Ningún senador se destaca"}</h1>
+  <p class="label">Calculado con ${nSen} de sus respuestas: las que corresponden a una de las ${nQ} votaciones nominales del Senado en las que el acta oficial registra el voto de cada senador.${nSen<5?" Con tan pocas respuestas, la clasificación es apenas indicativa.":""}</p>
+  <div class="card">
+    <h3>Los senadores que votan más como usted</h3>
+    <p class="label">El mismo cálculo que para los partidos, con el voto de cada senador en vez de la posición de su bancada. Una votación en la que un senador no votó no cuenta en su caso. Solo se clasifica a quienes votaron en al menos la mitad de sus preguntas del Senado (${min} de ${nSen}). Toque un nombre para ver sus votos.</p>
+    <div>${list.map(row).join("")}</div>
+    ${S.senAll&&few.length?`<h3>Votaron en menos de ${min} de sus preguntas</h3><p class="label">Muy pocas votaciones en común para compararlos con los demás: no se clasifican.</p><div>${few.map(o=>row(o,-1)).join("")}</div>`:""}
+    ${all.length>K?`<button class="btn" id="sen-all" style="align-self:flex-start">${S.senAll?`Ver solo los ${K} primeros`:`Ver los ${all.length} senadores`}</button>`:""}
+  </div>`;
+}
 function renderResults(){
   const all=scores(),answered=S.answers.filter(a=>a.choice!==null);
   if(!answered.length){app.innerHTML=`<h2>Todavía no hay respuestas</h2><button class="btn primary" id="again">Volver a empezar</button>`;document.getElementById("again").onclick=renderStart;return;}
   const [cl,ct,cd]=confidence();const best=all[0];
   const themes=[...new Set(answered.map(a=>DATA.byId[a.id].theme))];
   const left=DATA.questions.length-S.answers.length;
+  const sv=S.view==="sen",nSen=answered.filter(a=>DATA.byId[a.id].sv).length;
   app.innerHTML=`
   <p class="eyebrow">Su resultado · ${answered.length} respuesta${answered.length>1?"s":""}</p>
+  <nav class="tabs subtabs" role="tablist" aria-label="Comparar sus respuestas con">
+    <button role="tab" data-rv="party" aria-selected="${!sv}">Partidos</button>
+    <button role="tab" data-rv="sen" aria-selected="${sv}">Senador por senador</button>
+  </nav>
+  ${sv?senHTML(answered,nSen):`
   <h1>${best.s!==null&&best.s>0?`El más cercano a usted: ${esc(best.p.name)}`:"Ningún partido se destaca"}</h1>
   <p><span class="pill ${cl}">${ct}</span> <span class="label">${cd}</span></p>
   ${guessHTML(all)}
@@ -410,7 +453,7 @@ function renderResults(){
       const tops=r.length?r.filter(o=>Math.abs(o.s-r[0].s)<1e-9):[];
       return `<div class="theme"><span>${esc(DATA.themes[t])} · ${n} respuesta${n>1?"s":""}${n<3?" · indicativo":""}</span>
         <b>${!tops.length||tops[0].s<=0?"Ningún partido cercano":tops.length>3?`${tops.length} partidos empatados`:tops.map(o=>esc(o.p.name)).join(", ")}</b></div>`;}).join("")}</div>
-  </div>
+  </div>`}
   ${suiteHTML()}
   <div class="row">
     ${left?`<button class="btn primary" id="more">Continuar (${left} pregunta${left>1?"s":""} más)</button>`:""}
@@ -422,6 +465,8 @@ function renderResults(){
     try{await navigator.clipboard.writeText(url);msg.textContent="Enlace copiado: "+url;}catch(_){msg.textContent=url;}};
   const m=document.getElementById("more");if(m)m.onclick=()=>{S.target=DATA.questions.length;S.cur=pickNext();renderQuestion();};
   document.getElementById("again").onclick=renderStart;
+  app.querySelectorAll("[data-rv]").forEach(b=>b.onclick=()=>{S.view=b.dataset.rv;renderResults();});
+  const sa=document.getElementById("sen-all");if(sa)sa.onclick=()=>{S.senAll=!S.senAll;const y=scrollY;renderResults();scrollTo({top:y});};
   const cs=document.getElementById("calc-p");if(cs){cs.onchange=()=>calcRows(cs.value);calcRows(cs.value);}
   app.querySelectorAll("[data-edit]").forEach(b=>b.onclick=()=>editAnswer(+b.dataset.edit));
   scrollTo({top:0});
