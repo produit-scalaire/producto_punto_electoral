@@ -71,7 +71,7 @@
     "CD": 1
    },
    "actor": "Plenaria del Senado, votación de la ponencia negativa que pedía archivar la reforma (41 votos por archivarla y 50 en contra).",
-   "nuance": "El archivo se negó y la reforma siguió su curso. Votaron por archivarla el Centro Democrático en bloque y en su mayoría los conservadores (12 contra 1) y Cambio Radical (6 contra 1). La defendieron en bloque el Pacto Histórico y Comunes, y en su mayoría los liberales (10 contra 2), Alianza Verde (6 contra 1) y La U (7 contra 3).",
+   "nuance": "El archivo se negó y la reforma siguió su curso. Votaron por archivarla en bloque los conservadores, el Centro Democrático y Cambio Radical. La defendieron en bloque el Pacto Histórico y Comunes, y en su mayoría los liberales (10 contra 2), Alianza Verde (7 contra 2) y La U (7 contra 3).",
    "reliability": 3,
    "sources": [
     {
@@ -90,7 +90,7 @@
    "contexte": "La reforma se aprobó en 2024. La Corte Constitucional devolvió después la ley a la Cámara para repetir un paso de su trámite.",
    "split": {
     "PH": [
-     14,
+     18,
      0,
      0
     ],
@@ -100,8 +100,8 @@
      0
     ],
     "AV": [
-     6,
-     1,
+     7,
+     2,
      0
     ],
     "LIB": [
@@ -115,13 +115,13 @@
      0
     ],
     "PC": [
-     12,
-     1,
+     11,
+     0,
      0
     ],
     "CR": [
-     6,
-     1,
+     8,
+     0,
      0
     ],
     "CD": [
@@ -227,7 +227,7 @@
     "CD": 1
    },
    "actor": "Plenaria del Senado: 47 votos a favor y 49 en contra; la consulta no fue convocada.",
-   "nuance": "La U votó dividida (6 por el sí, 4 por el no) y los liberales casi por mitades (7 por el sí, 6 por el no), así que la ubicación liberal es débil. Alianza Verde votó 8 a 2 por el sí. Semanas después el Congreso revivió y aprobó la reforma laboral.",
+   "nuance": "La U votó dividida (6 por el sí, 4 por el no) y los liberales casi por mitades (7 por el sí, 6 por el no), así que la ubicación liberal es débil. Alianza Verde votó 8 a 1 por el sí. Semanas después el Congreso revivió y aprobó la reforma laboral.",
    "reliability": 3,
    "sources": [
     {
@@ -260,7 +260,7 @@
     ],
     "AV": [
      8,
-     2,
+     1,
      0
     ],
     "LIB": [
@@ -526,7 +526,7 @@
     "U": 0
    },
    "actor": "Plenaria del Senado, votación en bloque de las propuestas no avaladas a los artículos 153, 154 y 162 del Código Electoral, que eliminaban o limitaban el voto electrónico (25 votos a favor y 39 en contra).",
-   "nuance": "Las propuestas se negaron. Votaron por eliminar o limitar el voto electrónico Comunes en bloque y la mayoría del Centro Democrático (8 contra 2), Alianza Verde (4 contra 1) y el Pacto Histórico (6 contra 4). Votaron por mantenerlo en bloque Cambio Radical, los liberales y La U, y la mayoría de los conservadores (6 contra 4).",
+   "nuance": "Las propuestas se negaron. Votaron por eliminar o limitar el voto electrónico Comunes en bloque y la mayoría del Centro Democrático (8 contra 2), Alianza Verde (5 contra 1) y el Pacto Histórico (6 contra 4). Votaron por mantenerlo en bloque Cambio Radical, los liberales y La U, y la mayoría de los conservadores (6 contra 4).",
    "reliability": 3,
    "sources": [
     {
@@ -537,7 +537,7 @@
    "contexte": "Las propuestas se negaron y el texto aprobado en el Senado mantuvo el voto electrónico.",
    "split": {
     "AV": [
-     4,
+     5,
      1,
      0
     ],
@@ -562,7 +562,7 @@
      0
     ],
     "CR": [
-     7,
+     9,
      0,
      0
     ],

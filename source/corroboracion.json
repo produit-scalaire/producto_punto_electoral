@@ -2,10 +2,10 @@
  "_descripcion": "Corroboración de los conteos por bancada contra las fuentes oficiales (actas de la Gaceta del Congreso y registros de votación). Estados: coincide, corregido, discrepancia, acta no encontrada.",
  "votaciones": {
   "consulta-popular": {
-   "revision": "2026-11-26",
+   "revision": "2026-11-28",
    "acta": "https://apicongresovisible.uniandes.edu.co/uploads/proyecto-ley/13271/989/25.pdf",
-   "estado": "pendiente",
-   "diferencias": "El acta ya está publicada: Acta 70 de la plenaria del Senado del 14 de mayo de 2025 (Gaceta 989 de 2025, págs. 68-69), con la votación nominal (47 sí, 49 no), igual en totales a la certificación usada antes. Cruzando los 96 nombres con el padrón de Congreso Visible coinciden LIB [7,6], U [6,4], CR [0,8] (con Farelo, coalición Cambio Radical-Alma), CD [0,13] y COM [5,0]. Seis senadores que llegaron como reemplazos (Bernal, Estrada, Muñoz Lopera, Pérez Pérez y Silva Idrobo por el sí; Andrade por el no) no están en el padrón de 2022 al que se tuvo acceso en esta revisión: los conteos de PH [19,0], AV [8,2] y PC [0,12] coinciden si Andrade es conservadora y tres de los cinco reemplazos del sí son del Pacto Histórico (Silva Idrobo lo es según Congreso Visible); no se pudo confirmar a los otros. No se tocaron los conteos; se agregó el acta a las fuentes. PENDIENTE (2026-11-27): los seis senadores reemplazos ya figuran con partido en el padrón actual de Congreso Visible; volver a contar PH, AV y PC con ellos."
+   "estado": "corregido",
+   "diferencias": "Acta 70 de la plenaria del Senado del 14 de mayo de 2025 (Gaceta 989 de 2025), con la votación nominal: 47 sí y 49 no; los nombres se cruzaron con el padrón actual de Congreso Visible (Senado 2022-2026, con reemplazos), con el script de extracción del ranking de senadores (PR #1), que valida cada lista contra los totales que anuncia el acta. Los seis reemplazos ya figuran con partido: Estrada, Pérez Pérez, Silva Idrobo y Bernal (Pacto Histórico) y Muñoz (Verde Oxígeno, partido pequeño) por el sí; Esperanza Andrade (conservadora) por el no. PH [19,0], COM [5,0], LIB [7,6], U [6,4], CR [0,8], PC [0,12] y CD [0,13] coinciden. Cambio: AV [8,2]→[8,1], porque Sor Berenice Bedoya (por el no) se cuenta con los partidos pequeños, como en las demás votaciones; Pulido es el único no de Alianza Verde. Ninguna posición cambia; se corrigió el texto de resultados."
   },
   "reforma-salud-2025": {
    "revision": "2026-11-24",
@@ -68,10 +68,16 @@
    "diferencias": "Acta 22 de la plenaria del Senado del 2 de noviembre de 2022 (Gaceta 121 de 2023), con la votación nominal; los nombres se cruzaron de nuevo con el padrón de Congreso Visible (112 senadores 2022-2026, con reemplazos). Eliminación de los artículos 42 y 43: 24 sí y 59 no, como decía la pregunta. Cambios [sí a eliminar, no]: PH [0,18]→[0,19] (faltaba Martha Peralta); AV [0,6]→[0,8] (faltaban Castellanos y Moreno Hurtado; Bedoya, en contra, va con los partidos pequeños); CR [5,0]→[6,0] (Benedetti, Char, Jiménez, Lobo Chinchilla, Motoa y Pérez Oyuela). LIB [4,8], U [1,8], PC [2,10], CD [7,0] y COM [0,4] coinciden. Ninguna posición cambia."
   },
   "reforma-pensional": {
-   "revision": "2026-11-27",
+   "revision": "2026-11-28",
    "acta": "https://sidn.ramajudicial.gov.co/SIDN/PUBLICACIONES%20PERIODICAS/TEXTO%20COMPLETO%20Y%20TABLAS%20DE%20CONTENIDO/GACETA%20DEL%20CONGRESO/GACETA%20DEL%20CONGRESO%202024/GC%201711%20DE%202024.PDF",
-   "estado": "pendiente",
-   "diferencias": "Pendiente con prioridad. Al cruzar los votos individuales con el padrón actual de Congreso Visible (trabajo del ranking de senadores, PR #1) salieron 8 senadores de Cambio Radical por el archivo, no 6 como en votos_bancadas.json. Revisar los nombres del acta (Gaceta 1711 de 2024) contra el padrón actual."
+   "estado": "corregido",
+   "diferencias": "Acta de la plenaria del Senado del 3 de abril de 2024 (Gaceta 1711 de 2024), votación nominal de la ponencia negativa: 41 sí al archivo y 50 no, como decía la pregunta; los nombres se cruzaron con el padrón actual de Congreso Visible (Senado 2022-2026, con reemplazos), con el script de extracción del ranking de senadores (PR #1), que valida cada lista contra los totales que anuncia el acta. El presidente, Efraín Cepeda (conservador), figura en las dos listas, así que no se cuenta (40 sí, 49 no). Cambios [sí al archivo, no]: CR [6,1]→[8,0] (González, Luna, Motoa, Jiménez, Pérez Oyuela, Benedetti, Farelo y Lobo Chinchilla; ninguno en contra); PC [12,1]→[11,0] (sin Cepeda); PH [0,14]→[0,18] (faltaban reemplazos como Estrada, Pérez Pérez, Silva Idrobo y Bernal, y Martha Peralta); AV [1,6]→[2,7] (Name y Pulido por el archivo; Lozano, Asprilla, Díaz, Espitia, Ávila, Echeverri y Moreno Hurtado en contra; Sor Berenice Bedoya, en contra, va con los partidos pequeños, como antes). CD [10,0], COM [0,4], LIB [2,10] y U [3,7] coinciden. Ninguna posición cambia; se corrigió el texto de resultados."
+  },
+  "voto-electronico": {
+   "revision": "2026-11-28",
+   "acta": "https://sidn.ramajudicial.gov.co/SIDN/PUBLICACIONES%20PERIODICAS/TEXTO%20COMPLETO%20Y%20TABLAS%20DE%20CONTENIDO/GACETA%20DEL%20CONGRESO/GACETA%20DEL%20CONGRESO%202023/GC%201257%20DE%202023.PDF",
+   "estado": "corregido",
+   "diferencias": "Acta de la plenaria del Senado del 16 de mayo de 2023 (Gaceta 1257 de 2023), votación en bloque de las proposiciones no avaladas a los artículos 153, 154 y 162: 25 sí y 39 no, como decía la pregunta; los nombres se cruzaron con el padrón actual de Congreso Visible (Senado 2022-2026, con reemplazos), con el script de extracción del ranking de senadores (PR #1), que valida cada lista contra los totales que anuncia el acta. Cambios [sí a eliminar o limitar, no]: AV [4,1]→[5,1] (Lozano, Asprilla, Díaz, Espitia y Ávila por el sí; Moreno Hurtado por el no; Bedoya, por el no, va con los partidos pequeños); CR [0,7]→[0,9] (González, Motoa, Pérez Oyuela, Benedetti, Farelo, Díaz, Lobo Chinchilla, Zabaraín y Castañeda). CD [8,2], COM [2,0], LIB [0,8], PC [4,6], PH [6,4] y U [0,6] coinciden. Ninguna posición cambia; se corrigió el texto de resultados."
   }
  },
  "_pendientes": "Ademas de las votaciones marcadas como pendientes: el cruce con el padrón actual de Congreso Visible (PR #1) dio conteos distintos en varias votaciones. En cada revisión, reconstruir el padrón con los reemplazos y comparar todos los conteos ya registrados, no solo los nuevos."

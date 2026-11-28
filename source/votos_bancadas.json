@@ -1,10 +1,10 @@
 {
  "_source": "Conteos por bancada de votaciones nominales del Congreso, tomados de la prensa que publica cómo votó cada congresista (fuente en cada entrada). Cada línea: [a favor, en contra, abstención o no votó estando en la sesión].",
  "reforma-pensional": {
-  "_fuente": "Gaceta 1711 de 2024, plenaria del Senado del 3 abr 2024, ponencia negativa (listas nominales cruzadas con el padrón de Congreso Visible); [sí al archivo, no, 0]",
+  "_fuente": "Gaceta 1711 de 2024, plenaria del Senado del 3 abr 2024, ponencia negativa (listas nominales cruzadas con el padrón actual de Congreso Visible, con reemplazos; el presidente, Efraín Cepeda, figura en las dos listas y no se cuenta); [sí al archivo, no, 0]",
   "AV": [
-   1,
-   6,
+   2,
+   7,
    0
   ],
   "CD": [
@@ -18,8 +18,8 @@
    0
   ],
   "CR": [
-   6,
-   1,
+   8,
+   0,
    0
   ],
   "LIB": [
@@ -28,13 +28,13 @@
    0
   ],
   "PC": [
-   12,
-   1,
+   11,
+   0,
    0
   ],
   "PH": [
    0,
-   14,
+   18,
    0
   ],
   "U": [
@@ -44,7 +44,7 @@
   ]
  },
  "consulta-popular": {
-  "_fuente": "Certificación de la Secretaría General del Senado de la votación nominal del 14 may 2025 (47 sí, 49 no), cruzada con el padrón de Congreso Visible; [sí, no, 0]",
+  "_fuente": "Gaceta 989 de 2025, acta 70 de la plenaria del Senado del 14 may 2025 (47 sí, 49 no), listas nominales cruzadas con el padrón actual de Congreso Visible, con reemplazos; [sí, no, 0]",
   "PH": [
    19,
    0,
@@ -57,7 +57,7 @@
   ],
   "AV": [
    8,
-   2,
+   1,
    0
   ],
   "LIB": [
@@ -1008,9 +1008,9 @@
   ]
  },
  "voto-electronico": {
-  "_fuente": "Gaceta 1257 de 2023, plenaria del Senado del 16 may 2023 (listas nominales cruzadas con el padrón de Congreso Visible); [sí a eliminar o limitar, no, 0]",
+  "_fuente": "Gaceta 1257 de 2023, plenaria del Senado del 16 may 2023 (listas nominales cruzadas con el padrón actual de Congreso Visible, con reemplazos); [sí a eliminar o limitar, no, 0]",
   "AV": [
-   4,
+   5,
    1,
    0
   ],
@@ -1026,7 +1026,7 @@
   ],
   "CR": [
    0,
-   7,
+   9,
    0
   ],
   "LIB": [

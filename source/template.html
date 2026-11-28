@@ -255,6 +255,7 @@ function renderGuess(){
 function guessHTML(all){
   if(S.guess===undefined)return "";
   const ranked=all.filter(o=>o.s!==null),best=ranked[0];
+  if(S.guess===null&&!best)return `<div class="card guess-card"><h3>Su pronóstico</h3><p>Usted no sabía, y sus respuestas todavía no permiten acercarlo a ningún partido.</p></div>`;
   if(S.guess===null)return `<div class="card guess-card"><h3>Su pronóstico</h3><p>Usted no sabía. Sus respuestas, en cambio, se inclinan hacia <strong>${esc(best.p.name)}</strong>. ¿Le sorprende?</p></div>`;
   const g=all.find(o=>o.p.id===S.guess),rank=ranked.indexOf(g)+1;
   let msg;
